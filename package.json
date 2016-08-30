@@ -1,0 +1,44 @@
+{
+    "name": "obographviz",
+    "version": "0.0.1",
+    "license": "BSD-3-Clause",
+    "description": "Visualize OBO graphs with (Graph)Viz.js.",
+    "keywords": [
+        "rdf",
+        "ontology",
+        "viz"
+    ],
+    "author": "Chris Mungall",
+    "homepage": "http://berkeleybop.org/",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/berkeleybop/bbop-graph.git"
+    },
+    "engines": {
+        "node": ">= 0.12.2",
+        "npm": ">= 2.7.4"
+    },
+    "dependencies": {
+        "bbop-graph": "*",
+        "graphlib": "*",
+        "graphlib-dot": "*",
+        "viz": "*"
+    },
+    "devDependencies": {
+    },
+    "bundleDependencies": [],
+    "private": false,
+    "directories": {
+        "doc": "doc",
+        "lib": "lib",
+        "tests": "tests"
+    },
+    "main": "lib/graph.js",
+    "bugs": {
+        "url": "https://github.com/berkeleybop/bbop-graph/issues"
+    },
+    "scripts": {
+        "update-docs": "git checkout gh-pages && git pull && git merge master && gulp doc && git commit -a -m 'bump docs' && git push && git checkout master",
+        "test": "./node_modules/.bin/gulp test"
+    }
+}
