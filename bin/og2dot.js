@@ -7,6 +7,7 @@ var fs = require('fs'),
 
 var opt = getopt.create([
     ['s' , 'stylesheet=PATH'      , 'path to json stylesheet'],
+    ['c' , 'compoundRelations=N+'      , 'list of compound relations'],
     ['h' , 'help'             , 'display this help message']
 ])              // create Getopt instance
 .bindHelp()     // bind option 'help' to default action
@@ -23,6 +24,8 @@ var stylesheet = opt.options['stylesheet']
 opt.argv.length || inputError ("You must specify a JSON obograph file")
 var useDatabaseID = opt.options['database-id']
 
+var compoundRelations = opt.options['compoundRelations'] || []
+
 var text = ""
 opt.argv.forEach (function (filename) {
     if (!fs.existsSync (filename))
@@ -30,7 +33,7 @@ opt.argv.forEach (function (filename) {
     var data = fs.readFileSync (filename)
     //var og = require(filename);
     var og = JSON.parse(data)
-    dot = renderDot(og, [])
+    dot = renderDot(og, compoundRelations)
     console.log(dot)
 })
 
