@@ -1,0 +1,78 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "right-hand",
+      "type" : "CLASS",
+      "lbl" : "right-hand"
+    }, {
+      "id" : "right-forelimb",
+      "type" : "CLASS",
+      "lbl" : "right-forelimb"
+    }, {
+      "id" : "hand",
+      "type" : "CLASS",
+      "lbl" : "hand"
+    }, {
+      "id" : "limb",
+      "type" : "CLASS",
+      "lbl" : "limb"
+    }, {
+      "id" : "left-forelimb",
+      "type" : "CLASS",
+      "lbl" : "left-forelimb"
+    }, {
+      "id" : "forelimb",
+      "type" : "CLASS",
+      "lbl" : "forelimb"
+    }, {
+      "id" : "left-hand",
+      "type" : "CLASS",
+      "lbl" : "left-hand"
+    }, {
+      "id" : "autopod",
+      "type" : "CLASS",
+      "lbl" : "autopod"
+    } ],
+    "edges" : [ {
+      "subj" : "hand",
+      "pred" : "is_a",
+      "obj" : "autopod"
+    }, {
+      "subj" : "left-hand",
+      "pred" : "is_a",
+      "obj" : "hand"
+    }, {
+      "subj" : "left-hand",
+      "pred" : "part_of",
+      "obj" : "left-forelimb"
+    }, {
+      "subj" : "left-forelimb",
+      "pred" : "is_a",
+      "obj" : "forelimb"
+    }, {
+      "subj" : "hand",
+      "pred" : "part_of",
+      "obj" : "forelimb"
+    }, {
+      "subj" : "right-hand",
+      "pred" : "part_of",
+      "obj" : "right-forelimb"
+    }, {
+      "subj" : "right-hand",
+      "pred" : "is_a",
+      "obj" : "hand"
+    }, {
+      "subj" : "forelimb",
+      "pred" : "is_a",
+      "obj" : "limb"
+    }, {
+      "subj" : "autopod",
+      "pred" : "part_of",
+      "obj" : "limb"
+    }, {
+      "subj" : "right-forelimb",
+      "pred" : "is_a",
+      "obj" : "forelimb"
+    } ]
+  } ]
+}

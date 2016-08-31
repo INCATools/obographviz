@@ -17,7 +17,7 @@ function inputError(err) {
 }
 
 var styleMap = {}
-var stylesheet = opt.options('stylesheet')
+var stylesheet = opt.options['stylesheet']
 
 
 opt.argv.length || inputError ("You must specify a JSON obograph file")
