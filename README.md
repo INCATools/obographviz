@@ -21,7 +21,8 @@ These are all very nice and pretty, but GraphViz has some powerful
 features that I have not found in any other framework (or have been
 too lazy to find out how to do). In particular:
 
- * The ability to _nest_ relationships
+ * Easy to run on command line
+ * The ability to _nest_ relationships (update: compound graphs in cytoscape.js)
  * simple control over box and edge visual attributes
  * embedding arbitrary HTML
 
