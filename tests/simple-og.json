@@ -34,43 +34,43 @@
       "lbl" : "autopod"
     } ],
     "edges" : [ {
-      "subj" : "hand",
+      "sub" : "hand",
       "pred" : "is_a",
       "obj" : "autopod"
     }, {
-      "subj" : "left-hand",
+      "sub" : "left-hand",
       "pred" : "is_a",
       "obj" : "hand"
     }, {
-      "subj" : "left-hand",
+      "sub" : "left-hand",
       "pred" : "part_of",
       "obj" : "left-forelimb"
     }, {
-      "subj" : "left-forelimb",
+      "sub" : "left-forelimb",
       "pred" : "is_a",
       "obj" : "forelimb"
     }, {
-      "subj" : "hand",
+      "sub" : "hand",
       "pred" : "part_of",
       "obj" : "forelimb"
     }, {
-      "subj" : "right-hand",
+      "sub" : "right-hand",
       "pred" : "part_of",
       "obj" : "right-forelimb"
     }, {
-      "subj" : "right-hand",
+      "sub" : "right-hand",
       "pred" : "is_a",
       "obj" : "hand"
     }, {
-      "subj" : "forelimb",
+      "sub" : "forelimb",
       "pred" : "is_a",
       "obj" : "limb"
     }, {
-      "subj" : "autopod",
+      "sub" : "autopod",
       "pred" : "part_of",
       "obj" : "limb"
     }, {
-      "subj" : "right-forelimb",
+      "sub" : "right-forelimb",
       "pred" : "is_a",
       "obj" : "forelimb"
     } ]

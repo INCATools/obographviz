@@ -1,11 +1,5 @@
-var renderDot = require("./lib/obographviz");
+var lib = require("./lib");
 
 module.exports = {
-
-  // Rendering
-  renderDot: renderDot,
-
-  // For levelup encoding
-  type: "dot",
-  buffer: false
+  OboGraphViz: lib.OboGraphViz
 };

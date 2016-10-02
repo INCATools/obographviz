@@ -1,0 +1,3026 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000002",
+      "meta" : {
+        "definition" : {
+          "val" : "The union of the taxa Viridiplantae and Cyanobacteria.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "Viridiplantae or Cyanobacteria"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004",
+      "type" : "CLASS",
+      "lbl" : "Prokaryota"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_25212",
+      "type" : "CLASS",
+      "lbl" : "metabolite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003674",
+      "meta" : {
+        "definition" : {
+          "val" : "Elemental activities, such as catalysis or binding, describing the actions of a gene product at the molecular level. A given gene product may exhibit one or more molecular functions.",
+          "xrefs" : [ "GOC:go_curators" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#goslim_aspergillus", "http://purl.obolibrary.org/obo/go#goslim_chembl", "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#goslim_plant", "http://purl.obolibrary.org/obo/go#goslim_metagenomics", "http://purl.obolibrary.org/obo/go#goslim_generic", "http://purl.obolibrary.org/obo/go#gosubset_prok", "http://purl.obolibrary.org/obo/go#goslim_candida", "http://purl.obolibrary.org/obo/go#goslim_yeast" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "molecular function",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000006",
+      "type" : "CLASS",
+      "lbl" : "Viridiplantae or Archaea or Bacteria"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000008",
+      "type" : "CLASS",
+      "lbl" : "Viridiplantae or Euglenozoa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000007",
+      "type" : "CLASS",
+      "lbl" : "Viridiplantae or Bacteria or Euglenozoa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Chlorophyta/Embryophyta group",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Chlorobionta",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "green plants",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "chlorophyte/embryophyte group",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "green plants",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Viridiplantae"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002333",
+      "meta" : {
+        "definition" : {
+          "val" : "inverse of enables",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "enabled_by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_1901564",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving organonitrogen compound.",
+          "xrefs" : [ "GOC:TermGenie", "GOC:pr" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "organonitrogen compound metabolism",
+          "xrefs" : [ "GOC:TermGenie" ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "organonitrogen compound metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        }, {
+          "val" : "PMID:23020233"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Eucarya",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Eukaryotae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Eukarya",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "eukaryotes",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "eukaryotes",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "eucaryotes",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Eucaryotae",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Eukaryota"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000059",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental evidence that is based on the expression of a genotype in an environment.",
+          "xrefs" : [ "ECO:MCC" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "inferred from phenotype",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "experimental phenotypic evidence"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002327",
+      "type" : "PROPERTY",
+      "lbl" : "enables"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044706",
+      "meta" : {
+        "definition" : {
+          "val" : "A multicellular organism process which involves another multicellular organism of the same or different species.",
+          "xrefs" : [ "GOC:jl" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "multi-multicellular organism process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33595",
+      "type" : "CLASS",
+      "lbl" : "cyclic compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002328",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002328"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "functionally related to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044707",
+      "meta" : {
+        "definition" : {
+          "val" : "A biological process occurring within a single, multicellular organism.",
+          "xrefs" : [ "GOC:jl" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "single-multicellular organism process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000001",
+      "type" : "CLASS",
+      "lbl" : "quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000217",
+      "meta" : {
+        "definition" : {
+          "val" : "A means by which a statement is made about an entity.",
+          "xrefs" : [ "ECO:MCC" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "assertion method"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000218",
+      "meta" : {
+        "definition" : {
+          "val" : "An assertion method that involves human review.",
+          "xrefs" : [ "ECO:MCC" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "manual assertion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002608",
+      "meta" : {
+        "definition" : {
+          "val" : "Inverse of 'causal agent in'",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002608"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has causal agent"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002609",
+      "meta" : {
+        "definition" : {
+          "val" : "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002609"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "related via dependence to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_77746",
+      "type" : "CLASS",
+      "lbl" : "human metabolite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "meta" : {
+        "definition" : {
+          "val" : "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002160"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "only in taxon"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_24651",
+      "type" : "CLASS",
+      "lbl" : "hydroxides"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33083",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        }, {
+          "val" : "PMID:9342353"
+        }, {
+          "val" : "PMID:11062127"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cellular slime molds",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Dictyostelida",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dictyostelid cellular slime molds",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Dictyosteliales",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Dictyostelia",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Dictyosteliida"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_1901615",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving organic hydroxy compound.",
+          "xrefs" : [ "GOC:TermGenie", "GOC:pr" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "organic hydroxy compound metabolism",
+          "xrefs" : [ "GOC:TermGenie" ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "organic hydroxy compound metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002320",
+      "meta" : {
+        "definition" : {
+          "val" : "A relationship that holds via some environmental process",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002320"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "evolutionarily related to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044710",
+      "meta" : {
+        "definition" : {
+          "val" : "A metabolic process - chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances - which involves a single organism.",
+          "xrefs" : [ "GOC:jl" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "single-organism metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "meta" : {
+        "definition" : {
+          "val" : "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
+        "xrefs" : [ {
+          "val" : "RO:0002162"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "in taxon"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044033",
+      "meta" : {
+        "definition" : {
+          "val" : "A metabolic process - chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances - which involves more than one organism.",
+          "xrefs" : [ "GOC:jl" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#gosubset_prok" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "multi-organismal metabolic process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "multi-organismal metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "multi-organism metabolism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "multi-organism metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_36357",
+      "type" : "CLASS",
+      "lbl" : "polyatomic entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002314",
+      "meta" : {
+        "definition" : {
+          "val" : "q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002314"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "inheres in part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0042415",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving norepinephrine, a hormone secreted by the adrenal medulla, and a neurotransmitter in the sympathetic peripheral nervous system and in some tracts in the central nervous system. It is also the demethylated biosynthetic precursor of epinephrine.",
+          "xrefs" : [ "GOC:jl", "ISBN:0198506732" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "norepinephrine metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "noradrenaline metabolic process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "levarterenol metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "noradrenaline metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "levarterenol metabolic process",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "norepinephrine metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000040",
+      "meta" : {
+        "definition" : {
+          "val" : "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "material entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000501",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of evidence that is used in an automatic assertion.",
+          "xrefs" : [ "ECO:cjm" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/eco#valid_with_protein_complex", "http://purl.obolibrary.org/obo/eco#valid_with_protein", "http://purl.obolibrary.org/obo/eco#valid_with_gene" ],
+        "xrefs" : [ {
+          "val" : "GO_REF:0000004"
+        }, {
+          "val" : "GO_REF:0000023"
+        }, {
+          "val" : "GOECO:IEA"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "inferred from electronic annotation",
+          "xrefs" : [ "GOECO:IEA" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "IEA",
+          "xrefs" : [ "GOECO:IEA" ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "evidence used in automatic assertion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000000",
+      "type" : "CLASS",
+      "lbl" : "Viridiplantae or Bacteria"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_72695",
+      "type" : "CLASS",
+      "lbl" : "organic molecule"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000024",
+      "meta" : {
+        "definition" : {
+          "val" : "The unikonts have a triple-gene fusion that is lacking in the bikonts. The three genes that are fused together in the unikonts but not bacteria or bikonts encode enzymes for synthesis of the pyrimidine nucleotides: carbamoyl phosphate synthase, dihydroorotase, aspartate carbamoyltransferase. This must have involved a double fusion, a rare pair of events, supporting the shared ancestry of Opisthokonta and Amoebozoa.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "unikonts",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Unikonta"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023",
+      "type" : "CLASS",
+      "lbl" : "Fungi or Bacteria or Archaea"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000025",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "archaea-eukaryota",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Archaea or Eukaryota"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_4751",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "PMID:11062127"
+        }, {
+          "val" : "PMID:12684019"
+        }, {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "fungi",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "fungi",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Fungi"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Viridae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "viruses",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Vira",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Viruses"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001236",
+      "type" : "CLASS",
+      "lbl" : "process quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008152",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.",
+          "xrefs" : [ "GOC:go_curators", "ISBN:0198547684" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#goslim_plant", "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#gosubset_prok", "http://purl.obolibrary.org/obo/go#goslim_chembl", "http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Metabolism"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "metabolic process resulting in cell growth",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "metabolism resulting in cell growth",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002427",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002427"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "causally downstream of or within"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008150",
+      "meta" : {
+        "definition" : {
+          "val" : "Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.",
+          "xrefs" : [ "GOC:go_curators", "GOC:isa_complete" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#goslim_yeast", "http://purl.obolibrary.org/obo/go#goslim_pombe", "http://purl.obolibrary.org/obo/go#goslim_candida", "http://purl.obolibrary.org/obo/go#goslim_aspergillus", "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#goslim_chembl", "http://purl.obolibrary.org/obo/go#goslim_generic", "http://purl.obolibrary.org/obo/go#gosubset_prok", "http://purl.obolibrary.org/obo/go#goslim_metagenomics", "http://purl.obolibrary.org/obo/go#goslim_plant" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Biological_process"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "biological process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "physiological process",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "biological_process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000352",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of evidence that is used in an manual assertion.",
+          "xrefs" : [ "ECO:MCC" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "evidence used in manual assertion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0071704",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving an organic substance, any molecular entity containing carbon.",
+          "xrefs" : [ "CHEBI:50860", "GOC:mah" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "organic substance metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "organic molecular entity metabolic process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "organic molecular entity metabolism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "organic substance metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33853",
+      "type" : "CLASS",
+      "lbl" : "phenols"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33579",
+      "type" : "CLASS",
+      "lbl" : "main group molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UPHENO_0001001",
+      "type" : "CLASS",
+      "lbl" : "Phenotype"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/LEGOREL_0000000",
+      "type" : "PROPERTY",
+      "lbl" : "lego relation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0006807",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen, including (but not limited to) nitrogen fixation, nitrification, denitrification, assimilatory/dissimilatory nitrate reduction and the interconversion of nitrogenous organic matter and ammonium.",
+          "xrefs" : [ "CHEBI:51143", "GOC:go_curators", "GOC:jl", "ISBN:0198506732" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#goslim_metagenomics", "http://purl.obolibrary.org/obo/go#gosubset_prok" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nitrogen compound metabolism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nitrogen compound metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000030",
+      "type" : "CLASS",
+      "lbl" : "cellular organisms or viruses"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33570",
+      "type" : "CLASS",
+      "lbl" : "benzenediols"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_35352",
+      "type" : "CLASS",
+      "lbl" : "organonitrogen compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0000081"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "role of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044699",
+      "meta" : {
+        "definition" : {
+          "val" : "A biological process that involves only one organism.",
+          "xrefs" : [ "GOC:jl" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "single organism process",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "single-organism process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0051704",
+      "meta" : {
+        "definition" : {
+          "val" : "A biological process which involves another organism of the same or different species.",
+          "xrefs" : [ "GOC:jl" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#gosubset_prok", "http://purl.obolibrary.org/obo/go#goslim_pir" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "interaction between organisms",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "physiological interaction with other organism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "physiological interaction between organisms",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "multi-organism process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0000087"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_50906",
+      "type" : "CLASS",
+      "lbl" : "role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_1901360",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving organic cyclic compound.",
+          "xrefs" : [ "GOC:TermGenie" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "organic cyclic compound metabolism",
+          "xrefs" : [ "GOC:TermGenie" ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "organic cyclic compound metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002418",
+      "meta" : {
+        "definition" : {
+          "val" : "p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002418"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "causally upstream of or within"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of information that is used to support an assertion.",
+          "xrefs" : [ "ECO:MCC" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "evidence code",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "evidence_code",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "evidence"
+    }, {
+      "id" : "http://model.geneontology.org/5745387b00001770/5745387b00001835",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://model.geneontology.org/5745387b00001770/5745387b00001834",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_50860",
+      "type" : "CLASS",
+      "lbl" : "organic molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000020",
+      "type" : "CLASS",
+      "lbl" : "Fungi or Bacteria"
+    }, {
+      "id" : "http://model.geneontology.org/5745387b00001770/5745387b00001836",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000006",
+      "meta" : {
+        "definition" : {
+          "val" : "An evidence type that is based on the results of a laboratory assay.",
+          "xrefs" : [ "ECO:MCC", "GOC:ecd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "EXP",
+          "xrefs" : [ "GO:EXP" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "inferred from experiment",
+          "xrefs" : [ "GO:EXP" ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "experimental evidence"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000022",
+      "type" : "CLASS",
+      "lbl" : "Fungi or Dictyostelium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33582",
+      "type" : "CLASS",
+      "lbl" : "carbon group molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000021",
+      "type" : "CLASS",
+      "lbl" : "Viridiplantae or Bacteria or Euglenozoa or Archaea"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_76967",
+      "type" : "CLASS",
+      "lbl" : "human xenobiotic metabolite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_131567",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "biota",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cellular organisms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_76206",
+      "type" : "CLASS",
+      "lbl" : "xenobiotic metabolite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000015",
+      "meta" : {
+        "definition" : {
+          "val" : "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2157",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "PMID:11540071"
+        }, {
+          "val" : "PMID:11542149"
+        }, {
+          "val" : "PMID:10490293"
+        }, {
+          "val" : "PMID:8123559"
+        }, {
+          "val" : "PMID:8590690"
+        }, {
+          "val" : "PMID:10425795"
+        }, {
+          "val" : "PMID:11760965"
+        }, {
+          "val" : "PMID:10425796"
+        }, {
+          "val" : "PMID:10425797"
+        }, {
+          "val" : "PMID:9336922"
+        }, {
+          "val" : "PMID:270744"
+        }, {
+          "val" : "PMID:10843050"
+        }, {
+          "val" : "PMID:12054223"
+        }, {
+          "val" : "PMID:11411719"
+        }, {
+          "val" : "PMID:10939677"
+        }, {
+          "val" : "PMID:11542064"
+        }, {
+          "val" : "PMID:11321113"
+        }, {
+          "val" : "PMID:9103655"
+        }, {
+          "val" : "PMID:10939673"
+        }, {
+          "val" : "PMID:10939651"
+        }, {
+          "val" : "GC_ID:11"
+        }, {
+          "val" : "PMID:11541975"
+        }, {
+          "val" : "PMID:11211268"
+        }, {
+          "val" : "PMID:2112744"
+        }, {
+          "val" : "PMID:11321083"
+        }, {
+          "val" : "PMID:25527841"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Procaryotae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Archaebacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "archaea",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Prokaryota",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "prokaryotes",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Metabacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Prokaryotae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "prokaryote",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Mendosicutes",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Monera",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Archaea"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0006584",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving any of a group of physiologically important biogenic amines that possess a catechol (3,4-dihydroxyphenyl) nucleus and are derivatives of 3,4-dihydroxyphenylethylamine.",
+          "xrefs" : [ "GOC:jl", "ISBN:0198506732" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#gosubset_prok" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "catecholamine metabolism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "catecholamine metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002410",
+      "meta" : {
+        "definition" : {
+          "val" : "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002410"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "causally related to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_25375",
+      "type" : "CLASS",
+      "lbl" : "monoamine molecular messenger"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000015",
+      "meta" : {
+        "definition" : {
+          "val" : "The IMP evidence code covers those cases when the function, process or cellular localization of a gene product is inferred based on differences in the function, process, or cellular localization between two different alleles of the corresponding gene. The IMP code is used for cases where one allele may be designated 'wild-type' and another as 'mutant'. It is also used in cases where allelic variation occurs naturally and no specific allele is designated as wild-type or mutant. Caution should be used when making annotations from gain-of-function mutations as it may be difficult to infer a gene's normal function from a gain of function mutation, although it is sometimes possible.",
+          "xrefs" : [ "GO:IMP" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "mutant phenotype evidence"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_63534",
+      "type" : "CLASS",
+      "lbl" : "monoamine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33674",
+      "type" : "CLASS",
+      "lbl" : "s-block molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33675",
+      "type" : "CLASS",
+      "lbl" : "p-block molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33832",
+      "type" : "CLASS",
+      "lbl" : "organic cyclic compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_51143",
+      "type" : "CLASS",
+      "lbl" : "nitrogen molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_75767",
+      "type" : "CLASS",
+      "lbl" : "animal metabolite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_75768",
+      "type" : "CLASS",
+      "lbl" : "mammalian metabolite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33682",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Euglenozoans",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Euglenozoa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "type" : "CLASS",
+      "lbl" : "molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_9000001",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ECO:9000001"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "uses"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1117",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "PMID:9382701"
+        }, {
+          "val" : "PMID:11542017"
+        }, {
+          "val" : "PMID:20190018"
+        }, {
+          "val" : "PMID:15388760"
+        }, {
+          "val" : "GC_ID:11"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Cyanophycota",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Oxygenic photosynthetic bacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Cyanophyta",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "blue-green algae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cyanobacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Oxyphotobacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Cyanophyceae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "blue-green bacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cyanophytes",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Cyanobacteria"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003008",
+      "meta" : {
+        "definition" : {
+          "val" : "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective.",
+          "xrefs" : [ "GOC:mtg_cardio" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "organ system process",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "system process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "type" : "CLASS",
+      "lbl" : "organic amino compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0050877",
+      "meta" : {
+        "definition" : {
+          "val" : "A organ system process carried out by any of the organs or tissues of neurological system.",
+          "xrefs" : [ "GOC:ai", "GOC:mtg_cardio" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#goslim_generic", "http://purl.obolibrary.org/obo/go#goslim_chembl" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pan-neural process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "neurophysiological process",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "neurological system process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000004",
+      "meta" : {
+        "definition" : {
+          "val" : "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "independent continuant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_9000000",
+      "meta" : {
+        "definition" : {
+          "val" : "A relation connecting a piece of evidence to an assertion method, where that assertion method is supported by the evidence.",
+          "xrefs" : [ "GOC:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "ECO:9000000"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "used_in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0032501",
+      "meta" : {
+        "definition" : {
+          "val" : "Any biological process, occurring at the level of a multicellular organism, pertinent to its function.",
+          "xrefs" : [ "GOC:curators", "GOC:dph", "GOC:isa_complete", "GOC:tb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#goslim_pir" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "organismal physiological process",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "multicellular organismal process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33569",
+      "type" : "CLASS",
+      "lbl" : "noradrenaline"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044237",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways by which individual cells transform chemical substances.",
+          "xrefs" : [ "GOC:go_curators" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#gosubset_prok" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "intermediary metabolism",
+          "xrefs" : [ "GOC:mah" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cellular metabolism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cellular metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33608",
+      "type" : "CLASS",
+      "lbl" : "hydrogen molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_554915",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "PMID:23020233"
+        }, {
+          "val" : "GC_ID:1"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Amoebozoa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000269",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of experimental evidence that is used in a manual assertion.",
+          "xrefs" : [ "ECO:MCC" ]
+        },
+        "xrefs" : [ {
+          "val" : "GOECO:EXP"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "experimental evidence used in manual assertion"
+    }, {
+      "id" : "http://model.geneontology.org/5745387b00001770/5745387b00001772",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://model.geneontology.org/5745387b00001770/5745387b00001771",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a process and a continuant, in which the continuant is somehow involved in the process",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0000057"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has participant"
+    }, {
+      "id" : "http://model.geneontology.org/5745387b00001770/5745387b00001773",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33566",
+      "type" : "CLASS",
+      "lbl" : "catechols"
+    }, {
+      "id" : "http://model.geneontology.org/5745387b00001770/5745387b00001776",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33567",
+      "type" : "CLASS",
+      "lbl" : "catecholamine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "animals",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "metazoans",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "multicellular animals",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Animalia",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Metazoa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0009987",
+      "meta" : {
+        "definition" : {
+          "val" : "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.",
+          "xrefs" : [ "GOC:go_curators", "GOC:isa_complete" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#gosubset_prok", "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#goslim_plant" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cellular physiological process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "cell growth and/or maintenance",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cell physiology",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cellular process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33280",
+      "type" : "CLASS",
+      "lbl" : "molecular messenger"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
+      "meta" : {
+        "definition" : {
+          "val" : "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "continuant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000003",
+      "meta" : {
+        "definition" : {
+          "val" : "An entity that has temporal parts and that happens, unfolds or develops through time.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "occurrent"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_75763",
+      "type" : "CLASS",
+      "lbl" : "eukaryotic metabolite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33285",
+      "type" : "CLASS",
+      "lbl" : "heteroorganic entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "opisthokonts",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Fungi/Metazoa group",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Opisthokonta"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0006725",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving aromatic compounds, any organic compound characterized by one or more planar rings, each of which contains conjugated double bonds and delocalized pi electrons, as carried out by individual cells.",
+          "xrefs" : [ "GOC:ai", "ISBN:0198506732" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#gosubset_prok" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "aromatic compound metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "aromatic hydrocarbon metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "aromatic hydrocarbon metabolic process",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cellular aromatic compound metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0000052"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "inheres in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044764",
+      "meta" : {
+        "definition" : {
+          "val" : "Any process that is carried out at the cellular level which involves another organism of the same or different species.",
+          "xrefs" : [ "GOC:jl" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "multi-organism cellular process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002595",
+      "meta" : {
+        "definition" : {
+          "val" : "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002595"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "causal relation between material entity and a process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33659",
+      "type" : "CLASS",
+      "lbl" : "organic aromatic compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044763",
+      "meta" : {
+        "definition" : {
+          "val" : "Any process that is carried out at the cellular level, occurring within a single organism.",
+          "xrefs" : [ "GOC:jl" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "single-organism cellular process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a continuant and a process, in which the continuant is somehow involved in the process",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0000056"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "participates_in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0000053"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "bearer of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_64365",
+      "type" : "CLASS",
+      "lbl" : "aralkylamino compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_142796",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        }, {
+          "val" : "PMID:9342353"
+        }, {
+          "val" : "PMID:11062127"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mycetozoans",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mycetozoa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_37577",
+      "type" : "CLASS",
+      "lbl" : "heteroatomic molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002487",
+      "type" : "CLASS",
+      "lbl" : "single organismal process quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002500",
+      "meta" : {
+        "definition" : {
+          "val" : "A relationship between a material entity and a process where the material entity has some causal role that influences the process",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002500"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "causal agent in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002501",
+      "meta" : {
+        "definition" : {
+          "val" : "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002501"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "causal relation between processes"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33655",
+      "type" : "CLASS",
+      "lbl" : "aromatic compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002502",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002502"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "depends_on"
+    }, {
+      "id" : "http://www.informatics.jax.org/accession/MGI:MGI:3588192",
+      "type" : "CLASS",
+      "lbl" : "Zcchc16 Mmus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002486",
+      "type" : "CLASS",
+      "lbl" : "multi-organismal process quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0009712",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving a compound containing a pyrocatechol (1,2-benzenediol) nucleus or substituent.",
+          "xrefs" : [ "GOC:sm", "ISBN:0198547684" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#gosubset_prok" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "catechol metabolic process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "catechol metabolism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "catechol-containing compound metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000030",
+      "type" : "CLASS",
+      "lbl" : "object"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000315",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of mutant phenotype evidence that is used in a manual assertion.",
+          "xrefs" : [ "ECO:MCC" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/eco#valid_with_gene", "http://purl.obolibrary.org/obo/eco#valid_with_chemical_entity", "http://purl.obolibrary.org/obo/eco#valid_with_protein_complex", "http://purl.obolibrary.org/obo/eco#valid_with_protein" ],
+        "xrefs" : [ {
+          "val" : "GOECO:IMP"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "inferred from mutant phenotype",
+          "xrefs" : [ "GOECO:IMP" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "IMP",
+          "xrefs" : [ "GOECO:IMP" ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mutant phenotype evidence used in manual assertion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_25367",
+      "type" : "CLASS",
+      "lbl" : "molecule"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_24432",
+      "type" : "CLASS",
+      "lbl" : "biological role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "type" : "CLASS",
+      "lbl" : "chemical entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_52206",
+      "type" : "CLASS",
+      "lbl" : "biochemical role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33822",
+      "type" : "CLASS",
+      "lbl" : "organic hydroxy compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECO_0000203",
+      "meta" : {
+        "definition" : {
+          "val" : "An assertion method that does not involve human review.",
+          "xrefs" : [ "ECO:MCC" ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "automatic assertion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0018958",
+      "meta" : {
+        "definition" : {
+          "val" : "The chemical reactions and pathways involving a phenol, any compound containing one or more hydroxyl groups directly attached to an aromatic carbon ring.",
+          "xrefs" : [ "CHEBI:33853", "ISBN:0198506732" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/go#gosubset_prok" ],
+        "xrefs" : [ {
+          "val" : "UM-BBD_pathwayID:phe"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hydroxybenzene metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "carbolic acid metabolic process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "carbolic acid metabolism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "phenol-containing compound metabolism",
+          "xrefs" : [ "GOC:curators" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hydroxybenzene metabolic process",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "phenol-containing compound metabolic process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33302",
+      "type" : "CLASS",
+      "lbl" : "pnictogen molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "meta" : {
+        "definition" : {
+          "val" : "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
+        "xrefs" : [ {
+          "val" : "RO:0002215"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "capable_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002216",
+      "meta" : {
+        "definition" : {
+          "val" : "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002216"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "capable of part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33304",
+      "type" : "CLASS",
+      "lbl" : "chalcogen molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_25806",
+      "type" : "CLASS",
+      "lbl" : "oxygen molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UPHENO_0000001",
+      "type" : "PROPERTY",
+      "lbl" : "has phenotype affecting"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5782",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Dictyostelium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "PMID:10843050"
+        }, {
+          "val" : "PMID:9103655"
+        }, {
+          "val" : "PMID:11211268"
+        }, {
+          "val" : "PMID:11411719"
+        }, {
+          "val" : "PMID:10425796"
+        }, {
+          "val" : "PMID:10425795"
+        }, {
+          "val" : "PMID:10425797"
+        }, {
+          "val" : "GC_ID:11"
+        }, {
+          "val" : "PMID:8590690"
+        }, {
+          "val" : "PMID:11542087"
+        }, {
+          "val" : "PMID:270744"
+        }, {
+          "val" : "PMID:9336922"
+        }, {
+          "val" : "PMID:12054223"
+        }, {
+          "val" : "PMID:11321083"
+        }, {
+          "val" : "PMID:2112744"
+        }, {
+          "val" : "PMID:11542017"
+        }, {
+          "val" : "PMID:11760965"
+        }, {
+          "val" : "PMID:10939673"
+        }, {
+          "val" : "PMID:10939651"
+        }, {
+          "val" : "PMID:11321113"
+        }, {
+          "val" : "PMID:10939677"
+        }, {
+          "val" : "PMID:10490293"
+        }, {
+          "val" : "PMID:8123559"
+        }, {
+          "val" : "PMID:11540071"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "prokaryotes",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Prokaryotae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Prokaryota",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Procaryotae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "bacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Monera",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "eubacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Bacteria",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "prokaryote",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "not Bacteria Haeckel 1894",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Bacteria <prokaryote>"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000020",
+      "meta" : {
+        "definition" : {
+          "val" : "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "specifically dependent continuant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0050890",
+      "meta" : {
+        "definition" : {
+          "val" : "The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.",
+          "xrefs" : [ "ISBN:0721619908", "http://www.onelook.com/" ]
+        },
+        "xrefs" : [ {
+          "val" : "Wikipedia:Cognition"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cognition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "all",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "root"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33674",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33579"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002320"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002502"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000501",
+      "pred" : "http://purl.obolibrary.org/obo/ECO_9000000",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000203"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33154"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0018958",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0006725"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002427",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002418",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002501"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044763",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0044699"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_75768",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75767"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001776",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002418",
+      "obj" : "http://model.geneontology.org/5745387b00001770/5745387b00001773"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33302",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33675"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002501",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002410"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001835",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000315"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044707",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0032501"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33595",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25367"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_64365",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0032501",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002427",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002501"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35352"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33659",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33832"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0051704",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001772",
+      "pred" : "type",
+      "obj" : "http://www.informatics.jax.org/accession/MGI:MGI:3588192"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002333",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/LEGOREL_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0050877",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33853",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33659"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044237",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0009987"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002333",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24651",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33608"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0006584",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0009712"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_131567",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33579",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23367"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0006807",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1901360",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0071704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044706",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002486"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33822",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50860",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33582"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000315",
+      "pred" : "http://purl.obolibrary.org/obo/ECO_9000000",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5782",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044699",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002487"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002216",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002500"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001236",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_75763",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0006725",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33655"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24651",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_37577"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002418",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002427"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_554915",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000059"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0071704",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008152"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33570",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33853"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76967",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76206"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33659",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33655"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0018958",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_1901360"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33569",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76967"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002216",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001771",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002418",
+      "obj" : "http://model.geneontology.org/5745387b00001770/5745387b00001776"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044763",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0009987"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044764",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002486"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002487",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001236"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_9000000",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_9000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5782",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1901615",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0071704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0009712",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0006584",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002595",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_131567",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044710",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008152"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24432",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50906"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000087"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24651",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25806"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044706",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0051704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/UPHENO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0051704",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002486"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33304",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33675"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001773",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0050890"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33832",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33595"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002327",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002215"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000269",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000315",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000269"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002595"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001776",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0042415"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0032501",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_142796"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002418",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044764",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0051704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002410",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002609"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002500",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002595"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001771",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002333",
+      "obj" : "http://model.geneontology.org/5745387b00001770/5745387b00001772"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002327",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002333"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0008150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0009712",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0018958"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33608",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33853",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33822"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33280",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24432"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33682",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044707",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0044699"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_75767",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75763"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000269",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000352"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001836",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000315"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044033",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002486"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044706",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0032501"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1901564",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35352"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044710",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0044699"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25806",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33304"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000059",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000006"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001834",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000315"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000315",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_554915",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37577",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36357"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33567",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002314",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/UPHENO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0006584",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_1901564"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0006807",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008152"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0042415",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0006584"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0050890",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0050877"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0009987",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_36357",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23367"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1901564",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0006807"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33675",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33579"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002314",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002502"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044707",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002487"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33285"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008152"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33655",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33595"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25375",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_63534"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_142796",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_554915"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33682",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002502",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/UPHENO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33285",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044763",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002487"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044764",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0009987"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002608",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0050877",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0003008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002486",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001236"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002216"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000218",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000217"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33832",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_72695"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25375",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0003674",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33566",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33570"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0006725",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0044237"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_77746",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75768"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000269",
+      "pred" : "http://purl.obolibrary.org/obo/ECO_9000000",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_72695",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
+    }, {
+      "sub" : "http://model.geneontology.org/5745387b00001770/5745387b00001771",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0003674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002500",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002608"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63534",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_64365"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25367",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36357"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33822",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24651"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0018958",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33853"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33567",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25375"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33569",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_72695",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25367"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0071704",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0042415",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33569"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1901360",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33832"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0008152",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_52206",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24432"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_51143",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33302"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000203",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000217"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0051704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33582",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33675"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76206",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25212"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0018958",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_1901615"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1901615",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33822"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33154"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002216",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002595"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044237",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008152"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_4751",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000501",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044710",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002487"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECO_0000352",
+      "pred" : "http://purl.obolibrary.org/obo/ECO_9000000",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000218"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1901564",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0071704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044699",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0003008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0044707"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002314"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25212",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_52206"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76967",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_4751",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33154"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_4751",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_Union_0000022"
+    } ],
+    "id" : "http://model.geneontology.org/5745387b00001770",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/contributor",
+        "val" : "GOC:hjd"
+      }, {
+        "pred" : "http://geneontology.org/lego/modelstate",
+        "val" : "production"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "val" : "Zcchc16, zinc finger, CCHC domain containing 16"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#id",
+        "val" : "gomodel:5745387b00001770"
+      }, {
+        "pred" : "http://geneontology.org/lego/json-model",
+        "val" : "{\"id\":\"gomodel:5745387b00001770\",\"individuals\":[{\"id\":\"gomodel:5745387b00001770/5745387b00001773\",\"type\":[{\"type\":\"class\",\"id\":\"GO:0050890\",\"label\":\"cognition\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"411\"},{\"key\":\"hint-layout-y\",\"value\":\"120\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"},{\"key\":\"date\",\"value\":\"2016-08-22\"}]},{\"id\":\"gomodel:5745387b00001770/5745387b00001772\",\"type\":[{\"type\":\"class\",\"id\":\"MGI:MGI:3588192\",\"label\":\"Zcchc16 Mmus\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"GOC:hjd\"},{\"key\":\"date\",\"value\":\"2016-08-17\"}]},{\"id\":\"gomodel:5745387b00001770/5745387b00001771\",\"type\":[{\"type\":\"class\",\"id\":\"GO:0003674\",\"label\":\"molecular_function\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"461.99998474121094\"},{\"key\":\"date\",\"value\":\"2016-08-22\"},{\"key\":\"hint-layout-x\",\"value\":\"77\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"}]},{\"id\":\"gomodel:5745387b00001770/5745387b00001836\",\"type\":[{\"type\":\"class\",\"id\":\"ECO:0000315\",\"label\":\"mutant phenotype evidence used in manual assertion\"}],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-08-22\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"},{\"key\":\"source\",\"value\":\"PMID:26402067\"},{\"key\":\"with\",\"value\":\"MGI:MGI:5789261\"}]},{\"id\":\"gomodel:5745387b00001770/5745387b00001835\",\"type\":[{\"type\":\"class\",\"id\":\"ECO:0000315\",\"label\":\"mutant phenotype evidence used in manual assertion\"}],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-08-22\"},{\"key\":\"with\",\"value\":\"MGI:MGI:5789261\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"},{\"key\":\"source\",\"value\":\"PMID:26402067\"}]},{\"id\":\"gomodel:5745387b00001770/5745387b00001834\",\"type\":[{\"type\":\"class\",\"id\":\"ECO:0000315\",\"label\":\"mutant phenotype evidence used in manual assertion\"}],\"annotations\":[{\"key\":\"source\",\"value\":\"PMID:26402067\"},{\"key\":\"with\",\"value\":\"MGI:MGI:5789261\"},{\"key\":\"date\",\"value\":\"2016-08-22\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"}]},{\"id\":\"gomodel:5745387b00001770/5745387b00001776\",\"type\":[{\"type\":\"class\",\"id\":\"GO:0042415\",\"label\":\"norepinephrine metabolic process\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"346\"},{\"key\":\"hint-layout-x\",\"value\":\"502\"},{\"key\":\"date\",\"value\":\"2016-08-22\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"}]}],\"facts\":[{\"subject\":\"gomodel:5745387b00001770/5745387b00001771\",\"property\":\"RO:0002418\",\"property-label\":\"causally upstream of or within\",\"object\":\"gomodel:5745387b00001770/5745387b00001776\",\"annotations\":[{\"key\":\"evidence\",\"value\":\"gomodel:5745387b00001770/5745387b00001834\",\"value-type\":\"IRI\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"},{\"key\":\"date\",\"value\":\"2016-08-22\"}]},{\"subject\":\"gomodel:5745387b00001770/5745387b00001771\",\"property\":\"RO:0002333\",\"property-label\":\"enabled_by\",\"object\":\"gomodel:5745387b00001770/5745387b00001772\",\"annotations\":[{\"key\":\"evidence\",\"value\":\"gomodel:5745387b00001770/5745387b00001836\",\"value-type\":\"IRI\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"},{\"key\":\"date\",\"value\":\"2016-08-22\"}]},{\"subject\":\"gomodel:5745387b00001770/5745387b00001776\",\"property\":\"RO:0002418\",\"property-label\":\"causally upstream of or within\",\"object\":\"gomodel:5745387b00001770/5745387b00001773\",\"annotations\":[{\"key\":\"evidence\",\"value\":\"gomodel:5745387b00001770/5745387b00001835\",\"value-type\":\"IRI\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"},{\"key\":\"date\",\"value\":\"2016-08-22\"}]}],\"annotations\":[{\"key\":\"state\",\"value\":\"production\"},{\"key\":\"date\",\"value\":\"2016-08-22\"},{\"key\":\"title\",\"value\":\"Zcchc16, zinc finger, CCHC domain containing 16\"},{\"key\":\"contributor\",\"value\":\"GOC:hjd\"}]}"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/date",
+        "val" : "2016-08-22"
+      }, {
+        "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+        "val" : "Includes Ontology(OntologyID(Anonymous-6)) [Axioms: 1357 Logical Axioms: 307]"
+      } ]
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0044763",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0009987" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0002487"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0044707",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0032501" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0002487"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0071704",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_50860"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0006807",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0018958",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33853"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/ECO_0000501",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/ECO_0000000" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/ECO_9000000",
+        "fillerId" : "http://purl.obolibrary.org/obo/ECO_0000203"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0044710",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0002487"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_1901615",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33822"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_1901360",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33832"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0042415",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33569"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/ECO_0000352",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/ECO_0000000" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/ECO_9000000",
+        "fillerId" : "http://purl.obolibrary.org/obo/ECO_0000218"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0044764",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0009987" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0002486"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_1901564",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_35352"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0044706",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0032501" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0002486"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0044033",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0002486"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/ECO_0000315",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/ECO_0000015" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/ECO_9000000",
+        "fillerId" : "http://purl.obolibrary.org/obo/ECO_0000218"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0009712",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33566"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0044699",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008150" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0002487"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/ECO_0000269",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/ECO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/ECO_9000000",
+        "fillerId" : "http://purl.obolibrary.org/obo/ECO_0000218"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0006584",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33567"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0051704",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008150" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0002486"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0006725",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0008152" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000057",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33655"
+      } ]
+    } ],
+    "domainRangeAxioms" : [ {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/ECO_9000000",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/ECO_0000000" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/ECO_0000217" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002501",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002595",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002410",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000020" ]
+    } ],
+    "propertyChainAxioms" : [ {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002215", "http://purl.obolibrary.org/obo/RO_0002162" ]
+    } ]
+  } ]
+}

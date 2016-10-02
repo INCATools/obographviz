@@ -1,0 +1,12 @@
+language: node
+node_js:
+  "4.3.1"
+script:
+  - ./node_modules/.bin/gulp build
+  - ./node_modules/.bin/gulp test
+branches:
+  only:
+    - master
+notifications:
+  email:
+    - cjmungall@lbl.gov
