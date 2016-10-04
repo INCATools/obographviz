@@ -1,0 +1,367 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#member_of",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "member_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000188",
+      "meta" : {
+        "definition" : {
+          "val" : "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it.",
+          "xrefs" : [ "http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Intron"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000001",
+      "meta" : {
+        "definition" : {
+          "val" : "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sequence",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "region"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000185",
+      "meta" : {
+        "definition" : {
+          "val" : "A transcript that in its initial state requires modification to be functional.",
+          "xrefs" : [ "SO:ma" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Primary_transcript"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "primary transcript",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "precursor RNA",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "primary_transcript"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#ebi_variants",
+      "lbl" : "ensembl variant terms"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
+      "type" : "PROPERTY",
+      "lbl" : "synonym_type_property"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "type" : "PROPERTY",
+      "lbl" : "in_subset"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_format_version"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000833",
+      "meta" : {
+        "definition" : {
+          "val" : "A region of a transcript.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "transcript region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transcript_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000835",
+      "meta" : {
+        "definition" : {
+          "val" : "A part of a primary transcript.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "primary transcript region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "primary_transcript_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#AAMOD",
+      "lbl" : "amino acid modification"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000831",
+      "meta" : {
+        "definition" : {
+          "val" : "A region of a gene.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "gene member region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gene_member_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#part_of",
+      "meta" : {
+        "definition" : {
+          "val" : "X part_of Y if X is a subregion of Y.",
+          "xrefs" : [ "http://precedings.nature.com/documents/3495/version/1" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000110",
+      "meta" : {
+        "definition" : {
+          "val" : "Any extent of continuous biological sequence.",
+          "xrefs" : [ "LAMHDI:mb", "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "located_sequence_feature",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "located sequence feature",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "sequence feature",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sequence_feature"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000673",
+      "meta" : {
+        "definition" : {
+          "val" : "An RNA synthesized on a DNA or RNA template by an RNA polymerase.",
+          "xrefs" : [ "SO:ma" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/RNA"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transcript"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#dbsnp",
+      "lbl" : "dbsnp variant terms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#BS",
+      "lbl" : "biosapiens"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#aa1",
+      "lbl" : "amino acid 1 letter code"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#aa3",
+      "lbl" : "amino acid 3 letter code"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#VAR",
+      "lbl" : "variant annotation term"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000704",
+      "meta" : {
+        "definition" : {
+          "val" : "A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.",
+          "xrefs" : [ "SO:immuno_workshop" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Gene"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gene"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#dbvar",
+      "lbl" : "DBVAR"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#RNAMOD",
+      "lbl" : "RNA modification"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000147",
+      "meta" : {
+        "definition" : {
+          "val" : "A region of the transcript sequence within a gene which is not removed from the primary RNA transcript by RNA splicing.",
+          "xrefs" : [ "SO:ke" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "xrefs" : [ {
+          "val" : "http://en.wikipedia.org/wiki/Exon"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "exon"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+      "type" : "PROPERTY",
+      "lbl" : "subset_property"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+      "type" : "PROPERTY",
+      "lbl" : "has_scope"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001411",
+      "meta" : {
+        "definition" : {
+          "val" : "A region defined by its disposition to be involved in a biological process.",
+          "xrefs" : [ "SO:cb" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "biological region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "biological_region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0005855",
+      "meta" : {
+        "definition" : {
+          "val" : "A collection of related genes.",
+          "xrefs" : [ "SO:ma" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "gene group",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gene_group"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000188",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000835"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000831",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/so-xp.obo#member_of",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/so-xp.obo#part_of"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000835",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000833"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000704",
+      "pred" : "http://purl.obolibrary.org/obo/so-xp.obo#member_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0005855"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000185",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000833",
+      "pred" : "http://purl.obolibrary.org/obo/so-xp.obo#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000673",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000831"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000147",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000833"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000110"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001411",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000704",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000833",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0005855",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000835",
+      "pred" : "http://purl.obolibrary.org/obo/so-xp.obo#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000185"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000831",
+      "pred" : "http://purl.obolibrary.org/obo/so-xp.obo#member_of",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/so-xp.obo.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      } ]
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

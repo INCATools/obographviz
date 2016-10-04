@@ -27,17 +27,28 @@ function render(f) {
     if (basePath == 'simple-og') {
         crs = ["is_a"]
     }
+    if (basePath.indexOf('so-example') > -1) {
+        crs = ["http://purl.obolibrary.org/obo/so-xp.obo#member_of", "http://purl.obolibrary.org/obo/so-xp.obo#part_of"]
+    }
     if (basePath.indexOf('lego') > -1) {
         styleMap = {
             nodeFilter : {
                 "type" : "INDIVIDUAL"
-            }
+            },
+            labelFrom : "type"
         }
+        //crs = ["http://purl.obolibrary.org/obo/BFO_0000050"]
+        crs = ["http://purl.obolibrary.org/obo/BFO_0000050",
+               {inverseOf: "http://purl.obolibrary.org/obo/RO_0002333"},  /// enabled by
+               //{inverseOf: "http://purl.obolibrary.org/obo/RO_0002233"}, /// has input
+               //{inverseOf: "http://purl.obolibrary.org/obo/BFO_0000066"},
+              ]
     }
     og = JSON.parse(data);
     var ogv = new OboGraphViz(og);
     var dot = ogv.renderDot(crs, styleMap);
-    writeImage(dot, 'examples/'+basePath);
+    ogv.writeRenderedToFiles(dot, 'examples/'+basePath, ["pdf"])
+    //writeImage(dot, 'examples/'+basePath);
 }
 
 function writeImage(dot, basePath) {
