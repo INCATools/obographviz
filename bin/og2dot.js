@@ -7,10 +7,12 @@ var fs = require('fs'),
 var OboGraphViz = require('..').OboGraphViz
 
 var opt = getopt.create([
+    ['o' , 'outfile=PATH'         , 'path to output file'],
+    ['t' , 'to=ARG'               , 'output type (png, dot)'],
     ['s' , 'stylesheet=PATH'      , 'path to json stylesheet'],
-    ['S' , 'stylemap=ARG'      , 'path to json stylesheet'],
-    ['c' , 'compoundRelations=N+'      , 'list of compound relations'],
-    ['h' , 'help'             , 'display this help message']
+    ['S' , 'stylemap=ARG'         , 'stylemap object as stringified json on command line'],
+    ['c' , 'compoundRelations=N+' , 'list of compound relations'],
+    ['h' , 'help'                 , 'display this help message']
 ])              // create Getopt instance
 .bindHelp()     // bind option 'help' to default action
 .parseSystem(); // parse command line
@@ -41,10 +43,38 @@ opt.argv.forEach (function (filename) {
     var data = fs.readFileSync (filename)
     //var og = require(filename);
     var og = JSON.parse(data)
-    console.log(OboGraphViz)
+    //console.log(OboGraphViz)
     var ogv = new OboGraphViz(og)
     dot = ogv.renderDot(compoundRelations, styleMap)
 
-    console.log(dot)
+    var outfile = opt.options['outfile']
+    var outfmt = opt.options['to']
+    if (outfmt && outfmt == 'png') {
+        var fn = '/tmp/foo.dot'
+        fs.writeFileSync(fn, dot)
+        var execSync = require('child_process').execSync;
+        pngfile = outfile
+        if (!pngfile) {
+            pngfile = '/tmp/foo.png'
+        }
+        var cmd = 'dot '+fn+'  -Tpng -o ' + pngfile
+        execSync(cmd);
+        if (outfile) {
+            console.log("File is here: "+outfile)
+            // do nothing - already output
+        }
+        else {
+            console.log("Opening "+pngfile);
+            execSync('open '+pngfile);
+        }
+    }
+    else {
+        if (outfile) {
+            fs.writeFileSync(outfile, dot)
+        }
+        else {
+            console.log(dot)
+        }
+    }
 })
 

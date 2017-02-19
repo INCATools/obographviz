@@ -3,7 +3,7 @@
 Quickstart:
 
 ```
-./bin/og2dot.js test/simple-og.json > test.dot
+./bin/og2dot.js tests/simple-og.json > test.dot
 dot test.dot -Tpng -Grankdir=BT > test.png
 ```
 
@@ -34,7 +34,7 @@ examples, see [mondo report](https://github.com/monarch-initiative/monarch-disea
 Specify one or more containment predicates using `-c`
 
 ```
-./bin/og2dot.js -c is_a test/simple-og.json > test.dot
+./bin/og2dot.js -c is_a tests/simple-og.json > test.dot
 ```
 
 Generates:
@@ -43,3 +43,23 @@ Generates:
 
 Note only works for subgraphs that exhibit disjointness over this property, acyclicity
 
+## Stylesheets
+
+Can be passed using `-s`
+
+```
+./bin/og2dot.js -c is_a tests/simple-og.json > test.dot
+```
+
+### Rendering aboxes with anonymous nodes
+
+E.g. LEGO models
+
+```
+{
+ nodeFilter : {
+                "type" : "INDIVIDUAL"
+              },
+              labelFrom : "type"
+}
+```
