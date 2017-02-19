@@ -63,3 +63,35 @@ E.g. LEGO models
               labelFrom : "type"
 }
 ```
+
+## Use from biolink-python
+
+See:
+
+https://github.com/biolink/biolink-api/tree/master/obographs
+
+Can be used on command line or by accessing the python obographs library
+
+For example:
+
+```
+ogr -p subClassOf BFO:0000050 -r go -t png   a nucleus
+```
+
+This proceeds by:
+
+ 1. Using the python obographs library to extract a networkx subgraph around the specified node
+ 2. Write as obographs-json
+ 3. Calls og2dot.js
+
+## Use from biolink-api REST
+
+Go to http://api.monarchinitiative.org/api/
+
+See the /ontol/subgraph/ route
+
+This exports obographs which can be fed in to this js lib
+
+## Use with AmiGO
+
+AmiGO uses bbop-graphs by default which can be directly fed in
