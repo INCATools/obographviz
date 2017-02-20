@@ -1,37 +1,40 @@
-# Translate OBO Graphs into Dot for viewing in GraphViz
+# Translate OBO Graphs into Dot/Graphviz
 
-Quickstart:
+ * Input: a [OBO Graph JSON](https://github.com/geneontology/obographs) object
+ * Optional: a JSON ontology stylesheet
+ * Output: a Dot-format / Graphviz file
+
+Quickstart (command line):
 
 ```
 ./bin/og2dot.js tests/simple-og.json > test.dot
 dot test.dot -Tpng -Grankdir=BT > test.png
 ```
 
-To convert an ontology to an OBO Graph JSON file see:
+Command line; from [python obographs package](https://github.com/biolink/biolink-api/tree/master/obographs)
 
-https://github.com/geneontology/obographs
+```
+ogr -p subClassOf BFO:0000050 -r obo:go -t png g nucleus
+```
 
-Alternatively any bbop-json produced by AmiGO/SciGraph can be used
+API:
 
-## Why Dot/GraphViz?
+```
+ var compoundRelations = ['BFO:0000050']
+ var styleMap = {}
+ var gv = new ogv.OboGraphViz(result.data)
+ var dot = gv.renderDot(compoundRelations, styleMap)
+```
 
-Why dot D3, cytoscape js etc?
-
-These are all very nice and pretty, but GraphViz has some powerful
-features that I have not found in any other framework (or have been
-too lazy to find out how to do). In particular:
-
- * Easy to run on command line
- * The ability to _nest_ relationships (update: compound graphs in cytoscape.js)
- * simple control over box and edge visual attributes
- * embedding arbitrary HTML
-
-This is intended to replace blipkit graphviz generation. For some
-examples, see [mondo report](https://github.com/monarch-initiative/monarch-disease-ontology/blob/master/reports/genes/ABCC9.md)
+# Features
 
 ## Nesting
 
-Specify one or more containment predicates using `-c`
+One or more predicates can be designated as 'compound', i.e. used for nesting.
+
+On the command line, use `-c`. In the API, use `compoundRelations`
+
+Example:
 
 ```
 ./bin/og2dot.js -c is_a tests/simple-og.json > test.dot
@@ -45,13 +48,15 @@ Note only works for subgraphs that exhibit disjointness over this property, acyc
 
 ## Stylesheets
 
-Can be passed using `-s`
+In the API can be passed using `styleMap`. On the command line, by using either `-s` (to pass a JSON file) or `-S` (to pass stringified JSON object directly on command line)
+
+E.g.
 
 ```
-./bin/og2dot.js -c is_a tests/simple-og.json > test.dot
+./bin/og2dot.js -s examples/example-style.json -c is_a tests/simple-og.json > test.dot
 ```
 
-### Rendering aboxes with anonymous nodes
+## Rendering anonymous and pseudo-anonymous individuals
 
 E.g. LEGO models
 
@@ -64,15 +69,17 @@ E.g. LEGO models
 }
 ```
 
-## Use from biolink-python
+# Integration with other components
+
+## Obographs python
 
 See:
 
 https://github.com/biolink/biolink-api/tree/master/obographs
 
-Can be used on command line or by accessing the python obographs library
+(note: this python API may move to its own repo in future)
 
-For example:
+obographs-python command line:
 
 ```
 ogr -p subClassOf BFO:0000050 -r go -t png   a nucleus
@@ -88,10 +95,33 @@ This proceeds by:
 
 Go to http://api.monarchinitiative.org/api/
 
-See the /ontol/subgraph/ route
+See the `/ontol/subgraph/` route
 
 This exports obographs which can be fed in to this js lib
 
+TODO - link to demo site
+
 ## Use with AmiGO
 
-AmiGO uses bbop-graphs by default which can be directly fed in
+AmiGO uses bbop-graphs; these are similar enough that they can be passed in instead of obographs.
+
+# Blether
+
+## Why Dot/GraphViz?
+
+Why not D3, cytoscape js etc?
+
+These are all very nice and pretty, but GraphViz has some powerful
+features that I have not found in any other framework (or have been
+too lazy to find out how to do). In particular:
+
+ * Easy to run on command line
+ * The ability to _nest_ relationships (update: compound graphs in cytoscape.js)
+ * simple control over box and edge visual attributes
+ * embedding arbitrary HTML
+
+This is intended to replace blipkit graphviz generation. For some
+examples, see [mondo report](https://github.com/monarch-initiative/monarch-disease-ontology/blob/master/reports/genes/ABCC9.md)
+
+
+

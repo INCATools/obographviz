@@ -11,6 +11,7 @@ var opt = getopt.create([
     ['t' , 'to=ARG'               , 'output type (png, dot)'],
     ['s' , 'stylesheet=PATH'      , 'path to json stylesheet'],
     ['S' , 'stylemap=ARG'         , 'stylemap object as stringified json on command line'],
+    ['H' , 'highlight=N+'         , 'list of nodes to highlight'],
     ['c' , 'compoundRelations=N+' , 'list of compound relations'],
     ['h' , 'help'                 , 'display this help message']
 ])              // create Getopt instance
@@ -45,7 +46,7 @@ opt.argv.forEach (function (filename) {
     var og = JSON.parse(data)
     //console.log(OboGraphViz)
     var ogv = new OboGraphViz(og)
-    dot = ogv.renderDot(compoundRelations, styleMap)
+    dot = ogv.renderDot(compoundRelations, styleMap, opt.options['highlight'])
 
     var outfile = opt.options['outfile']
     var outfmt = opt.options['to']
@@ -57,7 +58,7 @@ opt.argv.forEach (function (filename) {
         if (!pngfile) {
             pngfile = '/tmp/foo.png'
         }
-        var cmd = 'dot '+fn+'  -Tpng -o ' + pngfile
+        var cmd = 'dot '+fn+' -Grankdir=BT -Tpng -o ' + pngfile
         execSync(cmd);
         if (outfile) {
             console.log("File is here: "+outfile)
