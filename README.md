@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cmungall/obographviz.svg?branch=master)](https://travis-ci.org/cmungall/obographviz)
+
 # Translate OBO Graphs into Dot/Graphviz
 
  * Input: a [OBO Graph JSON](https://github.com/geneontology/obographs) object
