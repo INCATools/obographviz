@@ -12,7 +12,7 @@
     "homepage": "http://berkeleybop.org/",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/berkeleybop/bbop-graph.git"
+        "url": "git+https://github.com/cmungall/obographviz.git"
     },
     "engines": {
         "node": ">= 0.12.2",
@@ -47,7 +47,7 @@
     },
     "main": "index.js",
     "bugs": {
-        "url": "https://github.com/berkeleybop/bbop-graph/issues"
+        "url": "https://github.com/cmungall/obographviz/issues"
     },
     "scripts": {
         "update-docs": "git checkout gh-pages && git pull && git merge master && gulp doc && git commit -a -m 'bump docs' && git push && git checkout master",

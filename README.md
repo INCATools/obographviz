@@ -42,7 +42,7 @@ Example:
 
 Generates:
 
-![img](examples/nested-example.png)
+![img](https://github.com/cmungall/obographviz/raw/master/examples/nested-example.png)
 
 Note only works for subgraphs that exhibit disjointness over this property, acyclicity
 
