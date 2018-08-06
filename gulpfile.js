@@ -3,14 +3,9 @@
 ////
 
 var gulp = require('gulp');
-//var jsdoc = require('gulp-jsdoc');
 var mocha = require('gulp-mocha');
-var uglify = require('gulp-uglify');
-var rename = require("gulp-rename");
-var git = require('gulp-git');
 var bump = require('gulp-bump');
 var del = require('del');
-var shell = require('gulp-shell');
 
 var paths = {
     readme: ['./README.md'],

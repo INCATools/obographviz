@@ -1,14 +1,18 @@
 {
   "graphs" : [ {
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#member_of",
+      "id" : "RO:0002350",
       "meta" : {
         "subsets" : [ "http://purl.obolibrary.org/obo/so-xp.obo#SOFA" ]
       },
       "type" : "PROPERTY",
       "lbl" : "member_of"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000188",
+      "id" : "BFO:GDC",
+      "type" : "CLASS",
+      "lbl" : "generically dependent continuant"
+    }, {
+      "id" : "SO:0000188",
       "meta" : {
         "definition" : {
           "val" : "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it.",
@@ -22,7 +26,7 @@
       "type" : "CLASS",
       "lbl" : "intron"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000001",
+      "id" : "SO:0000001",
       "meta" : {
         "definition" : {
           "val" : "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.",
@@ -42,7 +46,7 @@
       "type" : "PROPERTY",
       "lbl" : "has_exact_synonym"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000185",
+      "id" : "SO:0000185",
       "meta" : {
         "definition" : {
           "val" : "A transcript that in its initial state requires modification to be functional.",
@@ -88,7 +92,7 @@
       "type" : "PROPERTY",
       "lbl" : "has_obo_format_version"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000833",
+      "id" : "SO:0000833",
       "meta" : {
         "definition" : {
           "val" : "A region of a transcript.",
@@ -104,7 +108,7 @@
       "type" : "CLASS",
       "lbl" : "transcript_region"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000835",
+      "id" : "SO:0000835",
       "meta" : {
         "definition" : {
           "val" : "A part of a primary transcript.",
@@ -127,7 +131,7 @@
       "id" : "http://purl.obolibrary.org/obo/so-xp.obo#AAMOD",
       "lbl" : "amino acid modification"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000831",
+      "id" : "SO:0000831",
       "meta" : {
         "definition" : {
           "val" : "A region of a gene.",
@@ -143,7 +147,7 @@
       "type" : "CLASS",
       "lbl" : "gene_member_region"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/so-xp.obo#part_of",
+      "id" : "BFO:0000050",
       "meta" : {
         "definition" : {
           "val" : "X part_of Y if X is a subregion of Y.",
@@ -154,7 +158,7 @@
       "type" : "PROPERTY",
       "lbl" : "part_of"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000110",
+      "id" : "SO:0000110",
       "meta" : {
         "definition" : {
           "val" : "Any extent of continuous biological sequence.",
@@ -178,7 +182,7 @@
       "type" : "CLASS",
       "lbl" : "sequence_feature"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000673",
+      "id" : "SO:0000673",
       "meta" : {
         "definition" : {
           "val" : "An RNA synthesized on a DNA or RNA template by an RNA polymerase.",
@@ -207,7 +211,7 @@
       "id" : "http://purl.obolibrary.org/obo/so-xp.obo#VAR",
       "lbl" : "variant annotation term"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000704",
+      "id" : "SO:0000704",
       "meta" : {
         "definition" : {
           "val" : "A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.",
@@ -231,7 +235,7 @@
       "id" : "http://purl.obolibrary.org/obo/so-xp.obo#RNAMOD",
       "lbl" : "RNA modification"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000147",
+      "id" : "SO:0000147",
       "meta" : {
         "definition" : {
           "val" : "A region of the transcript sequence within a gene which is not removed from the primary RNA transcript by RNA splicing.",
@@ -253,7 +257,7 @@
       "type" : "PROPERTY",
       "lbl" : "has_scope"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0001411",
+      "id" : "SO:0001411",
       "meta" : {
         "definition" : {
           "val" : "A region defined by its disposition to be involved in a biological process.",
@@ -269,7 +273,7 @@
       "type" : "CLASS",
       "lbl" : "biological_region"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0005855",
+      "id" : "SO:0005855",
       "meta" : {
         "definition" : {
           "val" : "A collection of related genes.",
@@ -286,69 +290,73 @@
       "lbl" : "gene_group"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000188",
+      "sub" : "SO:0000188",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000835"
+      "obj" : "SO:0000835"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000831",
+      "sub" : "SO:0000831",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+      "obj" : "SO:0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/so-xp.obo#member_of",
+      "sub" : "RO:0002350",
       "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/so-xp.obo#part_of"
+      "obj" : "BFO:0000050"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000835",
+      "sub" : "SO:0000835",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000833"
+      "obj" : "SO:0000833"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000704",
-      "pred" : "http://purl.obolibrary.org/obo/so-xp.obo#member_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0005855"
+      "sub" : "SO:0000704",
+      "pred" : "RO:0002350",
+      "obj" : "SO:0005855"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000185",
+      "sub" : "SO:0000185",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
+      "obj" : "SO:0000673"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000833",
-      "pred" : "http://purl.obolibrary.org/obo/so-xp.obo#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000673"
+      "sub" : "SO:0000833",
+      "pred" : "BFO:0000050",
+      "obj" : "SO:0000673"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000673",
+      "sub" : "SO:0000673",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000831"
+      "obj" : "SO:0000831"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000147",
+      "sub" : "SO:0000147",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000833"
+      "obj" : "SO:0000833"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000001",
+      "sub" : "SO:0000110",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000110"
+      "obj" : "BFO:GDC"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0001411",
+      "sub" : "SO:0000001",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000001"
+      "obj" : "SO:0000110"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000704",
+      "sub" : "SO:0001411",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+      "obj" : "SO:0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000833",
+      "sub" : "SO:0000704",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+      "obj" : "SO:0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0005855",
+      "sub" : "SO:0000833",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001411"
+      "obj" : "SO:0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000835",
-      "pred" : "http://purl.obolibrary.org/obo/so-xp.obo#part_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000185"
+      "sub" : "SO:0005855",
+      "pred" : "is_a",
+      "obj" : "SO:0001411"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SO_0000831",
-      "pred" : "http://purl.obolibrary.org/obo/so-xp.obo#member_of",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
+      "sub" : "SO:0000835",
+      "pred" : "BFO:0000050",
+      "obj" : "SO:0000185"
+    }, {
+      "sub" : "SO:0000831",
+      "pred" : "RO:0002350",
+      "obj" : "SO:0000704"
     } ],
     "id" : "http://purl.obolibrary.org/obo/so-xp.obo.owl",
     "meta" : {

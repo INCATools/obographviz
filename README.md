@@ -58,9 +58,75 @@ E.g.
 ./bin/og2dot.js -s examples/example-style.json -c is_a tests/simple-og.json > test.dot
 ```
 
+### Global stylemap properties
+
+These go in the root of the stylemap object
+
+```
+{
+    "style": "filled",
+    "fillcolor": "green"
+}
+```
+
+this sets all nodes to be filled green
+
+### Edge properties by relationship type
+
+Each relationship type can have its own individual style, by passing relationProperties. This is keyed by the CURIE for the relation (or "is_a" for subClassOf):
+
+```
+{
+    "relationProperties": {
+        "is_a": {
+            "color": "black",
+            "penwith": 3,
+            "arrowhead": "open",
+            "label": ""
+        },
+        "BFO:0000050": {
+            "arrowhead": "tee",
+            "color": "blue"
+        }
+    }
+}
+```
+
+### Node properties by prefix
+
+Pass in prefixProperties to be able to assign individual properties for ontology prefixes. This can be useful when visualization graphs that combine multiple ontologies
+
+```
+{
+    "prefixProperties": {
+        "SO": {
+            "fillcolor": "yellow"
+        },
+        "RO": {
+            "fillcolor": "pink"
+        },
+        "BFO": {
+            "fillcolor": "cyan"
+        }
+    }
+}
+```
+
+## Combined Example
+
+The following example uses all subclasses of digit in Uberon, plus their ancestors, which forms a complex lattic structure.
+
+See [digit.json](examples/digit.json] for the underlying ontology. See [examples/uberon-style.json](examples/uberon-style.json) for the stylesheet.
+
+`og2dot.js -s examples/uberon-style.json  examples/digit.json -t png -o  examples/digit.png`
+
+Renders:
+
+![img](examples/digit.png)
+
 ## Rendering anonymous and pseudo-anonymous individuals
 
-E.g. LEGO models
+E.g. GO-CAM models
 
 ```
 {
@@ -107,7 +173,7 @@ TODO - link to demo site
 
 AmiGO uses bbop-graphs; these are similar enough that they can be passed in instead of obographs.
 
-# Blether
+# FAQ
 
 ## Why Dot/GraphViz?
 

@@ -5,9 +5,7 @@ var OboGraphViz = require('..').OboGraphViz;
 var exec = require('child_process').exec;
 
 describe('test viz', function(){
-
     var og = null
-    
 
     it('render check', function(){
         var dirs = fs.readdirSync ('./tests/').filter(function(n){return n.indexOf(".json") > -1})
