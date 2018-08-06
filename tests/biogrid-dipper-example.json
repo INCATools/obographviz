@@ -1,0 +1,1249 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://www.monarchinitiative.org/MONARCH_3714fea3cdae3a0e0b3f2c674a010433"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/2539"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_8dbb0bffde0c979570821dc462e1ac0a"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/816471"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_0dff3ee554d99187e272abc836cf01e6"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_e49f96bd38349fcaf079f5d84acaa365"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/4591"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/828658"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_1c6951aea6db6213bec93d25bcbaa0b7"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_521283e190aba6b0c2eeaeb2cf1d3af4"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/1080"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/827323"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_c13a88a9b9d09b7f72ce374bafec6d04"
+    }, {
+      "id" : "http://purl.org/oban/association"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_9cb37ec2c79b5561953d011f8433f593"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_0467a2b95351ee9361fcced0d34328b5"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/6908"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_382a74dd3fa31d5b34ad522b972c24ec"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_9a6172683adca9ce069d5275454f65b3"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_b3794ce347de4ca0bf5d99cc9770b1e4"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_8d36a44f3f51c5d8562ad6dae2d176df"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_019d2fcd2d9726a23b7fe3a5ba1627b8"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/6469"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_bfeee107cff23de2367c6de0a14e07f7"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_5b8d61438675057e19f4ce9189f8dc16"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/25236"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/20423"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_4da18f491263c4f4de98fef8ab3fabc2"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_cbaf760afa070f123885978ead55c62d"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_a0b1a6952606e76f8d57f8a5b3b408b0"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/838883"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/4137"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_8a5c928f1030a27c94a06c5f127eeeb3"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_ed27dec29ffc9e0b9db58e21bf80269a"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/5663"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_d6877ed18a4cbe931414c2faa4d45715"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_354d9ba5f196348451d89bce8ef179ca"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/84447"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_10cb236709ffcb415dbee9256d6e0121"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/828791"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_ee34b08dee48a20fda9416ec39c11d08"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_d478afe442dff3f940b1bea0d44602cf"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_1ca7d0971b80851059b6513ff9732d13"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_8b0a5bdddb1a28541162d11d8cf4222c"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/831441"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/1277"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_de7c60923bc3c85e19117ed9b51ac34e"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/6400"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/14451"
+    }, {
+      "id" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c"
+    }, {
+      "id" : "http://www.ncbi.nlm.nih.gov/gene/835609"
+    } ],
+    "edges" : [ {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_c13a88a9b9d09b7f72ce374bafec6d04",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/6908",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6908"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/816471",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002435",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/24366871"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_c13a88a9b9d09b7f72ce374bafec6d04",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a0b1a6952606e76f8d57f8a5b3b408b0",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9cb37ec2c79b5561953d011f8433f593",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/10518493"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_c13a88a9b9d09b7f72ce374bafec6d04",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000012"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6908"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_382a74dd3fa31d5b34ad522b972c24ec",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9a6172683adca9ce069d5275454f65b3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8dbb0bffde0c979570821dc462e1ac0a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/10518493"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/24366871"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/1277",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1277"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/84447",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6400"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8dbb0bffde0c979570821dc462e1ac0a",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/817721",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/12646171"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1c6951aea6db6213bec93d25bcbaa0b7",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000011"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_bfeee107cff23de2367c6de0a14e07f7",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/20423"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_b3794ce347de4ca0bf5d99cc9770b1e4",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d6877ed18a4cbe931414c2faa4d45715",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/4137"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9cb37ec2c79b5561953d011f8433f593",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/5663"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1ca7d0971b80851059b6513ff9732d13",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/827323",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002435",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4da18f491263c4f4de98fef8ab3fabc2",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/23356641"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/1277",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1278"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0dff3ee554d99187e272abc836cf01e6",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/84447"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_c13a88a9b9d09b7f72ce374bafec6d04",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_5b8d61438675057e19f4ce9189f8dc16",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/844005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1ca7d0971b80851059b6513ff9732d13",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6400"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_de7c60923bc3c85e19117ed9b51ac34e",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/10518493"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a0b1a6952606e76f8d57f8a5b3b408b0",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8dbb0bffde0c979570821dc462e1ac0a",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_cbaf760afa070f123885978ead55c62d",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_e49f96bd38349fcaf079f5d84acaa365",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8b0a5bdddb1a28541162d11d8cf4222c",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/831441"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/831441",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002435",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_b3794ce347de4ca0bf5d99cc9770b1e4",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6469"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_5b8d61438675057e19f4ce9189f8dc16",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/835609"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_cbaf760afa070f123885978ead55c62d",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0467a2b95351ee9361fcced0d34328b5",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_521283e190aba6b0c2eeaeb2cf1d3af4",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1277"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_cbaf760afa070f123885978ead55c62d",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_382a74dd3fa31d5b34ad522b972c24ec",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/828791"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8a5c928f1030a27c94a06c5f127eeeb3",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002435"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1c6951aea6db6213bec93d25bcbaa0b7",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/838883"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/21903092"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8d36a44f3f51c5d8562ad6dae2d176df",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_de7c60923bc3c85e19117ed9b51ac34e",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ed27dec29ffc9e0b9db58e21bf80269a",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/4591"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_3714fea3cdae3a0e0b3f2c674a010433",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6469"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/5663"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0467a2b95351ee9361fcced0d34328b5",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/2539"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/838883",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002435",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ee34b08dee48a20fda9416ec39c11d08",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4da18f491263c4f4de98fef8ab3fabc2",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_019d2fcd2d9726a23b7fe3a5ba1627b8",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d478afe442dff3f940b1bea0d44602cf",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000085"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/21454652"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/9311784"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8d36a44f3f51c5d8562ad6dae2d176df",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ee34b08dee48a20fda9416ec39c11d08",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/17110338"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_bfeee107cff23de2367c6de0a14e07f7",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_c13a88a9b9d09b7f72ce374bafec6d04",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8dbb0bffde0c979570821dc462e1ac0a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000011"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8b0a5bdddb1a28541162d11d8cf4222c",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/838883"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/84447"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_3714fea3cdae3a0e0b3f2c674a010433",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000172"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_de7c60923bc3c85e19117ed9b51ac34e",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000011"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/23867461"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/24366871"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/9603525"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/16289116"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8a5c928f1030a27c94a06c5f127eeeb3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000011"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9cb37ec2c79b5561953d011f8433f593",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002435"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_3714fea3cdae3a0e0b3f2c674a010433",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/11395778"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/828791",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0467a2b95351ee9361fcced0d34328b5",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/84447"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_10cb236709ffcb415dbee9256d6e0121",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0dff3ee554d99187e272abc836cf01e6",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/14451"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_c13a88a9b9d09b7f72ce374bafec6d04",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9a6172683adca9ce069d5275454f65b3",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_cbaf760afa070f123885978ead55c62d",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_3714fea3cdae3a0e0b3f2c674a010433",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/14451",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/20423"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d478afe442dff3f940b1bea0d44602cf",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8a5c928f1030a27c94a06c5f127eeeb3",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/10518493"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a0b1a6952606e76f8d57f8a5b3b408b0",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8dbb0bffde0c979570821dc462e1ac0a",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/831441"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a0b1a6952606e76f8d57f8a5b3b408b0",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ed27dec29ffc9e0b9db58e21bf80269a",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/4591"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ee34b08dee48a20fda9416ec39c11d08",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d478afe442dff3f940b1bea0d44602cf",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/4137"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/844066",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_bfeee107cff23de2367c6de0a14e07f7",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/18477453"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9a6172683adca9ce069d5275454f65b3",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_3714fea3cdae3a0e0b3f2c674a010433",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/84447",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/84447"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_019d2fcd2d9726a23b7fe3a5ba1627b8",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_10cb236709ffcb415dbee9256d6e0121",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6400"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8b0a5bdddb1a28541162d11d8cf4222c",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002435"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/1080",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1080"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_382a74dd3fa31d5b34ad522b972c24ec",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/18502753"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_e49f96bd38349fcaf079f5d84acaa365",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/11572986"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_bfeee107cff23de2367c6de0a14e07f7",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1ca7d0971b80851059b6513ff9732d13",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_b3794ce347de4ca0bf5d99cc9770b1e4",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_e49f96bd38349fcaf079f5d84acaa365",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/14451"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4da18f491263c4f4de98fef8ab3fabc2",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/16186509"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ee34b08dee48a20fda9416ec39c11d08",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/11051556"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/5663",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/5663"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0dff3ee554d99187e272abc836cf01e6",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/21149444"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d478afe442dff3f940b1bea0d44602cf",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/9353289"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_3714fea3cdae3a0e0b3f2c674a010433",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6469"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_c13a88a9b9d09b7f72ce374bafec6d04",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/23867461"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/15474363"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_5b8d61438675057e19f4ce9189f8dc16",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4da18f491263c4f4de98fef8ab3fabc2",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4da18f491263c4f4de98fef8ab3fabc2",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000012"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8d36a44f3f51c5d8562ad6dae2d176df",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ed27dec29ffc9e0b9db58e21bf80269a",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d6877ed18a4cbe931414c2faa4d45715",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/9689133"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d6877ed18a4cbe931414c2faa4d45715",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002325"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/2539"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1c6951aea6db6213bec93d25bcbaa0b7",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002435"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8d36a44f3f51c5d8562ad6dae2d176df",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0dff3ee554d99187e272abc836cf01e6",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/20423"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1c6951aea6db6213bec93d25bcbaa0b7",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_de7c60923bc3c85e19117ed9b51ac34e",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8b0a5bdddb1a28541162d11d8cf4222c",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000011"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_e49f96bd38349fcaf079f5d84acaa365",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d6877ed18a4cbe931414c2faa4d45715",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000172"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/5663",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002325",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/4137"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ed27dec29ffc9e0b9db58e21bf80269a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/11279055"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_382a74dd3fa31d5b34ad522b972c24ec",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/24255109"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_354d9ba5f196348451d89bce8ef179ca",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1277"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/11724934"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1ca7d0971b80851059b6513ff9732d13",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/24366871"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_de7c60923bc3c85e19117ed9b51ac34e",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/827323"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8d36a44f3f51c5d8562ad6dae2d176df",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/23867461"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_bfeee107cff23de2367c6de0a14e07f7",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/12535650"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_521283e190aba6b0c2eeaeb2cf1d3af4",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/19864457"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0467a2b95351ee9361fcced0d34328b5",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8d36a44f3f51c5d8562ad6dae2d176df",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/6400",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/84447"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9a6172683adca9ce069d5275454f65b3",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_5b8d61438675057e19f4ce9189f8dc16",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a0b1a6952606e76f8d57f8a5b3b408b0",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/25236",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/20423"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/9674425"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/6400",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6469"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/6469",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6469"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d6877ed18a4cbe931414c2faa4d45715",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/5663"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/844005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ee34b08dee48a20fda9416ec39c11d08",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1080"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8a5c928f1030a27c94a06c5f127eeeb3",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/816471"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/831441",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002435",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/838883"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_354d9ba5f196348451d89bce8ef179ca",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8a5c928f1030a27c94a06c5f127eeeb3",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000324"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_de7c60923bc3c85e19117ed9b51ac34e",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002435"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6400"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9cb37ec2c79b5561953d011f8433f593",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d6877ed18a4cbe931414c2faa4d45715",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_10cb236709ffcb415dbee9256d6e0121",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1ca7d0971b80851059b6513ff9732d13",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9cb37ec2c79b5561953d011f8433f593",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/828658"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/4591",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/4591"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_e49f96bd38349fcaf079f5d84acaa365",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/20423"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_354d9ba5f196348451d89bce8ef179ca",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1278"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8dbb0bffde0c979570821dc462e1ac0a",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002435"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_bfeee107cff23de2367c6de0a14e07f7",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/25236"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4da18f491263c4f4de98fef8ab3fabc2",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9a6172683adca9ce069d5275454f65b3",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/817721",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/828658",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002435",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/844066",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9a6172683adca9ce069d5275454f65b3",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a0b1a6952606e76f8d57f8a5b3b408b0",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_10cb236709ffcb415dbee9256d6e0121",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8a5c928f1030a27c94a06c5f127eeeb3",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4da18f491263c4f4de98fef8ab3fabc2",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_521283e190aba6b0c2eeaeb2cf1d3af4",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000172"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/835609",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/844005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000172"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_521283e190aba6b0c2eeaeb2cf1d3af4",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9cb37ec2c79b5561953d011f8433f593",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000011"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22119785"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/844066",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_354d9ba5f196348451d89bce8ef179ca",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9a6172683adca9ce069d5275454f65b3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000012"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_3714fea3cdae3a0e0b3f2c674a010433",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_5b8d61438675057e19f4ce9189f8dc16",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8b0a5bdddb1a28541162d11d8cf4222c",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/16006578"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/84447",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6469"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_382a74dd3fa31d5b34ad522b972c24ec",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ed27dec29ffc9e0b9db58e21bf80269a",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0dff3ee554d99187e272abc836cf01e6",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/84447"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ed27dec29ffc9e0b9db58e21bf80269a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000085"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_cbaf760afa070f123885978ead55c62d",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_10cb236709ffcb415dbee9256d6e0121",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d478afe442dff3f940b1bea0d44602cf",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/4137"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/817721",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/18711132"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_019d2fcd2d9726a23b7fe3a5ba1627b8",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_b3794ce347de4ca0bf5d99cc9770b1e4",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/84447"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0467a2b95351ee9361fcced0d34328b5",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1c6951aea6db6213bec93d25bcbaa0b7",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/10518493"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_354d9ba5f196348451d89bce8ef179ca",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/18375391"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1ca7d0971b80851059b6513ff9732d13",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6469"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_e49f96bd38349fcaf079f5d84acaa365",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/18264092"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000005"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ee34b08dee48a20fda9416ec39c11d08",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_5b8d61438675057e19f4ce9189f8dc16",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/24255109"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_521283e190aba6b0c2eeaeb2cf1d3af4",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1277"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/4137",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/4137"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_382a74dd3fa31d5b34ad522b972c24ec",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000079"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/2539",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/2539"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/25416956"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0dff3ee554d99187e272abc836cf01e6",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/11572986"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/10745013"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_cbaf760afa070f123885978ead55c62d",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_10cb236709ffcb415dbee9256d6e0121",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/6908"
+    }, {
+      "sub" : "http://www.ncbi.nlm.nih.gov/gene/20423",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002434",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/14451"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_019d2fcd2d9726a23b7fe3a5ba1627b8",
+      "pred" : "http://purl.org/oban/association_has_subject",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/817721"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_4851bb6725781188e5cef7f49284fb33",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/8650542"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_d478afe442dff3f940b1bea0d44602cf",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_354d9ba5f196348451d89bce8ef179ca",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000172"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_a7419e7b8e5a31a57210a1f1f1130657",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_521283e190aba6b0c2eeaeb2cf1d3af4",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/18375391"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000068"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_b3794ce347de4ca0bf5d99cc9770b1e4",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/21357747"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1200e22e238679d8e76815acd0a95a5c",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/24807418"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_8b0a5bdddb1a28541162d11d8cf4222c",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_019d2fcd2d9726a23b7fe3a5ba1627b8",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_b3794ce347de4ca0bf5d99cc9770b1e4",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_9edc1830ae659d3741d6d44646bc638a",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22119785"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_ee34b08dee48a20fda9416ec39c11d08",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/1080"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_33ed4fb708b4abf89b013faf2047a754",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002558",
+      "obj" : "http://purl.obolibrary.org/obo/ECO_0000085"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_06a4fa0a682497486ade6bbaf19e3185",
+      "pred" : "type",
+      "obj" : "http://purl.org/oban/association"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_0467a2b95351ee9361fcced0d34328b5",
+      "pred" : "http://purl.org/dc/elements/1.1/source",
+      "obj" : "http://www.ncbi.nlm.nih.gov/pubmed/22438063"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_1c6951aea6db6213bec93d25bcbaa0b7",
+      "pred" : "http://purl.org/oban/association_has_object",
+      "obj" : "http://www.ncbi.nlm.nih.gov/gene/844066"
+    }, {
+      "sub" : "http://www.monarchinitiative.org/MONARCH_019d2fcd2d9726a23b7fe3a5ba1627b8",
+      "pred" : "http://purl.org/oban/association_has_object_property",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002434"
+    } ],
+    "id" : "http://data.monarchinitiative.org/ttl/biogrid.ttl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "biogrid-2015-08-24-17-14"
+      } ]
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
