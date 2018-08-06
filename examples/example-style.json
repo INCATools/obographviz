@@ -1,0 +1,16 @@
+{
+    "style": "filled",
+    "fillcolor": "green",
+    "highlightIds": ["forelimb"],
+
+    "relationProperties": {
+        "is_a": {
+            "color": "black",
+            "penwith": 3,
+            "label": ""
+        },
+        "part_of": {
+            "color": "blue"
+        }
+    }
+}
