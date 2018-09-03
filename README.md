@@ -137,7 +137,7 @@ E.g. GO-CAM models
 }
 ```
 
-![img](examples/lego-example2.pdf)
+![img](examples/lego-example2.png)
 
 # Integration with other components
 

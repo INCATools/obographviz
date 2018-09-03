@@ -1,0 +1,66 @@
+{
+    "style": "filled,rounded",
+    "fillcolor": "white",
+    "highlightIds": ["UBERON:0002544"],
+    "nodeFilter" : {
+                "type" : "INDIVIDUAL"
+    },
+    "labelFrom" : "type",
+
+    "relationProperties": {
+        "RO:0002220": {
+            "color": "green",
+            "label": "DF"
+        },
+        "BFO:0000050": {
+            "arrowhead": "tee",
+            "color": "blue",
+            "label": "P"
+        }
+    },
+    "prefixProperties": {
+        "UBERON": {
+            "fillcolor": "yellow"
+        },
+        "RO": {
+            "fillcolor": "pink"
+        },
+        "BFO": {
+            "fillcolor": "cyan"
+        }
+    },
+    "conditionalProperties": [
+        {
+            "conditions": {
+                "type":"PROPERTY"
+            },
+            "properties": {
+                "shape": "ellipse"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"non_informative"
+            },
+            "properties": {
+                "style": "invisible"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"pheno_slim"
+            },
+            "properties": {
+                "fillcolor": "pink"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"efo_slim"
+            },
+            "properties": {
+                "fillcolor": "blue"
+            }
+        }
+    ]
+}
