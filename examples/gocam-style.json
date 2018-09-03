@@ -1,19 +1,40 @@
 {
     "style": "filled,rounded",
     "fillcolor": "white",
-    "highlightIds": ["UBERON:0002544"],
+    "highlightIds": ["GO:0043327"],
     "nodeFilter" : {
                 "type" : "INDIVIDUAL"
     },
     "labelFrom" : "type",
 
     "relationProperties": {
-        "RO:0002220": {
+        "BFO:0000066": {
+            "color": "grey",
+            "label": "in"
+        },
+        "RO:0002233": {
             "color": "green",
-            "label": "DF"
+            "label": "input"
+        },
+        "RO:0002408": {
+            "arrowhead": "tee",
+            "color": "red",
+            "label": "-"
+        },
+        "RO:0002212": {
+            "arrowhead": "tee",
+            "color": "red",
+            "label": "-"
+        },
+        "RO:0002406": {
+            "color": "blue",
+            "label": "+"
+        },
+        "RO:0002213": {
+            "color": "blue",
+            "label": "+"
         },
         "BFO:0000050": {
-            "arrowhead": "tee",
             "color": "blue",
             "label": "P"
         }
@@ -25,7 +46,7 @@
         "RO": {
             "fillcolor": "pink"
         },
-        "BFO": {
+        "GO": {
             "fillcolor": "cyan"
         }
     },

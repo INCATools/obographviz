@@ -137,6 +137,9 @@ E.g. GO-CAM models
 }
 ```
 
+
+`./bin/og2dot.js  -c BFO:0000050 -c RO:0002333 -s examples/gocam-style.json tests/lego-example2.json`
+
 ![img](examples/lego-example2.png)
 
 # Integration with other components
