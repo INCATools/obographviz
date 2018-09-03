@@ -137,6 +137,8 @@ E.g. GO-CAM models
 }
 ```
 
+![img](examples/lego-example2.pdf)
+
 # Integration with other components
 
 ## Obographs python
