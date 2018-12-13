@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/cmungall/obographviz.svg?branch=master)](https://travis-ci.org/cmungall/obographviz)
+[![NPM version](https://badge.fury.io/js/obographviz.svg)](http://badge.fury.io/js/obographviz)
 
 # Translate OBO Graphs into Dot/Graphviz
 
