@@ -42,22 +42,6 @@ gulp.task('major-bump', function(cb){
 //gulp.task('doc', ['md-to-org', 'jsdoc']);
 gulp.task('doc', ['jsdoc']);
 
-// Build docs directory with JSDoc.
-// Completely dependent on clean before running doc.
-// gulp.task('jsdoc', ['clean'], function(cb) {
-//     gulp.src(paths.docable, paths.readme)
-//         .pipe(jsdoc('./doc'));
-//     cb(null);
-// });
-// TODO: Ugh--do this manually until gulp-jsdoc gets its act together.
-gulp.task('jsdoc', ['clean'], function(cb) {
-    gulp.src('')
-        .pipe(shell([
-	    './node_modules/.bin/jsdoc --verbose --template ./node_modules/jsdoc-baseline --readme ./README.md --destination ./doc/ ./lib/*.js'
-	]));
-    cb(null);
-});
-
 // Get rid of anything that is transient.
 gulp.task('clean', function(cb) {
     del(paths.transients);
