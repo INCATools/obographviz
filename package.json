@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "bbop-graph": "*",
+    "node-getopt": "*",
     "graphlib": "*",
     "graphlib-dot": "*",
     "npm": "^6.2.0",
