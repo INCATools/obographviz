@@ -29,7 +29,7 @@ if (stylesheet) {
     styleMap = JSON.parse(styledata)
 }
 if (opt.options['stylemap']) {
-    styleMap = JSON.parse(opt.options['stylemap'])
+    styleMap = Object.assign({}, styleMap, JSON.parse(opt.options['stylemap']));
 }
 
 opt.argv.length || inputError ("You must specify a JSON obograph file")
