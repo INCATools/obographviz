@@ -7,27 +7,25 @@
  * Optional: a JSON ontology stylesheet
  * Output: a Dot-format / Graphviz file
 
-Quickstart (command line):
+## Quickstart
 
-```
-./bin/og2dot.js tests/simple-og.json > test.dot
-dot test.dot -Tpng -Grankdir=BT > test.png
-```
+Command line:
+
+    ./bin/og2dot.js tests/simple-og.json > test.dot
+    dot test.dot -Tpng -Grankdir=BT > test.png
 
 Command line; from [python obographs package](https://github.com/biolink/biolink-api/tree/master/obographs)
 
-```
-ogr -p subClassOf BFO:0000050 -r obo:go -t png g nucleus
-```
+    ogr -p subClassOf BFO:0000050 -r obo:go -t png g nucleus
+
 
 API:
 
-```
- var compoundRelations = ['BFO:0000050']
- var styleMap = {}
- var gv = new ogv.OboGraphViz(result.data)
- var dot = gv.renderDot(compoundRelations, styleMap)
-```
+    var compoundRelations = ['BFO:0000050']
+    var styleMap = {}
+    var gv = new ogv.OboGraphViz(result.data)
+    var dot = gv.renderDot(compoundRelations, styleMap)
+
 
 # Features
 
