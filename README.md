@@ -111,6 +111,28 @@ Pass in prefixProperties to be able to assign individual properties for ontology
 }
 ```
 
+### Conditional properties
+
+Arbitrary conditions can be set using `conditionalProperties` for example:
+
+```
+{
+    "conditionalProperties": [
+        {
+            "conditions": {
+                "subset":"efo_slim"
+            },
+            "properties": {
+                "fillcolor": "blue"
+            }
+        }
+    }
+}
+```
+
+This will color any node in the `efo_slim` subset blue.
+
+
 ## Combined Example
 
 The following example uses all subclasses of digit in Uberon, plus their ancestors, which forms a complex lattic structure.
