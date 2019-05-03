@@ -1,5 +1,6 @@
 var lib = require("./lib");
 
 module.exports = {
-  OboGraphViz: lib.OboGraphViz
+    OboGraphViz: lib.OboGraphViz,
+    CliqueIndex: lib.CliqueIndex
 };
