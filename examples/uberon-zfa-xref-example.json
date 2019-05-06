@@ -1,0 +1,4240 @@
+{
+  "edges": [
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"HBA:4005"},
+    {"obj":"HBA:4005", "pred":"BFO:0000050", "sub":"HBA:4006"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"HBA:4006"},
+    {"obj":"HBA:4006", "pred":"BFO:0000050", "sub":"HBA:9001"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"HBA:9001"},
+    {"obj":"HBA:9001", "pred":"BFO:0000050", "sub":"HBA:9002"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"HBA:9002"},
+    {"obj":"HBA:9002", "pred":"BFO:0000050", "sub":"HBA:9449"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"HBA:9449"},
+    {"obj":"MBA:343", "pred":"BFO:0000050", "sub":"MBA:313"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"MBA:313"},
+    {"obj":"MBA:313", "pred":"BFO:0000050", "sub":"MBA:323"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"MBA:323"},
+    {"obj":"MBA:8", "pred":"BFO:0000050", "sub":"MBA:343"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"MBA:343"},
+    {"obj":"MBA:997", "pred":"BFO:0000050", "sub":"MBA:8"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"MBA:8"},
+    {"obj":"MBA:323", "pred":"BFO:0000050", "sub":"MBA:975"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"MBA:975"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"MBA:997"},
+    {"obj":"UBERON:0000465", "pred":"is_a", "sub":"UBERON:0000061"},
+    {
+      "obj":"UBERON:0000467",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0000062"
+    },
+    {"obj":"UBERON:0010000", "pred":"is_a", "sub":"UBERON:0000062"},
+    {
+      "obj":"UBERON:0001016",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0000073"
+    },
+    {"obj":"UBERON:0000481", "pred":"is_a", "sub":"UBERON:0000073"},
+    {"obj":"UBERON:0011215", "pred":"is_a", "sub":"UBERON:0000125"},
+    {"obj":"UBERON:0001062", "pred":"is_a", "sub":"UBERON:0000465"},
+    {
+      "obj":"UBERON:0000468",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0000467"
+    },
+    {"obj":"UBERON:0000061", "pred":"is_a", "sub":"UBERON:0000467"},
+    {"obj":"UBERON:0010000", "pred":"is_a", "sub":"UBERON:0000468"},
+    {"obj":"UBERON:0001062", "pred":"is_a", "sub":"UBERON:0000477"},
+    {"obj":"UBERON:0010000", "pred":"is_a", "sub":"UBERON:0000481"},
+    {
+      "obj":"UBERON:0001017",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0000955"
+    },
+    {"obj":"UBERON:0000062", "pred":"is_a", "sub":"UBERON:0000955"},
+    {"obj":"UBERON:0004121", "pred":"is_a", "sub":"UBERON:0000955"},
+    {"obj":"UBERON:0000467", "pred":"is_a", "sub":"UBERON:0001016"},
+    {
+      "obj":"UBERON:0001016",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0001017"
+    },
+    {"obj":"UBERON:0004121", "pred":"is_a", "sub":"UBERON:0001017"},
+    {"obj":"UBERON:0011216", "pred":"is_a", "sub":"UBERON:0001017"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"UBERON:0001891"},
+    {"obj":"UBERON:0010314", "pred":"is_a", "sub":"UBERON:0001891"},
+    {
+      "obj":"UBERON:0001891",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0001943"
+    },
+    {
+      "obj":"UBERON:0002298",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0001943"
+    },
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"UBERON:0001943"},
+    {"obj":"UBERON:0011215", "pred":"is_a", "sub":"UBERON:0002020"},
+    {
+      "obj":"UBERON:0001943",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0002141"
+    },
+    {"obj":"UBERON:0006331", "pred":"is_a", "sub":"UBERON:0002141"},
+    {"obj":"UBERON:0009661", "pred":"is_a", "sub":"UBERON:0002141"},
+    {"obj":"UBERON:0002616", "pred":"is_a", "sub":"UBERON:0002298"},
+    {"obj":"UBERON:0010314", "pred":"is_a", "sub":"UBERON:0002298"},
+    {
+      "obj":"UBERON:0003528",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0002308"
+    },
+    {"obj":"UBERON:0000125", "pred":"is_a", "sub":"UBERON:0002308"},
+    {
+      "obj":"UBERON:0000955",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0002616"
+    },
+    {"obj":"UBERON:0000073", "pred":"is_a", "sub":"UBERON:0002616"},
+    {"obj":"UBERON:0004121", "pred":"is_a", "sub":"UBERON:0002616"},
+    {
+      "obj":"UBERON:0000955",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0003528"
+    },
+    {"obj":"UBERON:0002020", "pred":"is_a", "sub":"UBERON:0003528"},
+    {"obj":"UBERON:0000061", "pred":"is_a", "sub":"UBERON:0004121"},
+    {"obj":"UBERON:0000477", "pred":"is_a", "sub":"UBERON:0005162"},
+    {
+      "obj":"UBERON:0002298",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0006331"
+    },
+    {"obj":"UBERON:0002308", "pred":"is_a", "sub":"UBERON:0006331"},
+    {
+      "obj":"UBERON:0001891",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0009661"
+    },
+    {"obj":"UBERON:0002308", "pred":"is_a", "sub":"UBERON:0009661"},
+    {"obj":"UBERON:0000061", "pred":"is_a", "sub":"UBERON:0010000"},
+    {"obj":"UBERON:0000061", "pred":"is_a", "sub":"UBERON:0010314"},
+    {
+      "obj":"UBERON:0001017",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0011215"
+    },
+    {"obj":"UBERON:0005162", "pred":"is_a", "sub":"UBERON:0011215"},
+    {
+      "obj":"UBERON:0000467",
+      "pred":"BFO:0000050",
+      "sub":"UBERON:0011216"
+    },
+    {"obj":"UBERON:0010000", "pred":"is_a", "sub":"UBERON:0011216"},
+    {"obj":"ZFA:0000012", "pred":"BFO:0000050", "sub":"ZFA:0000008"},
+    {"obj":"ZFA:0001490", "pred":"is_a", "sub":"ZFA:0000008"},
+    {"obj":"ZFA:0000396", "pred":"is_a", "sub":"ZFA:0000012"},
+    {"obj":"ZFA:0100000", "pred":"is_a", "sub":"ZFA:0000037"},
+    {"obj":"ZFA:0000008", "pred":"BFO:0000050", "sub":"ZFA:0000128"},
+    {"obj":"ZFA:0001488", "pred":"is_a", "sub":"ZFA:0000128"},
+    {"obj":"ZFA:0000128", "pred":"BFO:0000050", "sub":"ZFA:0000160"},
+    {"obj":"ZFA:0001707", "pred":"BFO:0000050", "sub":"ZFA:0000160"},
+    {"obj":"ZFA:0001488", "pred":"is_a", "sub":"ZFA:0000160"},
+    {"obj":"ZFA:0000160", "pred":"BFO:0000050", "sub":"ZFA:0000244"},
+    {"obj":"ZFA:0005577", "pred":"is_a", "sub":"ZFA:0000244"},
+    {"obj":"ZFA:0001439", "pred":"is_a", "sub":"ZFA:0000396"},
+    {"obj":"ZFA:0001094", "pred":"BFO:0000050", "sub":"ZFA:0000496"},
+    {"obj":"ZFA:0000037", "pred":"is_a", "sub":"ZFA:0000496"},
+    {"obj":"ZFA:0000037", "pred":"is_a", "sub":"ZFA:0001094"},
+    {"obj":"ZFA:0001094", "pred":"BFO:0000050", "sub":"ZFA:0001439"},
+    {"obj":"ZFA:0001512", "pred":"is_a", "sub":"ZFA:0001439"},
+    {"obj":"ZFA:0000037", "pred":"is_a", "sub":"ZFA:0001477"},
+    {"obj":"ZFA:0000037", "pred":"is_a", "sub":"ZFA:0001488"},
+    {"obj":"ZFA:0000496", "pred":"is_a", "sub":"ZFA:0001490"},
+    {"obj":"ZFA:0000037", "pred":"is_a", "sub":"ZFA:0001512"},
+    {"obj":"ZFA:0000128", "pred":"BFO:0000050", "sub":"ZFA:0001665"},
+    {"obj":"ZFA:0005575", "pred":"is_a", "sub":"ZFA:0001665"},
+    {"obj":"ZFA:0000012", "pred":"BFO:0000050", "sub":"ZFA:0001707"},
+    {"obj":"ZFA:0001488", "pred":"is_a", "sub":"ZFA:0001707"},
+    {"obj":"ZFA:0000008", "pred":"BFO:0000050", "sub":"ZFA:0005575"},
+    {"obj":"ZFA:0001477", "pred":"is_a", "sub":"ZFA:0005575"},
+    {"obj":"ZFA:0000160", "pred":"BFO:0000050", "sub":"ZFA:0005577"},
+    {"obj":"ZFA:0001665", "pred":"is_a", "sub":"ZFA:0005577"}
+  ],
+  "nodes": [
+    {
+      "id":"BFO:0000050",
+      "lbl":"part of",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BFO:0000050"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"part_of"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#shorthand",
+	    "val":"part_of"
+	  },
+	  {"pred":"rdfs:label", "val":"part of"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomical_ontology"
+	  }
+	],
+	"xrefs": [ {"val":"BFO:0000050"} ]
+      },
+      "type":"PROPERTY"
+    },
+    {
+      "id":"HBA:4005",
+      "lbl":"brain",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/hba#identifier",
+	    "val":4005
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"HBA:Br"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"Br"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"HBA:4005"
+	  },
+	  {"pred":"rdfs:label", "val":"brain"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"HBA:4006",
+      "lbl":"gray matter",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/hba#identifier",
+	    "val":4006
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"HBA:GM"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"GM"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"HBA:4006"
+	  },
+	  {"pred":"rdfs:label", "val":"gray matter"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"HBA:9001",
+      "lbl":"mesencephalon",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/hba#identifier",
+	    "val":9001
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"MES"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"HBA:9001"
+	  },
+	  {"pred":"rdfs:label", "val":"mesencephalon"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"HBA:MES"
+	  }
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"HBA:9002",
+      "lbl":"midbrain tegmentum",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"HBA:MTg"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"HBA:9002"
+	  },
+	  {"pred":"rdfs:label", "val":"midbrain tegmentum"},
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/hba#identifier",
+	    "val":9002
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"MTg"
+	  }
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"HBA:9449",
+      "lbl":"Edinger-Westphal nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/hba#identifier",
+	    "val":9449
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"HBA:EW"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"EW"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"HBA:9449"
+	  },
+	  {"pred":"rdfs:label", "val":"Edinger-Westphal nucleus"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"MBA:313",
+      "lbl":"midbrain",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/mba#identifier",
+	    "val":313
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"MBA:MB"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"MB"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"MBA:313"
+	  },
+	  {"pred":"rdfs:label", "val":"midbrain"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"MBA:323",
+      "lbl":"midbrain, motor related",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/mba#identifier",
+	    "val":323
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"MBA:MBmot"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"MBmot"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"MBA:323"
+	  },
+	  {"pred":"rdfs:label", "val":"midbrain, motor related"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"MBA:343",
+      "lbl":"brain stem",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"BS"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"MBA:343"
+	  },
+	  {"pred":"rdfs:label", "val":"brain stem"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"MBA:BS"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/mba#identifier",
+	    "val":343
+	  }
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"MBA:8",
+      "lbl":"basic cell groups and regions",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/mba#identifier",
+	    "val":8
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"MBA:grey"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"grey"
+	  },
+	  {"pred":"rdfs:label", "val":"basic cell groups and regions"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"MBA:8"
+	  }
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"MBA:975",
+      "lbl":"edinger-Westphal nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/mba#identifier",
+	    "val":975
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"MBA:EW"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"EW"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"MBA:975"
+	  },
+	  {"pred":"rdfs:label", "val":"edinger-Westphal nucleus"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"MBA:997",
+      "lbl":"root",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/mba#identifier",
+	    "val":997
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"MBA:root"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"root"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"MBA:997"
+	  },
+	  {"pred":"rdfs:label", "val":"root"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000061",
+      "lbl":"anatomical structure",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:67135"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0010825"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0003003"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0000003"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000003"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00007001"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0003000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"biological structure"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HAO:0000003"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0003000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000037"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000061"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000003"
+	  },
+	  {"pred":"rdfs:label", "val":"anatomical structure"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:0"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"GAID:781"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0001759"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TGMA:0001823"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0000037"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MESH:D000825"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:305751"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"connected biological structure"
+	  }
+	],
+	"xrefs": [
+	  {"val":"FMA:67135"},
+	  {"val":"AAO:0010825"},
+	  {"val":"EHDAA2:0003003"},
+	  {"val":"http://dbpedia.org/ontology/AnatomicalStructure"},
+	  {"val":"AEO:0000003"},
+	  {"val":"BILA:0000003"},
+	  {"val":"FBbt:00007001"},
+	  {"val":"XAO:0003000"},
+	  {"val":"HAO:0000003"},
+	  {"val":"MA:0003000"},
+	  {"val":"TAO:0000037"},
+	  {"val":"CARO:0000003"},
+	  {"val":"EMAPA:0"},
+	  {"val":"GAID:781"},
+	  {"val":"VHOG:0001759"},
+	  {"val":"TGMA:0001823"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/362889002"
+	  },
+	  {"val":"ZFA:0000037"},
+	  {"val":"MESH:D000825"},
+	  {"val":"FMA:305751"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000062",
+      "lbl":"organ",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0178784"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"WBbt:0003760"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical structure that performs a specific function or group of functions [WP]."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:67498"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000062"
+	  },
+	  {"pred":"rdfs:label", "val":"organ"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:35949"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"OpenCyc:Mx4rv5XMb5wpEbGdrcN5Y29ycA"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"OpenCyc:Mx4rwP3iWpwpEbGdrcN5Y29ycA"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"anatomical unit"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ENVO:01000162"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"element"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0003001"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EFO:0000634"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0020004"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000012",
+	    "val":"CARO v1 does not include a generic 'organ' class, only simple and compound organ. CARO v2 may include organ, see https://github.com/obophenotype/caro/issues/4"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C13018"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"body organ"
+	  }
+	],
+	"xrefs": [
+	  {"val":"UMLS:C0178784"},
+	  {"val":"WBbt:0003760"},
+	  {"val":"FMA:67498"},
+	  {"val":"EMAPA:35949"},
+	  {"val":"OpenCyc:Mx4rv5XMb5wpEbGdrcN5Y29ycA"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_4"},
+	  {"val":"OpenCyc:Mx4rwP3iWpwpEbGdrcN5Y29ycA"},
+	  {"val":"ENVO:01000162"},
+	  {"val":"MA:0003001"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0178784"},
+	  {"val":"EFO:0000634"},
+	  {"val":"CARO:0020004"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/272625005"
+	  },
+	  {"val":"NCIT:C13018"},
+	  {"val":"http://en.wikipedia.org/wiki/Organ_(anatomy)"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000073",
+      "lbl":"regional part of nervous system",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Any part or collection of parts of the central or peripheral nervous system. Parts may span both CNS and PNS."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#creation_date",
+	    "val":"2009-06-18T09:00:04Z"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000073"
+	  },
+	  {
+	    "pred":"rdfs:label",
+	    "val":"regional part of nervous system"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"part of nervous system"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C1518256"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#created_by",
+	    "val":"Melissa Haendel"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C13040"
+	  }
+	],
+	"xrefs": [
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_1157"},
+	  {"val":"http://www.snomedbrowser.com/Codes/Details/25087005"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C1518256"},
+	  {"val":"UMLS:C1518256"},
+	  {"val":"NCIT:C13040"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000125",
+      "lbl":"neural nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:83686"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C13197"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"nervous system nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"neuraxis nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"neuronal nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000125"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"nucleus of CNS"
+	  },
+	  {"pred":"rdfs:label", "val":"neural nucleus"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"nucleus of neuraxis"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0000136"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+	    "val":"nucleus"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Anatomical structure consisting of a discrete aggregate of neuronal soma[GO][GO_REF:0000021]."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000012",
+	    "val":"Proposed CUMBO def from MM: A subcortical part of the nervous system consisting of a relatively compact group of cells that is distinguishable histologically that share a commonality of cytoarchitecture, chemoarchitecturel and connectivity. (comments: I put in 'subcortical' because I don't think we consider either the cerebellar cortex or cerebral cortex to be nuclei. Some people distinguish between a nucleus and a laminar structure (see Wikipedia definition). However, there are structures identified as nuclei that are laminar, e.g., lateral geniculate nucleus, although they are not laminated in all species. Also, I put in 'relatively compact' and 'distiguishable by histology' because we have groups of cells, e.g., cholinergic cell groups, doparminergic cell groups that are related on the 3 criteria but which we don't tend to consider nuclei because they don't occupy an easily defined territory. But all is open to debate."
+	  }
+	],
+	"xrefs": [
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/nlx_28443"},
+	  {"val":"FMA:83686"},
+	  {"val":"NCIT:C13197"},
+	  {"val":"AEO:0000136"},
+	  {"val":"http://en.wikipedia.org/wiki/Nucleus_(neuroanatomy)"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000465",
+      "lbl":"material anatomical entity",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical entity that has mass."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000006"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000006"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0003006"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00007016"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:67165"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001836"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TGMA:0001826"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000465"
+	  },
+	  {"pred":"rdfs:label", "val":"material anatomical entity"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0001721"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HAO:0000006"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0010264"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0000006"
+	  }
+	],
+	"xrefs": [
+	  {"val":"BILA:0000006"},
+	  {"val":"CARO:0000006"},
+	  {"val":"EHDAA2:0003006"},
+	  {"val":"FBbt:00007016"},
+	  {"val":"FMA:67165"},
+	  {"val":"TAO:0001836"},
+	  {"val":"TGMA:0001826"},
+	  {"val":"VHOG:0001721"},
+	  {"val":"HAO:0000006"},
+	  {"val":"AAO:0010264"},
+	  {"val":"AEO:0000006"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000467",
+      "lbl":"anatomical system",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0000007"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0000011"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000011"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CALOHA:TS-2088"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000011"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA:392"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:16103"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EV:0100000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00004856"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000003"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"OpenCyc:Mx4rCWM0QCtDEdyAAADggVbxzQ"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001439"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0460002"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0001725"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"WBbt:0005746"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"WBbt:0005763"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0001439"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"galen:AnatomicalSystem"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"body system"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"connected anatomical system"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"organ system"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"anatomical systems"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000467"
+	  },
+	  {"pred":"rdfs:label", "val":"anatomical system"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+	    "val":"system"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HAO:0000011"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BSA:0000049"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0003002"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:7149"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C12919"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0003011"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TGMA:0001831"
+	  }
+	],
+	"xrefs": [
+	  {"val":"http://en.wikipedia.org/wiki/Organ_system"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0460002"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_14"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/278195005"
+	  },
+	  {"val":"AAO:0000007"},
+	  {"val":"AEO:0000011"},
+	  {"val":"BILA:0000011"},
+	  {"val":"CALOHA:TS-2088"},
+	  {"val":"CARO:0000011"},
+	  {"val":"EHDAA:392"},
+	  {"val":"EMAPA:16103"},
+	  {"val":"EV:0100000"},
+	  {"val":"FBbt:00004856"},
+	  {"val":"MA:0000003"},
+	  {"val":"OpenCyc:Mx4rCWM0QCtDEdyAAADggVbxzQ"},
+	  {"val":"TAO:0001439"},
+	  {"val":"UMLS:C0460002"},
+	  {"val":"VHOG:0001725"},
+	  {"val":"WBbt:0005746"},
+	  {"val":"WBbt:0005763"},
+	  {"val":"ZFA:0001439"},
+	  {"val":"galen:AnatomicalSystem"},
+	  {"val":"HAO:0000011"},
+	  {"val":"BSA:0000049"},
+	  {"val":"XAO:0003002"},
+	  {"val":"FMA:7149"},
+	  {"val":"NCIT:C12919"},
+	  {"val":"EHDAA2:0003011"},
+	  {"val":"TGMA:0001831"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000468",
+      "lbl":"multicellular organism",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000116",
+	    "val":"TODO - split body and mc organism? body continues after death stage"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000007",
+	    "val":"organismal"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+	    "val":"organism"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0000191"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000012"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BSA:0000038"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BTO:0000042"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000012"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EFO:0002906"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0003103"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0003191"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA:1"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:25765"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EV:0100016"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00000001"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C13041"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TADS:0000001"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001094"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TGMA:0001832"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0000671"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"WBbt:0007833"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0003004"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0001094"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"galen:Organism"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ncithesaurus:Whole_Organism"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+	    "val":"animal"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"Koerper"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"body"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"whole body"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"whole organism"
+	  },
+	  {"pred":"rdfs:label", "val":"multicellular organism"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:256135"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0010026"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HAO:0000012"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000468"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical structure that is an individual member of a species and consists of more than one cell."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"multi-cellular organism"
+	  }
+	],
+	"xrefs": [
+	  {
+	    "val":"http://en.wikipedia.org/wiki/Multi-cellular_organism"
+	  },
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_18"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/243928005"
+	  },
+	  {"val":"AEO:0000191"},
+	  {"val":"BILA:0000012"},
+	  {"val":"BSA:0000038"},
+	  {"val":"BTO:0000042"},
+	  {"val":"CARO:0000012"},
+	  {"val":"EFO:0002906"},
+	  {"val":"EHDAA2:0003103"},
+	  {"val":"EHDAA2:0003191"},
+	  {"val":"EHDAA:1"},
+	  {"val":"EMAPA:25765"},
+	  {"val":"EV:0100016"},
+	  {"val":"FBbt:00000001"},
+	  {"val":"NCIT:C13041"},
+	  {"val":"TADS:0000001"},
+	  {"val":"TAO:0001094"},
+	  {"val":"TGMA:0001832"},
+	  {"val":"VHOG:0000671"},
+	  {"val":"WBbt:0007833"},
+	  {"val":"XAO:0003004"},
+	  {"val":"ZFA:0001094"},
+	  {"val":"galen:Organism"},
+	  {"val":"ncithesaurus:Whole_Organism"},
+	  {"val":"FMA:256135"},
+	  {"val":"AAO:0010026"},
+	  {"val":"HAO:0000012"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000477",
+      "lbl":"anatomical cluster",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical group that has its parts adjacent to one another."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0010009"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0000041"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0003041"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00007277"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:49443"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HAO:0000041"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TADS:0000605"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001478"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TGMA:0001842"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0001737"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000477"
+	  },
+	  {"pred":"rdfs:label", "val":"anatomical cluster"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0003160"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000041"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000041"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000116",
+	    "val":"Will be obsoleted in CARO v2 [https://github.com/obophenotype/caro/issues/3]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0001478"
+	  }
+	],
+	"xrefs": [
+	  {"val":"AAO:0010009"},
+	  {"val":"AEO:0000041"},
+	  {"val":"EHDAA2:0003041"},
+	  {"val":"FBbt:00007277"},
+	  {"val":"FMA:49443"},
+	  {"val":"HAO:0000041"},
+	  {"val":"TADS:0000605"},
+	  {"val":"TAO:0001478"},
+	  {"val":"TGMA:0001842"},
+	  {"val":"VHOG:0001737"},
+	  {"val":"XAO:0003160"},
+	  {"val":"BILA:0000041"},
+	  {"val":"CARO:0000041"},
+	  {"val":"ZFA:0001478"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000481",
+      "lbl":"multi-tissue structure",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0000055"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00007010"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HAO:0000055"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0001762"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0001488"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"multi-tissue structures"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000481"
+	  },
+	  {"pred":"rdfs:label", "val":"multi-tissue structure"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0003037"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0003055"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001488"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000055"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0010048"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000055"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TGMA:0001847"
+	  }
+	],
+	"xrefs": [
+	  {"val":"AEO:0000055"},
+	  {"val":"FBbt:00007010"},
+	  {"val":"HAO:0000055"},
+	  {"val":"VHOG:0001762"},
+	  {"val":"ZFA:0001488"},
+	  {"val":"XAO:0003037"},
+	  {"val":"EHDAA2:0003055"},
+	  {"val":"TAO:0001488"},
+	  {"val":"CARO:0000055"},
+	  {"val":"AAO:0010048"},
+	  {"val":"BILA:0000055"},
+	  {"val":"TGMA:0001847"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0000955",
+      "lbl":"brain",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Cavitated compound organ which is comprised of gray and white matter and surrounds the cerebral ventricular system.[TAO]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Part of the central nervous system situated within the cranium and composed of both nerve cell bodies and nerve fibers.[AAO]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"The part of the central nervous system contained within the cranium, comprising the forebrain, midbrain, hindbrain, and metencephalon. It is derived from the anterior part of the embryonic neural tube (or the encephalon). Does not include retina. (CUMBO)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0010478"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BAMS:Brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000135"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BTO:0000142"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"DHBA:10155"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA:2641"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA:6485"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EV:0100164"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"GAID:571"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HBA:4005"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000168"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MIAA:0000098"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"OpenCyc:Mx4rvVjT65wpEbGdrcN5Y29ycA"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"PBA:3999"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000008"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C1269537"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0000157"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"galen:Brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"suprasegmental structures"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"synganglion"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"the brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0000955"
+	  },
+	  {"pred":"rdfs:label", "val":"brain"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CALOHA:TS-0095"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"encephalon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0000010"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0000183"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MBA:997"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000003",
+	    "val":"(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...) (reference 1); The neural tube is destined to differentiate into the brain and spinal cord (the central nervous system) (reference 2).[well established][VHOG]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EFO:0000302"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MBA:8"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BAMS:Br"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C12439"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:16894"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00005095"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0006104"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MESH:D001921"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0000008"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ABA:Brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:50801"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000116",
+	    "val":"requires review for applicability to invertebrate structures, e.g. synganglion"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MAT:0000098"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"suprasegmental levels of nervous system"
+	  }
+	],
+	"xrefs": [
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
+	  },
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0006104"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_796"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/258335003"
+	  },
+	  {"val":"AAO:0010478"},
+	  {"val":"BAMS:Brain"},
+	  {"val":"BILA:0000135"},
+	  {"val":"BTO:0000142"},
+	  {"val":"DHBA:10155"},
+	  {"val":"EHDAA:2641"},
+	  {"val":"EHDAA:6485"},
+	  {"val":"EV:0100164"},
+	  {"val":"GAID:571"},
+	  {"val":"HBA:4005"},
+	  {"val":"MA:0000168"},
+	  {"val":"MIAA:0000098"},
+	  {"val":"OpenCyc:Mx4rvVjT65wpEbGdrcN5Y29ycA"},
+	  {"val":"PBA:3999"},
+	  {"val":"TAO:0000008"},
+	  {"val":"UMLS:C1269537"},
+	  {"val":"VHOG:0000157"},
+	  {"val":"galen:Brain"},
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
+	  },
+	  {"val":"CALOHA:TS-0095"},
+	  {"val":"XAO:0000010"},
+	  {"val":"EHDAA2:0000183"},
+	  {"val":"MBA:997"},
+	  {"val":"EFO:0000302"},
+	  {"val":"http://en.wikipedia.org/wiki/Brain"},
+	  {"val":"MBA:8"},
+	  {"val":"BAMS:Br"},
+	  {"val":"NCIT:C12439"},
+	  {"val":"EMAPA:16894"},
+	  {"val":"FBbt:00005095"},
+	  {"val":"UMLS:C0006104"},
+	  {"val":"MESH:D001921"},
+	  {"val":"ZFA:0000008"},
+	  {"val":"ABA:Brain"},
+	  {"val":"FMA:50801"},
+	  {"val":"MAT:0000098"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C1269537"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0001016",
+      "lbl":"nervous system",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body. The main functions of the nervous system are to regulate and control body functions, and to receive sensory input, process this information, and generate behavior [CUMBO]."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Anatomical system consisting of nerve bodies and nerve fibers which regulate the response of the body to external and internal stimuli.[AAO]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000007",
+	    "val":"nervous"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0000324"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000079"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BTO:0001484"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CALOHA:TS-1313"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:16469"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EV:0100162"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"GAID:466"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MIAA:0000026"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C12755"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"OpenCyc:Mx4rvViT_pwpEbGdrcN5Y29ycA"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0027763"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0000402"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"WBbt:0005735"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0000177"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0000396"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"neurological system"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+	    "val":"nerve net"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"systema nervosum"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0001016"
+	  },
+	  {"pred":"rdfs:label", "val":"nervous system"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000016"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"A regulatory system of the body that consists of neurons and neuroglial cells. The nervous system is divided into two parts, the central nervous system (CNS) and the peripheral nervous system (PNS). (Source: BioGlossary, www.Biology-Text.com)[TAO]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000396"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:7157"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA:826"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00005093"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0001246"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MAT:0000026"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000007",
+	    "val":"neural"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MESH:D009420"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000003",
+	    "val":"Nervous systems evolved in the ancestor of Eumetazoa.[well established][VHOG]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EFO:0000802"
+	  }
+	],
+	"xrefs": [
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=3236"
+	  },
+	  {"val":"http://en.wikipedia.org/wiki/Nervous_system"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_844"},
+	  {"val":"AAO:0000324"},
+	  {"val":"BILA:0000079"},
+	  {"val":"BTO:0001484"},
+	  {"val":"CALOHA:TS-1313"},
+	  {"val":"EMAPA:16469"},
+	  {"val":"EV:0100162"},
+	  {"val":"GAID:466"},
+	  {"val":"MIAA:0000026"},
+	  {"val":"NCIT:C12755"},
+	  {"val":"OpenCyc:Mx4rvViT_pwpEbGdrcN5Y29ycA"},
+	  {"val":"UMLS:C0027763"},
+	  {"val":"VHOG:0000402"},
+	  {"val":"WBbt:0005735"},
+	  {"val":"XAO:0000177"},
+	  {"val":"ZFA:0000396"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/278196006"
+	  },
+	  {"val":"MA:0000016"},
+	  {"val":"TAO:0000396"},
+	  {"val":"FMA:7157"},
+	  {"val":"EHDAA:826"},
+	  {"val":"FBbt:00005093"},
+	  {"val":"EHDAA2:0001246"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0027763"},
+	  {"val":"MAT:0000026"},
+	  {"val":"MESH:D009420"},
+	  {"val":"EFO:0000802"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0001017",
+      "lbl":"central nervous system",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"The central nervous system is the core nervous system that serves an integrating and coordinating function. In vertebrates it consists of the neural tube derivatives: the brain and spinal cord. In invertebrates it includes central ganglia plus nerve cord."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Part of the nervous system which includes the brain and spinal cord.[AAO]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"The central nervous system (CNS) is the part of the nervous system which includes the brain, spinal cord, and nerve cell layer of the retina (CUMBO)."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000003",
+	    "val":"(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...) (reference 1); The neural tube is destined to differentiate into the brain and spinal cord (the central nervous system) (reference 2); Taken together, our data make a very strong case that the complex molecular mediolateral architecture of the developing trunk CNS (central nervous system), as shared between Platynereis and vertebrates, was already present in their last common ancestor, Urbilateria. The concept of bilaterian nervous system centralization implies that neuron types concentrate on one side of the trunk, as is the case in vertebrates and many invertebrates including Platynereis, where they segregate and become spatially organized (as opposed to a diffuse nerve net). Our data reveal that a large part of the spatial organization of the annelid and vertebrate CNS was already present in their last common ancestor, which implies that Urbilateria had already possessed a CNS (reference 3).[well established][VHOG]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0000090"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BAMS:CNS"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000080"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CALOHA:TS-0150"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0000225"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA:828"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:16470"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:16754"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:55675"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000167"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MAT:0000457"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MESH:D002490"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C12438"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"OpenCyc:Mx4rvzYt3pwpEbGdrcN5Y29ycA"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000012"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0000293"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0000215"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0000012"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"CNS"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"systema nervosum centrale"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+	    "val":"cerebrospinal axis"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"neuraxis"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0001017"
+	  },
+	  {"pred":"rdfs:label", "val":"central nervous system"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"GAID:570"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EV:0100163"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BTO:0000227"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"The brain and spinal cord. Kimmel et al, 1995.[TAO]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0927232"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00005094"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EFO:0000908"
+	  }
+	],
+	"xrefs": [
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=854"
+	  },
+	  {"val":"http://en.wikipedia.org/wiki/Central_nervous_system"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0927232"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/278199004"
+	  },
+	  {"val":"AAO:0000090"},
+	  {"val":"BAMS:CNS"},
+	  {"val":"BILA:0000080"},
+	  {"val":"CALOHA:TS-0150"},
+	  {"val":"EHDAA2:0000225"},
+	  {"val":"EHDAA:828"},
+	  {"val":"EMAPA:16470"},
+	  {"val":"EMAPA:16754"},
+	  {"val":"FMA:55675"},
+	  {"val":"MA:0000167"},
+	  {"val":"MAT:0000457"},
+	  {"val":"MESH:D002490"},
+	  {"val":"NCIT:C12438"},
+	  {"val":"OpenCyc:Mx4rvzYt3pwpEbGdrcN5Y29ycA"},
+	  {"val":"TAO:0000012"},
+	  {"val":"VHOG:0000293"},
+	  {"val":"XAO:0000215"},
+	  {"val":"ZFA:0000012"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_1099"},
+	  {"val":"GAID:570"},
+	  {"val":"EV:0100163"},
+	  {"val":"BTO:0000227"},
+	  {"val":"UMLS:C0927232"},
+	  {"val":"FBbt:00005094"},
+	  {"val":"EFO:0000908"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0001062",
+      "lbl":"anatomical entity",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0010841"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0000000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BILA:0000000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0002229"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:10000000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt_root:00000000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:62955"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HAO:0000000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000001"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C12219"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0100000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TGMA:0001822"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C1515976"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"WBbt:0000100"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0100000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0001062"
+	  },
+	  {"pred":"rdfs:label", "val":"anatomical entity"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0000000"
+	  }
+	],
+	"xrefs": [
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C1515976"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_6"},
+	  {"val":"AAO:0010841"},
+	  {"val":"AEO:0000000"},
+	  {"val":"BILA:0000000"},
+	  {"val":"CARO:0000000"},
+	  {"val":"EHDAA2:0002229"},
+	  {"val":"FBbt:10000000"},
+	  {"val":"FBbt_root:00000000"},
+	  {"val":"FMA:62955"},
+	  {"val":"HAO:0000000"},
+	  {"val":"MA:0000001"},
+	  {"val":"NCIT:C12219"},
+	  {"val":"TAO:0100000"},
+	  {"val":"TGMA:0001822"},
+	  {"val":"UMLS:C1515976"},
+	  {"val":"WBbt:0000100"},
+	  {"val":"ZFA:0100000"},
+	  {"val":"XAO:0000000"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0001891",
+      "lbl":"midbrain",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"The midbrain is the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles)[GO]."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000116",
+	    "val":"developmental relationships need revised"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Middle part of the brain composed of the optic tectum and penducular region.[AAO]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"The brain region between the forebrain anteriorly and the hindbrain posteriorly, including the tectum dorsally and the midbrain tegmentum ventrally. Kimmel et al, 1995.[TAO]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000003",
+	    "val":"Fine structural, computerized three-dimensional (3D) mapping of cell connectivity in the amphioxus nervous system and comparative molecular genetic studies of amphioxus and tunicates have provided recent insights into the phylogenetic origin of the vertebrate nervous system. The results suggest that several of the genetic mechanisms for establishing and patterning the vertebrate nervous system already operated in the ancestral chordate and that the nerve cord of the proximate invertebrate ancestor of the vertebrates included a diencephalon, midbrain, hindbrain, and spinal cord.[well established][VHOG]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000007",
+	    "val":"mesencephalic"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000012",
+	    "val":"part of brainstem in ABA - we reject this in favor of ISBN10:0471888893 which has an implicit overlaps relationships"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+	    "val":"MB"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0010149"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BAMS:MES"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BM:MB"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BTO:0000138"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CALOHA:TS-0630"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"DMBA:16649"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EFO:0000919"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0001162"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA:3694"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:16974"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EV:0100242"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:61993"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HBA:9001"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000207"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MAT:0000106"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MBA:313"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MESH:D008636"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MIAA:0000106"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C12510"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"OpenCyc:Mx4rvsBUqpwpEbGdrcN5Y29ycA"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"RETIRED_EHDAA2:0001104"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000128"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0025462"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0000069"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0000014"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0000128"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=462"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"mesencephalon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0001891"
+	  },
+	  {"pred":"rdfs:label", "val":"midbrain"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"DHBA:10648"
+	  }
+	],
+	"xrefs": [
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=462"
+	  },
+	  {"val":"http://en.wikipedia.org/wiki/Midbrain"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0025462"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_1667"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/279099009"
+	  },
+	  {"val":"AAO:0010149"},
+	  {"val":"BAMS:MES"},
+	  {"val":"BM:MB"},
+	  {"val":"BTO:0000138"},
+	  {"val":"CALOHA:TS-0630"},
+	  {"val":"DMBA:16649"},
+	  {"val":"EFO:0000919"},
+	  {"val":"EHDAA2:0001162"},
+	  {"val":"EHDAA:3694"},
+	  {"val":"EMAPA:16974"},
+	  {"val":"EV:0100242"},
+	  {"val":"FMA:61993"},
+	  {"val":"HBA:9001"},
+	  {"val":"MA:0000207"},
+	  {"val":"MAT:0000106"},
+	  {"val":"MBA:313"},
+	  {"val":"MESH:D008636"},
+	  {"val":"MIAA:0000106"},
+	  {"val":"NCIT:C12510"},
+	  {"val":"OpenCyc:Mx4rvsBUqpwpEbGdrcN5Y29ycA"},
+	  {"val":"RETIRED_EHDAA2:0001104"},
+	  {"val":"TAO:0000128"},
+	  {"val":"UMLS:C0025462"},
+	  {"val":"VHOG:0000069"},
+	  {"val":"XAO:0000014"},
+	  {"val":"ZFA:0000128"},
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=462"
+	  },
+	  {"val":"DHBA:10648"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0001943",
+      "lbl":"midbrain tegmentum",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Ventral part of the midbrain, separated from the hindbrain by the isthmus[ISBN10:0471888893]. Subdivision of the midbrain lying anterior to the tectum and posterior to the substantia nigra and cerebral peduncle[FMA] The part of the midbrain extending from the substantia nigra to the cerebral aqueduct in a horizontal section of the midbrain. It forms the floor of the midbrain that surrounds the cerebral aqueduct[WP]."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000003",
+	    "val":"Together, our results reveal a shared basic organization in the tegmental domains of the diencephalon and midbrain of developing lamprey, indicating early appearance of the domain in vertebrate phylogeny.[well established][VHOG]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+	    "val":"MTg"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BAMS:MTg"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BTO:0003388"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"DHBA:12195"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EFO:0000921"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0004475"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:18215"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:62393"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HBA:9002"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000212"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MAT:0000452"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000160"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0039441"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0001367"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"XAO:0004271"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0000160"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=491"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"tegmentum mesencephali"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"tegmentum of midbrain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"mesencephalic tegmentum"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"tegmentum mesencephalicum"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0001943"
+	  },
+	  {"pred":"rdfs:label", "val":"midbrain tegmentum"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+	    "val":"tegmentum"
+	  },
+	  {
+	    "pred":"rdfs:comment",
+	    "val":"'tegmentum' is used generically for the ventral part of the brainstem (ISBN10:0471888893). We use the label 'midbrain tegmentum' to denote the midbrain structure. In NIFSTD tegmentum is a composite structure and there is a separate class for midbrain tegmentum and pontine tegmentum"
+	  }
+	],
+	"xrefs": [
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=491"
+	  },
+	  {"val":"http://en.wikipedia.org/wiki/Midbrain_tegmentum"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0039441"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_1200"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/362392007"
+	  },
+	  {"val":"BAMS:MTg"},
+	  {"val":"BTO:0003388"},
+	  {"val":"DHBA:12195"},
+	  {"val":"EFO:0000921"},
+	  {"val":"EHDAA2:0004475"},
+	  {"val":"EMAPA:18215"},
+	  {"val":"FMA:62393"},
+	  {"val":"HBA:9002"},
+	  {"val":"MA:0000212"},
+	  {"val":"MAT:0000452"},
+	  {"val":"TAO:0000160"},
+	  {"val":"UMLS:C0039441"},
+	  {"val":"VHOG:0001367"},
+	  {"val":"XAO:0004271"},
+	  {"val":"ZFA:0000160"},
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=491"
+	  }
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0002020",
+      "lbl":"gray matter",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A nervous system structure composed primarily of nerve cell bodies (somas). May also include dendrites and the initial unmyelinated portion of axons."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Multi-tissue comprised of neurons, dendrites, axon terminals, glial cells, and capillaries.[TAO]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AEO:0001012"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2:0003136"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EHDAA2_RETIRED:0004658"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:37596"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:67242"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HBA:4006"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C32695"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"OpenCyc:Mx4rwDdKMpwpEbGdrcN5Y29ycA"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0002197"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0018220"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0001768"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0001681"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"gray matter"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"gray matter of neuraxis"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"grey matter"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"grey matter of neuraxis"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"grey substance"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"neuronal grey matter"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"substantia grisea"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"gray mater"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"grisea"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0002020"
+	  },
+	  {"pred":"rdfs:label", "val":"gray matter"},
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0001112"
+	  }
+	],
+	"xrefs": [
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=2869"
+	  },
+	  {"val":"http://en.wikipedia.org/wiki/Gray_matter"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0018220"},
+	  {"val":"AEO:0001012"},
+	  {"val":"EHDAA2:0003136"},
+	  {"val":"EHDAA2_RETIRED:0004658"},
+	  {"val":"EMAPA:37596"},
+	  {"val":"FMA:67242"},
+	  {"val":"HBA:4006"},
+	  {"val":"NCIT:C32695"},
+	  {"val":"OpenCyc:Mx4rwDdKMpwpEbGdrcN5Y29ycA"},
+	  {"val":"TAO:0002197"},
+	  {"val":"UMLS:C0018220"},
+	  {"val":"VHOG:0001768"},
+	  {"val":"ZFA:0001681"},
+	  {"val":"MA:0001112"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0002141",
+      "lbl":"parvocellular oculomotor nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Nucleus that is part of the oculomotor nerve complex consisting of preganglionic parasympathetic neurons situated close to the midline at the level of the superior colliculus (Heimer, the Human Brain and Spinal Cord, 1994, pg 244)"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000009",
+	    "val":"The Edinger-Westphal nucleus supplies preganglionic parasympathetic fibers to the eye, constricting the pupil, accommodating the lens, and convergence of the eyes. It has also been implicated in the mirroring of pupil size in sad facial expressions[WP]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000012",
+	    "val":"NIFSTD places this in oculomotor nuclear complex but this conflicts with disjointness axioms from MBA, as well as location described in Wikipedia, and is not supported in any other ontology"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000015",
+	    "val":"The paired nuclei are posterior to the main motor nucleus (oculomotor nucleus) and anterolateral to the cerebral aqueduct in the rostral midbrain at the level of the superior colliculus. It is the most rostral of the parasympathetic nuclei in the brain stem.[WP]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+	    "val":"EW"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+	    "val":"PC3"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BAMS:EW"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BAMS:PC3"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BM:EW"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"DHBA:12219"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:35302"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:72424"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"HBA:9449"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MBA:975"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0228416"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0000244"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=498"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"Edinger-Westphal nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"accessory oculomotor nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"nucleus Edinger-Westphal"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"Edinger-Westphal nucleus of oculomotor nerve"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"nuclei accessorii nervi oculomtorii (Edinger-Westphal)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"nucleus Edinger Westphal"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"nucleus Westphal-Edinger"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"nucleus nervi oculomotorii Edinger-Westphal"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"nucleus nervi oculomotorii parvocellularis"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"nucleus rostralis nervi oculomotorii"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"oculomotor nucleus, parvicellular part"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"oculomotor nucleus, parvocellular part"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0002141"
+	  },
+	  {
+	    "pred":"rdfs:label",
+	    "val":"parvocellular oculomotor nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000244"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0001071"
+	  }
+	],
+	"xrefs": [
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=498"
+	  },
+	  {
+	    "val":"http://en.wikipedia.org/wiki/Edinger-westphal_nucleus"
+	  },
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0228416"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_822"},
+	  {"val":"BAMS:EW"},
+	  {"val":"BAMS:PC3"},
+	  {"val":"BM:EW"},
+	  {"val":"DHBA:12219"},
+	  {"val":"EMAPA:35302"},
+	  {"val":"FMA:72424"},
+	  {"val":"HBA:9449"},
+	  {"val":"MBA:975"},
+	  {"val":"UMLS:C0228416"},
+	  {"val":"ZFA:0000244"},
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=498"
+	  },
+	  {"val":"TAO:0000244"},
+	  {"val":"MA:0001071"},
+	  {"val":"http://www.snomedbrowser.com/Codes/Details/62088007"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0002298",
+      "lbl":"brainstem",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,MP,generalized]."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Multi-tissue structure that has as its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain.[TAO]"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"Multi-tissue structure that has as its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,adopted][ZFA:0001707]."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000001",
+	    "val":"the stalk-like part of the brain that comprises the midbrain (aka mesencephalon), the pons (aka pons Varolii), and the medulla oblongata, and connects the cerebral hemispheres with the cervical spinal cord[MP]"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BAMS:BS"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"BTO:0000146"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CALOHA:TS-0093"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EFO:0001962"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:32678"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EV:0100241"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:79876"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000169"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MBA:343"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MESH:D001933"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C12441"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0002156"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0006121"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"VHOG:0001457"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0001707"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=236"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"brain stem"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"truncus encephali"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"accessory medullary lamina of pallidum"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"lamella pallidi incompleta"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"lamina medullaris accessoria"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"lamina medullaris incompleta pallidi"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"lamina pallidi incompleta"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"truncus encephalicus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0002298"
+	  },
+	  {
+	    "pred":"rdfs:comment",
+	    "val":"'brainstem' is a loose term that sometimes refers to the ventral parts o the brain except for any part of the telencephalon - sometimes it includes the diencephalon or subpallial telencephalon structures (ISBN10:0471888893). Here we use it in a more restriced sense, to include only the medulla oblongata, pons (when present) and the midbrain tegmentum (following the ZFA definitions)."
+	  },
+	  {"pred":"rdfs:label", "val":"brainstem"}
+	],
+	"xrefs": [
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=236"
+	  },
+	  {"val":"http://en.wikipedia.org/wiki/Brainstem"},
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0006121"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_1565"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/180925009"
+	  },
+	  {"val":"BAMS:BS"},
+	  {"val":"BTO:0000146"},
+	  {"val":"CALOHA:TS-0093"},
+	  {"val":"EFO:0001962"},
+	  {"val":"EMAPA:32678"},
+	  {"val":"EV:0100241"},
+	  {"val":"FMA:79876"},
+	  {"val":"MA:0000169"},
+	  {"val":"MBA:343"},
+	  {"val":"MESH:D001933"},
+	  {"val":"NCIT:C12441"},
+	  {"val":"TAO:0002156"},
+	  {"val":"UMLS:C0006121"},
+	  {"val":"VHOG:0001457"},
+	  {"val":"ZFA:0001707"},
+	  {
+	    "val":"http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=236"
+	  }
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0002308",
+      "lbl":"nucleus of brain",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A neural nucleus that is part of the brain."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:35185"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:83840"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000811"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C49346"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C1706993"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0005575"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"brain nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"brain nuclei"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0002308"
+	  },
+	  {"pred":"rdfs:label", "val":"nucleus of brain"}
+	],
+	"xrefs": [
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C1706993"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/426465002"
+	  },
+	  {"val":"EMAPA:35185"},
+	  {"val":"FMA:83840"},
+	  {"val":"MA:0000811"},
+	  {"val":"NCIT:C49346"},
+	  {"val":"UMLS:C1706993"},
+	  {"val":"ZFA:0005575"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0002616",
+      "lbl":"regional part of brain",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical divisons of the brain according to one or more criteria, e.g. cytoarchitectural, gross anatomy. Parts may be contiguous in 3D or not, e.g., basal ganglia."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:55676"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C13031"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C0445620"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"anatomical structure of brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"biological structure of brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"brain anatomical structure"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"brain biological structure"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"brain part"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"neuraxis segment"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"neuroanatomical region"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"segment of brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0002616"
+	  },
+	  {"pred":"rdfs:label", "val":"regional part of brain"}
+	],
+	"xrefs": [
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C0445620"},
+	  {"val":"http://uri.neuinfo.org/nif/nifstd/birnlex_1167"},
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/384763002"
+	  },
+	  {"val":"FMA:55676"},
+	  {"val":"NCIT:C13031"},
+	  {"val":"UMLS:C0445620"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0003528",
+      "lbl":"brain gray matter",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A gray matter that is part of a brain [Automatically generated definition]."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:35184"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000810"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"NCIT:C49333"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"UMLS:C1707348"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"brain grey matter"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"brain grey substance"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"gray matter of brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"grey matter of brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"grey substance of brain"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0003528"
+	  },
+	  {"pred":"rdfs:label", "val":"brain gray matter"}
+	],
+	"xrefs": [
+	  {"val":"http://linkedlifedata.com/resource/umls/id/C1707348"},
+	  {"val":"EMAPA:35184"},
+	  {"val":"MA:0000810"},
+	  {"val":"NCIT:C49333"},
+	  {"val":"UMLS:C1707348"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0004121",
+      "lbl":"ectoderm-derived structure",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"An anatomical structure that develops (entirely or partially) from the ectoderm."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000232",
+	    "val":"Grouping term for query purposes"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00025990"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"ectodermal deriviative"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0004121"
+	  },
+	  {"pred":"rdfs:label", "val":"ectoderm-derived structure"}
+	],
+	"xrefs": [ {"val":"FBbt:00025990"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0005162",
+      "lbl":"multi cell part structure",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A structure consisting of multiple cell components but which is not itself a cell and does not have (complete) cells as a part."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/UBPROP_0000012",
+	    "val":"we go with the FMA classification rather than the CARO one. FMA def: 'Anatomical cluster which has as direct parts cell parts from two or more cells.'"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"AAO:0011000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0001000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00007060"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:83115"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"multi-cell-component structure"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"multi-cell-part structure"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"cell part cluster"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0005162"
+	  },
+	  {"pred":"rdfs:label", "val":"multi cell part structure"}
+	],
+	"xrefs": [
+	  {"val":"AAO:0011000"},
+	  {"val":"CARO:0001000"},
+	  {"val":"FBbt:00007060"},
+	  {"val":"FMA:83115"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0006331",
+      "lbl":"brainstem nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A nucleus of brain that is part of a brainstem."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"EMAPA:32790"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"MA:0000821"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"brain stem nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0006331"
+	  },
+	  {"pred":"rdfs:label", "val":"brainstem nucleus"}
+	],
+	"xrefs": [ {"val":"EMAPA:32790"},  {"val":"MA:0000821"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0009661",
+      "lbl":"midbrain nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Nucleus located in the midbrain."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0002209"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"ZFA:0001665"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0009661"
+	  },
+	  {"pred":"rdfs:label", "val":"midbrain nucleus"}
+	],
+	"xrefs": [
+	  {
+	    "val":"http://www.snomedbrowser.com/Codes/Details/279285003"
+	  },
+	  {"val":"TAO:0002209"},
+	  {"val":"ZFA:0001665"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0010000",
+      "lbl":"multicellular anatomical structure",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"An anatomical structure that has more than one cell as a part."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0010000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00100313"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"multicellular structure"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0010000"
+	  },
+	  {
+	    "pred":"rdfs:label",
+	    "val":"multicellular anatomical structure"
+	  }
+	],
+	"xrefs": [ {"val":"CARO:0010000"},  {"val":"FBbt:00100313"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0010314",
+      "lbl":"structure with developmental contribution from neural crest",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"An anatomical structure that has some part that develops from the neural crest."
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000232",
+	    "val":"Grouping term for query purposes"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0010314"
+	  },
+	  {
+	    "pred":"rdfs:label",
+	    "val":"structure with developmental contribution from neural crest"
+	  }
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0011215",
+      "lbl":"central nervous system cell part cluster",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A multi cell part structure that is part of a central nervous system."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:83143"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"cell part cluster of neuraxis"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"neuraxis layer"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0011215"
+	  },
+	  {
+	    "pred":"rdfs:label",
+	    "val":"central nervous system cell part cluster"
+	  }
+	],
+	"xrefs": [ {"val":"FMA:83143"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"UBERON:0011216",
+      "lbl":"organ system subdivision",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A subdivision of an anatomical system."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FBbt:00007330"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"FMA:67509"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"uberon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"UBERON:0011216"
+	  },
+	  {"pred":"rdfs:label", "val":"organ system subdivision"}
+	],
+	"xrefs": [
+	  {"val":"http://www.snomedbrowser.com/Codes/Details/91690000"},
+	  {"val":"FBbt:00007330"},
+	  {"val":"FMA:67509"}
+	]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0000008",
+      "lbl":"brain",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"brain (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0000008"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Cavitated compound organ which is comprised of gray and white matter and surrounds the cerebral ventricular system."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"ZFA:0001661"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000008"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+	    "val":"brain structure"
+	  },
+	  {"pred":"rdfs:label", "val":"brain"}
+	],
+	"xrefs": [ {"val":"TAO:0000008"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0000012",
+      "lbl":"central nervous system",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"central nervous system (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0000012"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"The brain and spinal cord."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000012"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"cns"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"central nervous system"}
+	],
+	"xrefs": [ {"val":"TAO:0000012"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0000037",
+      "lbl":"anatomical structure",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"anatomical structure (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0000037"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Zebrafish anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism's own genome."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000003"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000037"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"anatomical structures"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"anatomical structure"}
+	],
+	"xrefs": [ {"val":"CARO:0000003"},  {"val":"TAO:0000037"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0000128",
+      "lbl":"midbrain",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"midbrain (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0000128"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"The brain region between the forebrain anteriorly and the hindbrain posteriorly, including the tectum dorsally and the midbrain tegmentum ventrally."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000128"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"mesencephalon"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"midbrain"}
+	],
+	"xrefs": [ {"val":"TAO:0000128"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0000160",
+      "lbl":"tegmentum",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"midbrain tegmentum (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0000160"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Multi-tissue structure that is the ventral part of the midbrain and develops from the basal plate. The tegmentum is bordered rostrally by the synencephalon, dorsal thalamus and posterior tuberculum, ventrally by the hypothalamus, and dorsolaterally by the torus semicircularis; caudally the tegmentum is continuous with the medulla oblongata."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"ZFA:0001354"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000160"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"mesencephalic tegmentum"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"midbrain tegmentum"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"tegmentum"}
+	],
+	"xrefs": [ {"val":"TAO:0000160"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0000244",
+      "lbl":"nucleus Edinger-Westphal",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"parvocellular oculomotor nucleus (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0000244"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000244"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"Edinger-Westphal nucleus"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"nucleus Edinger-Westphal"}
+	],
+	"xrefs": [ {"val":"TAO:0000244"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0000396",
+      "lbl":"nervous system",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"nervous system (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0000396"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"A regulatory system of the body that consists of neurons and neuroglial cells. The nervous system is divided into two parts, the central nervous system (CNS) and the peripheral nervous system (PNS)."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000396"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"nervous system"}
+	],
+	"xrefs": [ {"val":"TAO:0000396"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0000496",
+      "lbl":"compound organ",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"compound organ (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0000496"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000024"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0000496"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"organ"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"compound organ"}
+	],
+	"xrefs": [ {"val":"CARO:0000024"},  {"val":"TAO:0000496"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0001094",
+      "lbl":"whole organism",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"multicellular organism (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0001094"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical structure that is an individual member of Danio rerio."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000012"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001094"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"multi-cellular organism"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"whole organism"}
+	],
+	"xrefs": [ {"val":"CARO:0000012"},  {"val":"TAO:0001094"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0001439",
+      "lbl":"anatomical system",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"anatomical system (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0001439"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical group that has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000011"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001439"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"anatomical systems"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"anatomical system"}
+	],
+	"xrefs": [ {"val":"CARO:0000011"},  {"val":"TAO:0001439"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0001477",
+      "lbl":"portion of tissue",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"tissue (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0001477"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000043"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001477"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"portion of tissue"}
+	],
+	"xrefs": [ {"val":"CARO:0000043"},  {"val":"TAO:0001477"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0001488",
+      "lbl":"multi-tissue structure",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"multi-tissue structure (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0001488"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000055"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001488"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"multi-tissue structures"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"multi-tissue structure"}
+	],
+	"xrefs": [ {"val":"CARO:0000055"},  {"val":"TAO:0001488"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0001490",
+      "lbl":"cavitated compound organ",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"cavitated compound organ (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0001490"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Compound organ that contains one or more macroscopic anatomical spaces."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000072"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001490"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"cavitated compound organs"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"cavitated compound organ"}
+	],
+	"xrefs": [ {"val":"CARO:0000072"},  {"val":"TAO:0001490"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0001512",
+      "lbl":"anatomical group",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"anatomical group (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0001512"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Anatomical structure consisting of at least two non-overlapping organs, multi-tissue aggregates or portion of tissues or cells of different types that does not constitute an organism, organ, multi-tissue aggregate, or portion of tissue."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+	    "val":"ZFA:0001255"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"CARO:0000054"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0001512"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"anatomical group"}
+	],
+	"xrefs": [ {"val":"CARO:0000054"},  {"val":"TAO:0001512"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0001665",
+      "lbl":"midbrain nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"midbrain nucleus (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0001665"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Nucleus located in the midbrain."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0002209"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"midbrain nucleus"}
+	],
+	"xrefs": [ {"val":"TAO:0002209"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0001707",
+      "lbl":"brainstem",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"brainstem (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0001707"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Multi-tissue structure that has as its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#created_by",
+	    "val":"Melissa  Haendel"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#creation_date",
+	    "val":"2009-08-13T01:39:24Z"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+	    "val":"TAO:0002156"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"brainstem"}
+	],
+	"xrefs": [ {"val":"TAO:0002156"} ]
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0005575",
+      "lbl":"brain nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"nucleus of brain (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0005575"
+	  },
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000115",
+	    "val":"Portion of tissue that are compact accumulations of neurons having roughly similar connections and functions."
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#created_by",
+	    "val":"Ceri"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#creation_date",
+	    "val":"2011-01-28T05:31:14Z"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+	    "val":"brain nuclei"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"brain nucleus"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0005577",
+      "lbl":"tegmental nucleus",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"nucleus of midbrain tegmentum (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0005577"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#created_by",
+	    "val":"Ceri"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#creation_date",
+	    "val":"2011-02-24T04:54:52Z"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"tegmental nucleus"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"ZFA:0100000",
+      "lbl":"zebrafish anatomical entity",
+      "meta": {
+	"basicPropertyValues": [
+	  {
+	    "pred":"http://purl.obolibrary.org/obo/IAO_0000589",
+	    "val":"anatomical entity (zebrafish)"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#id",
+	    "val":"ZFA:0100000"
+	  },
+	  {
+	    "pred":"http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+	    "val":"zebrafish_anatomy"
+	  },
+	  {"pred":"rdfs:label", "val":"zebrafish anatomical entity"}
+	],
+	"xrefs": []
+      },
+      "type":"CLASS"
+    },
+    {
+      "id":"rdfs:subClassOf",
+      "lbl":"rdfs:subClassOf",
+      "meta": {"basicPropertyValues": [], "xrefs": []},
+      "type":"PROPERTY"
+    }
+  ]
+}
