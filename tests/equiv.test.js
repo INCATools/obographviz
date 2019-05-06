@@ -11,7 +11,7 @@ describe('test equiv', function(){
     var ogv = new OboGraphViz(og);
     cx = new CliqueIndex();
     console.log(og.equivalentNodesSets);
-    cliques = cx.findMaximalCliques(ogv);
+    cliques = cx.findMaximalCliques(ogv._equivalentNodesSets);
     console.log("CLIQUES="+cliques);
     
 });

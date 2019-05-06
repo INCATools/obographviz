@@ -145,6 +145,25 @@ Renders:
 
 ![img](examples/digit.png)
 
+## Nesting of Equivalence Sets
+
+By default, cliques of classes interconnected with either equivalence axioms or xrefs will be clustered.
+
+The file
+[uberon-zfa-xref-example.json](examples/uberon-zfa-xref-example.json)
+contains a subset of both UBERON and ZFA, with UBERON classes xref-ing
+equivalent ZFA classes.
+
+`og2dot.js -s examples/uberon-zfa-style.json  examples/uberon-zfa-xref-example.json -t png -o  examples/uberon-zfa-xref-example.png`
+
+Renders:
+
+![img](examples/uberon-zfa-xref-example.png)
+
+(Uberon in yellow, ZFA in blue, black lines = IS_A, blue lines = part_of, equivalence sets as bounding boxes)
+
+
+
 ## Rendering anonymous and pseudo-anonymous individuals
 
 E.g. GO-CAM models
