@@ -147,7 +147,7 @@ Renders:
 
 ## Nesting of Equivalence Sets
 
-By default, cliques of classes interconnected with either equivalence axioms or xrefs will be clustered.
+Optionally, cliques of classes interconnected with either equivalence axioms or xrefs will be clustered.
 
 The file
 [uberon-zfa-xref-example.json](examples/uberon-zfa-xref-example.json)
@@ -161,6 +161,14 @@ Renders:
 ![img](examples/uberon-zfa-xref-example.png)
 
 (Uberon in yellow, ZFA in blue, black lines = IS_A, blue lines = part_of, equivalence sets as bounding boxes)
+
+The predicates used to build these can be configured in the json style file, e.g.:
+
+```
+    "cliqueRelations": [
+        "xref", "equivalent_to", "same_as"
+    ]
+```
 
 
 
