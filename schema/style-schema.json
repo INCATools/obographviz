@@ -1,0 +1,343 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "OBO Graphs Stylesheet Schema",
+  "required": [
+  ],
+  "properties": {
+    "style": {
+      "$id": "#/properties/style",
+      "type": "string",
+      "title": "The Style Schema",
+      "default": "filled",
+      "examples": [
+        "filled,rounded"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "types": {
+      "$id": "#/properties/types",
+      "type": "array",
+      "title": "The Types Schema",
+      "items": {
+        "$id": "#/properties/types/items",
+        "type": "string",
+        "title": "The Items Schema",
+        "default": "",
+        "examples": [
+          "class"
+        ],
+        "pattern": "^(.*)$"
+      }
+    },
+    "nodeFilter": {
+      "$id": "#/properties/nodeFilter",
+      "type": "object",
+      "title": "The Nodefilter Schema",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "$id": "#/properties/nodeFilter/properties/type",
+          "type": "string",
+          "title": "The Type Schema",
+          "default": "",
+          "examples": [
+            "INDIVIDUAL"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "fillcolor": {
+      "$id": "#/properties/fillcolor",
+      "type": "string",
+      "title": "The Fillcolor Schema",
+      "default": "",
+      "examples": [
+        "white"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "highlightIds": {
+      "$id": "#/properties/highlightIds",
+      "type": "array",
+      "title": "The Highlightids Schema",
+      "items": {
+        "$id": "#/properties/highlightIds/items",
+        "type": "string",
+        "title": "The Items Schema",
+        "default": "",
+        "examples": [
+          "UBERON:0002544"
+        ],
+        "pattern": "^(.*)$"
+      }
+    },
+    "relationProperties": {
+      "$id": "#/properties/relationProperties",
+      "type": "object",
+      "title": "The Relationproperties Schema",
+      "required": [
+      ],
+      "properties": {
+        "is_a": {
+          "$id": "#/properties/relationProperties/properties/is_a",
+          "type": "object",
+          "title": "The Is_a Schema",
+          "required": [
+            "color",
+            "penwidth",
+            "arrowhead",
+            "label"
+          ],
+          "properties": {
+            "color": {
+              "$id": "#/properties/relationProperties/properties/is_a/properties/color",
+              "type": "string",
+              "title": "The Color Schema",
+              "default": "",
+              "examples": [
+                "black"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "penwidth": {
+              "$id": "#/properties/relationProperties/properties/is_a/properties/penwidth",
+              "type": "integer",
+              "title": "The Penwidth Schema",
+              "default": 0,
+              "examples": [
+                3
+              ]
+            },
+            "arrowhead": {
+              "$id": "#/properties/relationProperties/properties/is_a/properties/arrowhead",
+              "type": "string",
+              "title": "The Arrowhead Schema",
+              "default": "",
+              "examples": [
+                "open"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "label": {
+              "$id": "#/properties/relationProperties/properties/is_a/properties/label",
+              "type": "string",
+              "title": "The Label Schema",
+              "default": "",
+              "examples": [
+                "ISA"
+              ],
+              "pattern": "^(.*)$"
+            }
+          }
+        },
+        "RO:0002220": {
+          "$id": "#/properties/relationProperties/properties/RO:0002220",
+          "type": "object",
+          "title": "The Ro:0002220 Schema",
+          "required": [
+            "color",
+            "label"
+          ],
+          "properties": {
+            "color": {
+              "$id": "#/properties/relationProperties/properties/RO:0002220/properties/color",
+              "type": "string",
+              "title": "The Color Schema",
+              "default": "",
+              "examples": [
+                "green"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "label": {
+              "$id": "#/properties/relationProperties/properties/RO:0002220/properties/label",
+              "type": "string",
+              "title": "The Label Schema",
+              "default": "",
+              "examples": [
+                "DF"
+              ],
+              "pattern": "^(.*)$"
+            }
+          }
+        },
+        "BFO:0000050": {
+          "$id": "#/properties/relationProperties/properties/BFO:0000050",
+          "type": "object",
+          "title": "The Bfo:0000050 Schema",
+          "required": [
+            "arrowhead",
+            "color",
+            "label"
+          ],
+          "properties": {
+            "arrowhead": {
+              "$id": "#/properties/relationProperties/properties/BFO:0000050/properties/arrowhead",
+              "type": "string",
+              "title": "The Arrowhead Schema",
+              "default": "",
+              "examples": [
+                "tee"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "color": {
+              "$id": "#/properties/relationProperties/properties/BFO:0000050/properties/color",
+              "type": "string",
+              "title": "The Color Schema",
+              "default": "",
+              "examples": [
+                "blue"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "label": {
+              "$id": "#/properties/relationProperties/properties/BFO:0000050/properties/label",
+              "type": "string",
+              "title": "The Label Schema",
+              "default": "",
+              "examples": [
+                "P"
+              ],
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    },
+    "prefixProperties": {
+      "$id": "#/properties/prefixProperties",
+      "type": "object",
+      "title": "The Prefixproperties Schema",
+      "required": [
+        "UBERON",
+        "RO",
+        "BFO"
+      ],
+      "properties": {
+        "UBERON": {
+          "$id": "#/properties/prefixProperties/properties/UBERON",
+          "type": "object",
+          "title": "The Uberon Schema",
+          "required": [
+            "fillcolor"
+          ],
+          "properties": {
+            "fillcolor": {
+              "$id": "#/properties/prefixProperties/properties/UBERON/properties/fillcolor",
+              "type": "string",
+              "title": "The Fillcolor Schema",
+              "default": "",
+              "examples": [
+                "yellow"
+              ],
+              "pattern": "^(.*)$"
+            }
+          }
+        },
+        "RO": {
+          "$id": "#/properties/prefixProperties/properties/RO",
+          "type": "object",
+          "title": "The Ro Schema",
+          "required": [
+            "fillcolor"
+          ],
+          "properties": {
+            "fillcolor": {
+              "$id": "#/properties/prefixProperties/properties/RO/properties/fillcolor",
+              "type": "string",
+              "title": "The Fillcolor Schema",
+              "default": "",
+              "examples": [
+                "pink"
+              ],
+              "pattern": "^(.*)$"
+            }
+          }
+        },
+        "BFO": {
+          "$id": "#/properties/prefixProperties/properties/BFO",
+          "type": "object",
+          "title": "The Bfo Schema",
+          "required": [
+            "fillcolor"
+          ],
+          "properties": {
+            "fillcolor": {
+              "$id": "#/properties/prefixProperties/properties/BFO/properties/fillcolor",
+              "type": "string",
+              "title": "The Fillcolor Schema",
+              "default": "",
+              "examples": [
+                "cyan"
+              ],
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    },
+    "conditionalProperties": {
+      "$id": "#/properties/conditionalProperties",
+      "type": "array",
+      "title": "The Conditionalproperties Schema",
+      "items": {
+        "$id": "#/properties/conditionalProperties/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "conditions",
+          "properties"
+        ],
+        "properties": {
+          "conditions": {
+            "$id": "#/properties/conditionalProperties/items/properties/conditions",
+            "type": "object",
+            "title": "The Conditions Schema",
+            "required": [
+              "type"
+            ],
+            "properties": {
+              "type": {
+                "$id": "#/properties/conditionalProperties/items/properties/conditions/properties/type",
+                "type": "string",
+                "title": "The Type Schema",
+                "default": "",
+                "examples": [
+                  "PROPERTY"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          },
+          "properties": {
+            "$id": "#/properties/conditionalProperties/items/properties/properties",
+            "type": "object",
+            "title": "The Properties Schema",
+            "required": [
+              "shape"
+            ],
+            "properties": {
+              "shape": {
+                "$id": "#/properties/conditionalProperties/items/properties/properties/properties/shape",
+                "type": "string",
+                "title": "The Shape Schema",
+                "default": "",
+                "examples": [
+                  "ellipse"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
