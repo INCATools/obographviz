@@ -13,6 +13,7 @@ var opt = getopt.create([
     ['S' , 'stylemap=ARG'         , 'stylemap object as stringified json on command line'],
     ['H' , 'highlight=N+'         , 'list of nodes to highlight'],
     ['c' , 'compoundRelations=N+' , 'list of compound relations'],
+    ['I' , 'compoundRelationsInverse=N+' , 'list of inverted compound relations'],
     ['h' , 'help'                 , 'display this help message']
 ])              // create Getopt instance
 .bindHelp()     // bind option 'help' to default action
@@ -36,6 +37,11 @@ opt.argv.length || inputError ("You must specify a JSON obograph file")
 var useDatabaseID = opt.options['database-id']
 
 var compoundRelations = opt.options['compoundRelations'] || []
+if (opt.options['compoundRelationsInverse']) {
+    for (let x of opt.options['compoundRelationsInverse']) {
+        compoundRelations.push({inverseOf:x})
+    }
+}
 
 var text = ""
 opt.argv.forEach (function (filename) {
