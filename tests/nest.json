@@ -1,0 +1,89 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/X_autopod",
+      "type" : "CLASS",
+      "lbl" : "autopod"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part of"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "type" : "PROPERTY",
+      "lbl" : "shorthand"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/X_toe",
+      "type" : "CLASS",
+      "lbl" : "toe"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/X_digit",
+      "type" : "CLASS",
+      "lbl" : "digit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/X_hand",
+      "type" : "CLASS",
+      "lbl" : "hand"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/X_finger",
+      "type" : "CLASS",
+      "lbl" : "finger"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/X_foot",
+      "type" : "CLASS",
+      "lbl" : "foot"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/X_digit",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/X_autopod"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/X_hand",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/X_autopod"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/X_toe",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/X_foot"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/X_toe",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/X_digit"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/X_finger",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/X_hand"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/X_finger",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/X_digit"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/X_foot",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/X_autopod"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/TEMP",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

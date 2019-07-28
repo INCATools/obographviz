@@ -47,6 +47,9 @@ Generates:
 
 Note only works for subgraphs that exhibit disjointness over this property, acyclicity
 
+Use the `-I` option for inverting the containment relation (e.g. to use `has part` rather than `part of`).
+
+
 ## Stylesheets
 
 In the API can be passed using `styleMap`. On the command line, by using either `-s` (to pass a JSON file) or `-S` (to pass stringified JSON object directly on command line)
@@ -137,7 +140,7 @@ This will color any node in the `efo_slim` subset blue.
 
 The following example uses all subclasses of digit in Uberon, plus their ancestors, which forms a complex lattic structure.
 
-See [digit.json](examples/digit.json] for the underlying ontology. See [examples/uberon-style.json](examples/uberon-style.json) for the stylesheet.
+See [digit.json](examples/digit.json) for the underlying ontology. See [examples/uberon-style.json](examples/uberon-style.json) for the stylesheet.
 
 `og2dot.js -s examples/uberon-style.json  examples/digit.json -t png -o  examples/digit.png`
 
@@ -151,7 +154,7 @@ Optionally, cliques of classes interconnected with either equivalence axioms or 
 
 The file
 [uberon-zfa-xref-example.json](examples/uberon-zfa-xref-example.json)
-contains a subset of both UBERON and ZFA, with UBERON classes xref-ing
+contains a subset of both UBERON, ZFA, and two Allen brain ontologies, with UBERON classes xref-ing
 equivalent ZFA classes.
 
 `og2dot.js -s examples/uberon-zfa-style.json  examples/uberon-zfa-xref-example.json -t png -o  examples/uberon-zfa-xref-example.png`
@@ -160,7 +163,7 @@ Renders:
 
 ![img](examples/uberon-zfa-xref-example.png)
 
-(Uberon in yellow, ZFA in blue, black lines = IS_A, blue lines = part_of, equivalence sets as bounding boxes)
+(Uberon: yellow, ZFA:black, MBA: pink, HBA: grey, black lines = IS_A, blue lines = part_of, equivalence sets as bounding boxes)
 
 The predicates used to build these can be configured in the json style file, e.g.:
 
@@ -189,6 +192,7 @@ E.g. GO-CAM models
 `./bin/og2dot.js  -c BFO:0000050 -c RO:0002333 -s examples/gocam-style.json tests/lego-example2.json`
 
 ![img](examples/lego-example2.png)
+
 
 # Integration with other components
 
