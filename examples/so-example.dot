@@ -1,4 +1,5 @@
 digraph {
+  compound=true;
   RO_0002350 [label=member_of,shape=box,font=helvetica]
   BFO_GDC [label="generically\ndependent\ncontinuant",shape=box,font=helvetica]
   SO_0000188 [label=intron,shape=box,font=helvetica]
