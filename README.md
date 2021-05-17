@@ -60,6 +60,13 @@ E.g.
 ./bin/og2dot.js -s examples/example-style.json -c is_a tests/simple-og.json > test.dot
 ```
 
+### Stylesheet Standard
+
+This is now documented separately:
+
+[kgviz-model](https://berkeleybop.github.io/kgviz-model/)
+
+
 ### Global stylemap properties
 
 These go in the root of the stylemap object
