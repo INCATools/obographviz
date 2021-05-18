@@ -203,6 +203,27 @@ E.g. GO-CAM models
 
 # Integration with other components
 
+## Configuring individual nodes or edges
+
+As well as configuring via style sheets, an individual node or edge can configure its display by using an annotation assertion with a property in `https://w3id.org/kgviz/`, e.g.:
+
+```json
+{
+      "sub": "GO:0031090",
+      "pred": "BFO:0000050",
+      "obj": "GO:0043227",
+      "meta": {
+        "basicPropertyValues": [
+          {
+            "pred": "https://w3id.org/kgviz/penwidth",
+            "val": 10
+          }
+        ]
+      }
+    }
+```
+
+
 ## Obographs python
 
 See:

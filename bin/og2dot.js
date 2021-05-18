@@ -67,7 +67,7 @@ opt.argv.forEach (function (filename) {
         var cmd = 'dot '+fn+' -Grankdir=BT -Tpng -o ' + pngfile
         execSync(cmd);
         if (outfile) {
-            console.log("File is here: "+outfile)
+            //console.log("File is here: "+outfile)
             // do nothing - already output
         }
         else {
