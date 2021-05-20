@@ -1,0 +1,60 @@
+{
+    "style": "filled,rounded",
+    "fillcolor": "white",
+
+    "reasoning": ["transitive_reduction"],
+
+    "excludeSingletons": "true",
+    "relationProperties": {
+        "rdfs:subClassOf": {
+            "color": "black",
+            "penwidth": 3,
+            "arrowhead": "open",
+            "label": ""
+        },
+        "is_a": {
+            "color": "black",
+            "penwidth": 3,
+            "arrowhead": "open",
+            "label": ""
+        },
+        "rdf:type": {
+            "color": "blue",
+            "arrowhead": "open",
+            "label": "type"
+        },
+        "RO:0002220": {
+            "color": "green",
+            "label": "DF"
+        },
+        "BFO:0000050": {
+            "arrowhead": "tee",
+            "color": "blue",
+            "penwidth": 3,            
+            "label": ""
+        },
+        "part_of": {
+            "arrowhead": "tee",
+            "color": "blue",
+            "penwidth": 3,            
+            "label": ""
+        }
+    },
+    "displayAnnotations": [
+        "http://purl.obolibrary.org/obo/IAO_0000115"
+    ],
+    "prefixProperties": {
+        "http://purl.obolibrary.org/obo/GO_": {
+            "fillcolor": "yellow"
+        },
+        "http://rdf.rhea-db.org/": {
+            "fillcolor": "hotpink"
+        },
+        "http://purl.uniprot.org/enzyme/": {
+            "fillcolor": "cyan"
+        }
+    },
+    "cliqueRelations": [
+        "equivalent_to", "same_as"
+    ]
+}
