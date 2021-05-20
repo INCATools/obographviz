@@ -1,0 +1,57 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0018786",
+      "lbl" : "haloalkane dehalogenase activity"
+    } ],
+    "edges" : [ {
+      "sub" : "http://rdf.rhea-db.org/25186",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/19081"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25185",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/19081"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25186",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/19082"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25185",
+      "pred" : "is_a",
+      "obj" : "http://rdf.rhea-db.org/19082"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25185",
+      "pred" : "is_a",
+      "obj" : "http://purl.uniprot.org/enzyme/3.8.1.5"
+    }, {
+      "sub" : "http://rdf.rhea-db.org/25185",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0018786"
+    } ],
+    "id" : "urn:unnamed:ontology#ont1",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/GO_0018786", "http://metacyc.org/HALOALKANE-DEHALOGENASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/25186", "http://metacyc.org/DHLAXANAU-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19081", "http://rdf.rhea-db.org/19082" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19081", "http://purl.uniprot.org/enzyme/3.8.1.5" ]
+    }, {
+      "nodeIds" : [ "http://purl.uniprot.org/enzyme/3.8.1.5", "http://purl.obolibrary.org/obo/GO_0018786" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/19082", "http://metacyc.org/HALOALKANE-DEHALOGENASE-RXN" ]
+    }, {
+      "nodeIds" : [ "http://rdf.rhea-db.org/25186", "http://rdf.rhea-db.org/25185" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
