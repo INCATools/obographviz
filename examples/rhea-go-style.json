@@ -1,5 +1,6 @@
 {
-    "style": "filled,rounded",
+    "styles": ["filled",
+               "rounded"],
     "fillcolor": "white",
     "includeIdInLabel": true,
 
@@ -9,14 +10,23 @@
     "relationProperties": {
         "rdfs:subClassOf": {
             "color": "black",
-            "penwidth": 3,
+            "penwidth": 1,
             "arrowhead": "open",
             "label": ""
         },
-        "is_a": {
-            "color": "black",
-            "penwidth": 3,
+        "owl:equivalentClass": {
+            "color": "red",
+            "penwidth": 1,
+            "arrowhead": "box",
+            "arrowtail": "box",
+            "dir": "both",
+            "label": ""
+        },
+        "http://www.w3.org/2004/02/skos/core#exactMatch": {
+            "style": "dashed",
             "arrowhead": "open",
+            "arrowtail": "open",
+            "dir": "both",
             "label": ""
         },
         "rdf:type": {
@@ -42,7 +52,7 @@
         }
     },
     "displayAnnotations": [
-        "http://purl.obolibrary.org/obo/IAO_0000115"
+        "definition", "definition_xref"
     ],
     "prefixProperties": {
         "http://purl.obolibrary.org/obo/GO_": {
@@ -50,6 +60,9 @@
         },
         "http://rdf.rhea-db.org/": {
             "fillcolor": "hotpink"
+        },
+        "http://reactome.org/": {
+            "fillcolor": "magenta"
         },
         "http://purl.uniprot.org/enzyme/": {
             "fillcolor": "cyan"
