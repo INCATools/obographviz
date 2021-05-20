@@ -1,6 +1,7 @@
 {
     "style": "filled,rounded",
     "fillcolor": "white",
+    "includeIdInLabel": true,
 
     "reasoning": ["transitive_reduction"],
 
