@@ -180,7 +180,17 @@ The predicates used to build these can be configured in the json style file, e.g
     ]
 ```
 
+Note: to style the bounding box in a stylesheet, the cliques are considered to be in the ID space `%CLIQUE`
 
+```json
+    "prefixProperties": {
+        "%CLIQUE": {
+            "fillcolor": "hotpink"
+        },
+        "GO": {
+            "fillcolor": "yellow"
+        },
+```
 
 ## Rendering anonymous and pseudo-anonymous individuals
 

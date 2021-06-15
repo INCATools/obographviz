@@ -4,8 +4,6 @@
     "fillcolor": "white",
     "includeIdInLabel": true,
 
-    "reasoning": ["transitive_reduction"],
-
     "excludeSingletons": "true",
     "relationProperties": {
         "rdfs:subClassOf": {
