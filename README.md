@@ -11,20 +11,26 @@
 
 Command line:
 
-    ./bin/og2dot.js tests/simple-og.json > test.dot
-    dot test.dot -Tpng -Grankdir=BT > test.png
+```bash
+./bin/og2dot.js tests/simple-og.json > test.dot
+dot test.dot -Tpng -Grankdir=BT > test.png
+```
 
 Command line; from [python obographs package](https://github.com/biolink/biolink-api/tree/master/obographs)
 
-    ogr -p subClassOf BFO:0000050 -r obo:go -t png g nucleus
+```bash
+ogr -p subClassOf BFO:0000050 -r obo:go -t png g nucleus
+```
 
 
 API:
 
+```javascript
     var compoundRelations = ['BFO:0000050']
     var styleMap = {}
     var gv = new ogv.OboGraphViz(result.data)
     var dot = gv.renderDot(compoundRelations, styleMap)
+```
 
 
 # Features
@@ -37,7 +43,7 @@ On the command line, use `-c`. In the API, use `compoundRelations`
 
 Example:
 
-```
+```bash
 ./bin/og2dot.js -c is_a tests/simple-og.json > test.dot
 ```
 
@@ -56,7 +62,7 @@ In the API can be passed using `styleMap`. On the command line, by using either 
 
 E.g.
 
-```
+```bash
 ./bin/og2dot.js -s examples/example-style.json -c is_a tests/simple-og.json > test.dot
 ```
 
@@ -71,7 +77,7 @@ This is now documented separately:
 
 These go in the root of the stylemap object
 
-```
+```json
 {
     "style": "filled",
     "fillcolor": "green"
@@ -84,7 +90,7 @@ this sets all nodes to be filled green
 
 Each relationship type can have its own individual style, by passing relationProperties. This is keyed by the CURIE for the relation (or "is_a" for subClassOf):
 
-```
+```json
 {
     "relationProperties": {
         "is_a": {
@@ -105,7 +111,7 @@ Each relationship type can have its own individual style, by passing relationPro
 
 Pass in prefixProperties to be able to assign individual properties for ontology prefixes. This can be useful when visualization graphs that combine multiple ontologies
 
-```
+```json
 {
     "prefixProperties": {
         "SO": {
@@ -125,7 +131,7 @@ Pass in prefixProperties to be able to assign individual properties for ontology
 
 Arbitrary conditions can be set using `conditionalProperties` for example:
 
-```
+```json
 {
     "conditionalProperties": [
         {
@@ -174,7 +180,7 @@ Renders:
 
 The predicates used to build these can be configured in the json style file, e.g.:
 
-```
+```json
     "cliqueRelations": [
         "xref", "equivalent_to", "same_as"
     ]
@@ -196,7 +202,7 @@ Note: to style the bounding box in a stylesheet, the cliques are considered to b
 
 E.g. GO-CAM models
 
-```
+```json
 {
  nodeFilter : {
                 "type" : "INDIVIDUAL"
@@ -206,7 +212,9 @@ E.g. GO-CAM models
 ```
 
 
-`./bin/og2dot.js  -c BFO:0000050 -c RO:0002333 -s examples/gocam-style.json tests/lego-example2.json`
+```bash
+./bin/og2dot.js  -c BFO:0000050 -c RO:0002333 -s examples/gocam-style.json tests/lego-example2.json
+```
 
 ![img](examples/lego-example2.png)
 
@@ -244,7 +252,7 @@ https://github.com/biolink/biolink-api/tree/master/obographs
 
 obographs-python command line:
 
-```
+```bash
 ogr -p subClassOf BFO:0000050 -r go -t png   a nucleus
 ```
 
