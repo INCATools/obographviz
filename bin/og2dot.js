@@ -14,6 +14,7 @@ const program = new Command();
 program
     .name('og2dot')
     .description('Translate OBO Graphs into Dot/Graphviz')
+    .argument('<files...>', 'JSON obograph files')
     .option('-o, --outfile <path>', 'path to output file')
     .option('-t, --to <type>', 'output type (png, dot)')
     .option('-s, --stylesheet <path>', 'path to json stylesheet')
