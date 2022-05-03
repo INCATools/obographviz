@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
-const { Command } = require('commander');
-
-var OboGraphViz = require('..').OboGraphViz
+import { readFileSync, existsSync, writeFileSync } from 'fs';
+import { Command } from 'commander';
+import { OboGraphViz } from '../lib/index.js';
+import { execSync } from 'child_process'
 
 function multiple(value, previous) {
     return previous.concat([value]);
@@ -33,7 +32,7 @@ const options = program.opts()
 var styleMap = {}
 var stylesheet = options['stylesheet']
 if (stylesheet) {
-    var styledata = fs.readFileSync (stylesheet)
+    var styledata = readFileSync (stylesheet)
     styleMap = JSON.parse(styledata)
 }
 if (options['stylemap']) {
@@ -51,22 +50,21 @@ if (options['compoundRelationsInverse']) {
 
 var text = ""
 program.args.forEach (function (filename) {
-    if (!fs.existsSync (filename))
+    if (!existsSync (filename))
         inputError ("File does not exist: " + filename)
-    var data = fs.readFileSync (filename)
+    var data = readFileSync (filename)
     //var og = require(filename);
     var og = JSON.parse(data)
     //console.log(OboGraphViz)
     var ogv = new OboGraphViz(og)
-    dot = ogv.renderDot(compoundRelations, styleMap, options['highlight'])
+    const dot = ogv.renderDot(compoundRelations, styleMap, options['highlight'])
 
     var outfile = options['outfile']
     var outfmt = options['to']
     if (outfmt && outfmt == 'png') {
         var fn = '/tmp/foo.dot'
-        fs.writeFileSync(fn, dot)
-        var execSync = require('child_process').execSync;
-        pngfile = outfile
+        writeFileSync(fn, dot)
+        const pngfile = outfile
         if (!pngfile) {
             pngfile = '/tmp/foo.png'
         }
@@ -83,7 +81,7 @@ program.args.forEach (function (filename) {
     }
     else {
         if (outfile) {
-            fs.writeFileSync(outfile, dot)
+            writeFileSync(outfile, dot)
         }
         else {
             console.log(dot)

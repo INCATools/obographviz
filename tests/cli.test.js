@@ -1,13 +1,12 @@
-var assert = require('chai').assert;
+import { assert } from 'chai';
+import { execa } from 'execa';
+
+// const assert = chai.assert;
 
 describe('cli', function () {
-    it ('should produce correct stdout for simple-oj.json', function (done) {
-        // execa is a pure ESM package! this can become a standard import when
-        // this package is also declared as a module
-        import('execa').then(function (mod) {
-            const execa = mod.execa
-            execa('bin/og2dot.js', ['tests/simple-og.json']).then(function (ret) {
-                expectedOutput = `digraph {
+    it ('should produce correct stdout for simple-oj.json', async function () {
+        const { stdout } = await execa('bin/og2dot.js', ['tests/simple-og.json']);
+        const expectedOutput = `digraph {
   right_hand [label="right-hand",shape=box,font=helvetica,style=filled]
   right_forelimb [label="right-forelimb",shape=box,font=helvetica,style=filled]
   hand [label=hand,shape=box,font=helvetica,style=filled]
@@ -28,9 +27,6 @@ describe('cli', function () {
   right_forelimb -> forelimb [label="rdfs:subClassOf"]
 }
 `;
-                assert.equal(ret.stdout, expectedOutput);
-                done();
-            });
-        });
+        assert.equal(stdout, expectedOutput);
     });
 });
