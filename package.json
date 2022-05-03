@@ -19,17 +19,16 @@
     "npm": ">= 2.7.4"
   },
   "dependencies": {
-    "bbop-graph": "*",
+    "bbop-graph": "^0.0.19",
     "commander": "^9.2.0",
-    "graphlib": "*",
-    "graphlib-dot": "*",
-    "require-dir": "^1.0.0"
+    "graphlib": "^2.1.8",
+    "graphlib-dot": "^0.6.4"
   },
   "devDependencies": {
-    "chai": "*",
-    "del": "*",
+    "chai": "^2.3.0",
     "execa": "^6.1.0",
-    "jsdoc": "*",
+    "jsdoc": "^3.6.10",
+    "mocha": "^10.0.0",
     "nodemon": "^2.0.16",
     "rimraf": "^3.0.2"
   },
