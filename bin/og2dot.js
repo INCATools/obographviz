@@ -40,7 +40,6 @@ if (options['stylemap']) {
     styleMap = Object.assign({}, styleMap, JSON.parse(options['stylemap']));
 }
 
-program.args.length || inputError ("You must specify a JSON obograph file")
 var useDatabaseID = options['database-id']
 
 var compoundRelations = options['compoundRelations'] || []
