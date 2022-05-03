@@ -20,9 +20,9 @@
   },
   "dependencies": {
     "bbop-graph": "*",
+    "commander": "^9.2.0",
     "graphlib": "*",
     "graphlib-dot": "*",
-    "node-getopt": "*",
     "npm": "^6.2.0",
     "require-dir": "^1.0.0"
   },
@@ -38,7 +38,6 @@
     "gulp-uglify": "*",
     "jsdoc": "*"
   },
-  "bundleDependencies": [],
   "private": false,
   "directories": {
     "doc": "doc",

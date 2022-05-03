@@ -1,50 +1,55 @@
 #!/usr/bin/env node
 
-var fs = require('fs'),
-    path = require('path'),
-    getopt = require('node-getopt');
+const fs = require('fs');
+const path = require('path');
+const { Command } = require('commander');
 
 var OboGraphViz = require('..').OboGraphViz
 
-var opt = getopt.create([
-    ['o' , 'outfile=PATH'         , 'path to output file'],
-    ['t' , 'to=ARG'               , 'output type (png, dot)'],
-    ['s' , 'stylesheet=PATH'      , 'path to json stylesheet'],
-    ['S' , 'stylemap=ARG'         , 'stylemap object as stringified json on command line'],
-    ['H' , 'highlight=N+'         , 'list of nodes to highlight'],
-    ['c' , 'compoundRelations=N+' , 'list of compound relations'],
-    ['I' , 'compoundRelationsInverse=N+' , 'list of inverted compound relations'],
-    ['h' , 'help'                 , 'display this help message']
-])              // create Getopt instance
-.bindHelp()     // bind option 'help' to default action
-.parseSystem(); // parse command line
+function multiple(value, previous) {
+    return previous.concat([value]);
+}
+
+const program = new Command();
+program
+    .name('og2dot')
+    .description('Translate OBO Graphs into Dot/Graphviz')
+    .option('-o, --outfile <path>', 'path to output file')
+    .option('-t, --to <type>', 'output type (png, dot)')
+    .option('-s, --stylesheet <path>', 'path to json stylesheet')
+    .option('-S, --stylemap <value>', 'stylemap object as stringified json on command line')
+    .option('-H, --highlight <nodes>', 'node to highlight (can be specified multiple times)', multiple, [])
+    .option('-c, --compound-relations <relation>', 'compound relation (can be specified multiple times)', multiple, [])
+    .option('-I, --compound-relations-inverse <relation>', 'inverted compound relation (can be specified multiple times)', multiple, [])
+    .parse()
 
 function inputError(err) {
     throw new Error (err)
 }
 
+const options = program.opts()
 var styleMap = {}
-var stylesheet = opt.options['stylesheet']
+var stylesheet = options['stylesheet']
 if (stylesheet) {
     var styledata = fs.readFileSync (stylesheet)
     styleMap = JSON.parse(styledata)
 }
-if (opt.options['stylemap']) {
-    styleMap = Object.assign({}, styleMap, JSON.parse(opt.options['stylemap']));
+if (options['stylemap']) {
+    styleMap = Object.assign({}, styleMap, JSON.parse(options['stylemap']));
 }
 
-opt.argv.length || inputError ("You must specify a JSON obograph file")
-var useDatabaseID = opt.options['database-id']
+program.args.length || inputError ("You must specify a JSON obograph file")
+var useDatabaseID = options['database-id']
 
-var compoundRelations = opt.options['compoundRelations'] || []
-if (opt.options['compoundRelationsInverse']) {
-    for (let x of opt.options['compoundRelationsInverse']) {
+var compoundRelations = options['compoundRelations'] || []
+if (options['compoundRelationsInverse']) {
+    for (let x of options['compoundRelationsInverse']) {
         compoundRelations.push({inverseOf:x})
     }
 }
 
 var text = ""
-opt.argv.forEach (function (filename) {
+program.args.forEach (function (filename) {
     if (!fs.existsSync (filename))
         inputError ("File does not exist: " + filename)
     var data = fs.readFileSync (filename)
@@ -52,10 +57,10 @@ opt.argv.forEach (function (filename) {
     var og = JSON.parse(data)
     //console.log(OboGraphViz)
     var ogv = new OboGraphViz(og)
-    dot = ogv.renderDot(compoundRelations, styleMap, opt.options['highlight'])
+    dot = ogv.renderDot(compoundRelations, styleMap, options['highlight'])
 
-    var outfile = opt.options['outfile']
-    var outfmt = opt.options['to']
+    var outfile = options['outfile']
+    var outfmt = options['to']
     if (outfmt && outfmt == 'png') {
         var fn = '/tmp/foo.dot'
         fs.writeFileSync(fn, dot)
