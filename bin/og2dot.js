@@ -24,7 +24,8 @@ program
     .parse()
 
 function inputError(err) {
-    throw new Error (err)
+    console.error(err)
+    process.exit(1)
 }
 
 const options = program.opts()
