@@ -36,6 +36,9 @@
   "bin": {
     "og2dot": "./bin/og2dot.js"
   },
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "bugs": {
     "url": "https://github.com/INCATools/obographviz/issues"
