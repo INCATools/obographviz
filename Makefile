@@ -4,7 +4,7 @@ install:
 	npm install
 
 %:
-	./node_modules/.bin/gulp $*
+	npm run $*
 
 docker-build:
 	docker build -t obographviz .

@@ -23,20 +23,15 @@
     "commander": "^9.2.0",
     "graphlib": "*",
     "graphlib-dot": "*",
-    "npm": "^6.2.0",
     "require-dir": "^1.0.0"
   },
   "devDependencies": {
     "chai": "*",
     "del": "*",
     "execa": "^6.1.0",
-    "gulp": "*",
-    "gulp-bump": "*",
-    "gulp-jshint": "*",
-    "gulp-mocha": "*",
-    "gulp-streamify": "*",
-    "gulp-uglify": "*",
-    "jsdoc": "*"
+    "jsdoc": "*",
+    "nodemon": "^2.0.16",
+    "rimraf": "^3.0.2"
   },
   "private": false,
   "directories": {
@@ -49,7 +44,12 @@
     "url": "https://github.com/cmungall/obographviz/issues"
   },
   "scripts": {
-    "update-docs": "git checkout gh-pages && git pull && git merge master && gulp doc && git commit -a -m 'bump docs' && git push && git checkout master",
-    "test": "./node_modules/.bin/gulp test"
+    "clean": "npm run clean:docs",
+    "clean:docs": "rimraf docs",
+    "predocs": "npm run clean:docs",
+    "docs": "jsdoc -d docs -r lib",
+    "test": "mocha tests/*.test.js",
+    "watch:docs": "nodemon -w lib -x \"npm run docs\"",
+    "watch:test": "nodemon -w lib -w tests -x \"npm test\""
   }
 }
