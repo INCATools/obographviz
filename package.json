@@ -29,6 +29,7 @@
   "devDependencies": {
     "chai": "*",
     "del": "*",
+    "execa": "^6.1.0",
     "gulp": "*",
     "gulp-bump": "*",
     "gulp-jshint": "*",
