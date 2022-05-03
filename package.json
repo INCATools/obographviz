@@ -12,7 +12,7 @@
   "homepage": "http://berkeleybop.org/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cmungall/obographviz.git"
+    "url": "git+https://github.com/INCATools/obographviz.git"
   },
   "engines": {
     "node": ">= 0.12.2",
@@ -40,7 +40,7 @@
   },
   "main": "index.js",
   "bugs": {
-    "url": "https://github.com/cmungall/obographviz/issues"
+    "url": "https://github.com/INCATools/obographviz/issues"
   },
   "scripts": {
     "clean": "npm run clean:docs",
