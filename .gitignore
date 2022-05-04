@@ -3,3 +3,4 @@ examples/*.pdf
 examples/*.dot
 *.log
 dist/
+docs/
