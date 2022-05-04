@@ -1,66 +1,70 @@
 #!/usr/bin/env node
 
-var fs = require('fs'),
-    path = require('path'),
-    getopt = require('node-getopt');
+import { readFileSync, existsSync, writeFileSync } from 'fs';
+import { Command } from 'commander';
+import { OboGraphViz } from '../lib/index.js';
+import { execSync } from 'child_process'
 
-var OboGraphViz = require('..').OboGraphViz
+function multiple(value, previous) {
+    return previous.concat([value]);
+}
 
-var opt = getopt.create([
-    ['o' , 'outfile=PATH'         , 'path to output file'],
-    ['t' , 'to=ARG'               , 'output type (png, dot)'],
-    ['s' , 'stylesheet=PATH'      , 'path to json stylesheet'],
-    ['S' , 'stylemap=ARG'         , 'stylemap object as stringified json on command line'],
-    ['H' , 'highlight=N+'         , 'list of nodes to highlight'],
-    ['c' , 'compoundRelations=N+' , 'list of compound relations'],
-    ['I' , 'compoundRelationsInverse=N+' , 'list of inverted compound relations'],
-    ['h' , 'help'                 , 'display this help message']
-])              // create Getopt instance
-.bindHelp()     // bind option 'help' to default action
-.parseSystem(); // parse command line
+const program = new Command();
+program
+    .name('og2dot')
+    .description('Translate OBO Graphs into Dot/Graphviz')
+    .argument('<files...>', 'JSON obograph files')
+    .option('-o, --outfile <path>', 'path to output file')
+    .option('-t, --to <type>', 'output type (png, dot)')
+    .option('-s, --stylesheet <path>', 'path to json stylesheet')
+    .option('-S, --stylemap <value>', 'stylemap object as stringified json on command line')
+    .option('-H, --highlight <nodes>', 'node to highlight (can be specified multiple times)', multiple, [])
+    .option('-c, --compound-relations <relation>', 'compound relation (can be specified multiple times)', multiple, [])
+    .option('-I, --compound-relations-inverse <relation>', 'inverted compound relation (can be specified multiple times)', multiple, [])
+    .parse()
 
 function inputError(err) {
-    throw new Error (err)
+    console.error(err)
+    process.exit(1)
 }
 
+const options = program.opts()
 var styleMap = {}
-var stylesheet = opt.options['stylesheet']
+var stylesheet = options['stylesheet']
 if (stylesheet) {
-    var styledata = fs.readFileSync (stylesheet)
+    var styledata = readFileSync (stylesheet)
     styleMap = JSON.parse(styledata)
 }
-if (opt.options['stylemap']) {
-    styleMap = Object.assign({}, styleMap, JSON.parse(opt.options['stylemap']));
+if (options['stylemap']) {
+    styleMap = Object.assign({}, styleMap, JSON.parse(options['stylemap']));
 }
 
-opt.argv.length || inputError ("You must specify a JSON obograph file")
-var useDatabaseID = opt.options['database-id']
+var useDatabaseID = options['database-id']
 
-var compoundRelations = opt.options['compoundRelations'] || []
-if (opt.options['compoundRelationsInverse']) {
-    for (let x of opt.options['compoundRelationsInverse']) {
+var compoundRelations = options['compoundRelations'] || []
+if (options['compoundRelationsInverse']) {
+    for (let x of options['compoundRelationsInverse']) {
         compoundRelations.push({inverseOf:x})
     }
 }
 
 var text = ""
-opt.argv.forEach (function (filename) {
-    if (!fs.existsSync (filename))
+program.args.forEach (function (filename) {
+    if (!existsSync (filename))
         inputError ("File does not exist: " + filename)
-    var data = fs.readFileSync (filename)
+    var data = readFileSync (filename)
     //var og = require(filename);
     var og = JSON.parse(data)
     //console.log(OboGraphViz)
     var ogv = new OboGraphViz(og)
-    dot = ogv.renderDot(compoundRelations, styleMap, opt.options['highlight'])
+    const dot = ogv.renderDot(compoundRelations, styleMap, options['highlight'])
 
-    var outfile = opt.options['outfile']
-    var outfmt = opt.options['to']
+    var outfile = options['outfile']
+    var outfmt = options['to']
     if (outfmt && outfmt == 'png') {
         var fn = '/tmp/foo.dot'
-        fs.writeFileSync(fn, dot)
-        var execSync = require('child_process').execSync;
-        pngfile = outfile
+        writeFileSync(fn, dot)
+        const pngfile = outfile
         if (!pngfile) {
             pngfile = '/tmp/foo.png'
         }
@@ -77,7 +81,7 @@ opt.argv.forEach (function (filename) {
     }
     else {
         if (outfile) {
-            fs.writeFileSync(outfile, dot)
+            writeFileSync(outfile, dot)
         }
         else {
             console.log(dot)

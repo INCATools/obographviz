@@ -1,14 +1,12 @@
-
-var fs = require('fs');
-var assert = require('chai').assert;
-var OboGraphViz = require('..').OboGraphViz;
-var exec = require('child_process').exec;
+import { readdirSync, readFileSync, writeFileSync } from 'fs';
+import { OboGraphViz } from '../lib/index.js';
+import { exec } from 'child_process';
 
 describe('test viz', function(){
     var og = null
 
     it('render check', function(){
-        var dirs = fs.readdirSync ('./tests/').filter(function(n){return n.indexOf(".json") > -1})
+        var dirs = readdirSync ('./tests/').filter(function(n){return n.indexOf(".json") > -1})
         console.log("DIRS="+dirs)
         dirs.map(render);
     });
@@ -16,7 +14,7 @@ describe('test viz', function(){
 });
 
 function render(f) {
-    var data = fs.readFileSync ('./tests/' + f);
+    var data = readFileSync ('./tests/' + f);
     var basePath = f.replace(".json","");
     console.log("Processing: "+basePath)
     var crs = [""];
@@ -42,7 +40,7 @@ function render(f) {
                //{inverseOf: "http://purl.obolibrary.org/obo/BFO_0000066"},
               ]
     }
-    og = JSON.parse(data);
+    const og = JSON.parse(data);
     var ogv = new OboGraphViz(og);
     var dot = ogv.renderDot(crs, styleMap);
     ogv.writeRenderedToFiles(dot, 'examples/'+basePath, ["pdf"])
@@ -53,6 +51,6 @@ function writeImage(dot, basePath) {
     console.log("Rendering: "+basePath)
     var df = basePath + ".dot";
     var imgf = basePath + ".png";
-    fs.writeFileSync(df, dot);
+    writeFileSync(df, dot);
     exec('dot -Grankdir=BT -Tpng -o '+imgf+' '+df)
 }
