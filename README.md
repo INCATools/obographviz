@@ -6,12 +6,30 @@
  * Optional: a JSON ontology stylesheet
  * Output: a Dot-format / Graphviz file
 
-## Quickstart
+## Installation
 
-Command line:
+The `obographviz` package can be installed either locally or globally. If you intend to primarily use the command line tool provided by the package consider installing it globally:
 
 ```bash
-./bin/og2dot.js tests/simple-og.json > test.dot
+npm install -g obographviz
+```
+
+Otherwise, if you want to use the package in an existing Node.js project install it locally:
+
+```bash
+npm install obographviz
+```
+
+## Quickstart
+
+### Command line
+
+**All examples in this README assume `obographviz` has been installed globally. If it was installed locally to a project, call `og2dot` via [`npx`](https://www.npmjs.com/package/npx) or an [npm script](https://docs.npmjs.com/cli/v7/using-npm/scripts/).**
+
+See the `examples` directory in this repositories for sample OBO Graph JSON files and stylesheets.
+
+```bash
+og2dot simple-og.json > test.dot
 dot test.dot -Tpng -Grankdir=BT > test.png
 ```
 
@@ -22,13 +40,18 @@ ogr -p subClassOf BFO:0000050 -r obo:go -t png g nucleus
 ```
 
 
-API:
+### API
 
 ```javascript
-    var compoundRelations = ['BFO:0000050']
-    var styleMap = {}
-    var gv = new ogv.OboGraphViz(result.data)
-    var dot = gv.renderDot(compoundRelations, styleMap)
+import { OboGraphViz } from "obographviz";
+
+const obograph = { ... }
+
+const compoundRelations = ['BFO:0000050']
+const styleMap = {}
+const gv = new OboGraphViz(obograph)
+const dot = gv.renderDot(compoundRelations, styleMap)
+console.log(dot)
 ```
 
 
@@ -43,7 +66,7 @@ On the command line, use `-c`. In the API, use `compoundRelations`
 Example:
 
 ```bash
-./bin/og2dot.js -c is_a tests/simple-og.json > test.dot
+og2dot -c is_a simple-og.json > test.dot
 ```
 
 Generates:
@@ -62,7 +85,7 @@ In the API can be passed using `styleMap`. On the command line, by using either 
 E.g.
 
 ```bash
-./bin/og2dot.js -s examples/example-style.json -c is_a tests/simple-og.json > test.dot
+og2dot -s example-style.json -c is_a simple-og.json > test.dot
 ```
 
 ### Stylesheet Standard
@@ -154,7 +177,9 @@ The following example uses all subclasses of digit in Uberon, plus their ancesto
 
 See [digit.json](examples/digit.json) for the underlying ontology. See [examples/uberon-style.json](examples/uberon-style.json) for the stylesheet.
 
-`og2dot.js -s examples/uberon-style.json  examples/digit.json -t png -o  examples/digit.png`
+```bash
+og2dot -s uberon-style.json digit.json -t png -o digit.png
+```
 
 Renders:
 
@@ -169,7 +194,9 @@ The file
 contains a subset of both UBERON, ZFA, and two Allen brain ontologies, with UBERON classes xref-ing
 equivalent ZFA classes.
 
-`og2dot.js -s examples/uberon-zfa-style.json  examples/uberon-zfa-xref-example.json -t png -o  examples/uberon-zfa-xref-example.png`
+```bash
+og2dot -s uberon-zfa-style.json uberon-zfa-xref-example.json -t png -o uberon-zfa-xref-example.png
+```
 
 Renders:
 
@@ -212,7 +239,7 @@ E.g. GO-CAM models
 
 
 ```bash
-./bin/og2dot.js  -c BFO:0000050 -c RO:0002333 -s examples/gocam-style.json tests/lego-example2.json
+og2dot -c BFO:0000050 -c RO:0002333 -s gocam-style.json lego-example2.json
 ```
 
 ![img](examples/lego-example2.png)
@@ -274,6 +301,26 @@ TODO - link to demo site
 ## Use with AmiGO
 
 AmiGO uses bbop-graphs; these are similar enough that they can be passed in instead of obographs.
+
+# Development
+
+Javascript and TypeScript files in the `lib` directory are compiled using [`tsc`](https://www.typescriptlang.org/docs/handbook/compiler-options.html) into the `dist` directory. To compile once use:
+
+```bash
+npm run build
+```
+
+To watch for file changes and compile incrementally use:
+
+```bash
+npm run dev
+```
+
+Before committing changes run the test suite with:
+
+```bash
+npm test
+```
 
 # FAQ
 
