@@ -25,26 +25,32 @@
     "graphlib-dot": "^0.6.4"
   },
   "devDependencies": {
+    "@types/node": "^17.0.31",
     "chai": "^4.3.6",
     "execa": "^6.1.0",
     "jsdoc": "^3.6.10",
     "mocha": "^10.0.0",
     "nodemon": "^2.0.16",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4"
   },
   "private": false,
   "bin": {
     "og2dot": "./bin/og2dot.js"
   },
   "files": [
-    "lib"
+    "dist"
   ],
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "bugs": {
     "url": "https://github.com/INCATools/obographviz/issues"
   },
   "scripts": {
-    "clean": "npm run clean:docs",
+    "dev": "tsc -p tsconfig.json --watch",
+    "prebuild": "npm run clean:build",
+    "build": "tsc -p tsconfig.json",
+    "clean": "npm run clean:docs && npm run clean:build",
+    "clean:build": "rimraf dist",
     "clean:docs": "rimraf docs",
     "predocs": "npm run clean:docs",
     "docs": "jsdoc -d docs -r lib",

@@ -2,3 +2,4 @@ node_modules/
 examples/*.pdf
 examples/*.dot
 *.log
+dist/
