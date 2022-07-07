@@ -164,7 +164,7 @@ Arbitrary conditions can be set using `conditionalProperties` for example:
                 "fillcolor": "blue"
             }
         }
-    }
+    ]
 }
 ```
 
@@ -207,21 +207,22 @@ Renders:
 The predicates used to build these can be configured in the json style file, e.g.:
 
 ```json
-    "cliqueRelations": [
-        "xref", "equivalent_to", "same_as"
-    ]
+"cliqueRelations": [
+    "xref", "equivalent_to", "same_as"
+]
 ```
 
 Note: to style the bounding box in a stylesheet, the cliques are considered to be in the ID space `%CLIQUE`
 
 ```json
-    "prefixProperties": {
-        "%CLIQUE": {
-            "fillcolor": "hotpink"
-        },
-        "GO": {
-            "fillcolor": "yellow"
-        },
+"prefixProperties": {
+    "%CLIQUE": {
+        "fillcolor": "hotpink"
+    },
+    "GO": {
+        "fillcolor": "yellow"
+    },
+}
 ```
 
 ## Rendering anonymous and pseudo-anonymous individuals
@@ -230,10 +231,10 @@ E.g. GO-CAM models
 
 ```json
 {
- nodeFilter : {
-                "type" : "INDIVIDUAL"
-              },
-              labelFrom : "type"
+    "nodeFilter" : {
+        "type": "INDIVIDUAL"
+    },
+    "labelFrom": "type"
 }
 ```
 
@@ -253,20 +254,19 @@ As well as configuring via style sheets, an individual node or edge can configur
 
 ```json
 {
-      "sub": "GO:0031090",
-      "pred": "BFO:0000050",
-      "obj": "GO:0043227",
-      "meta": {
+    "sub": "GO:0031090",
+    "pred": "BFO:0000050",
+    "obj": "GO:0043227",
+    "meta": {
         "basicPropertyValues": [
-          {
-            "pred": "https://w3id.org/kgviz/penwidth",
-            "val": 10
-          }
+            {
+                "pred": "https://w3id.org/kgviz/penwidth",
+                "val": 10
+            }
         ]
-      }
     }
+}
 ```
-
 
 ## Ontology Access Kit
 
