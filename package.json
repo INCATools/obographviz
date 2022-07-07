@@ -1,6 +1,6 @@
 {
   "name": "obographviz",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "BSD-3-Clause",
   "description": "Visualize OBO graphs with (Graph)Viz.js.",
   "keywords": [
@@ -49,6 +49,7 @@
     "dev": "tsc -p tsconfig.json --watch",
     "prebuild": "npm run clean:build",
     "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
     "clean": "npm run clean:docs && npm run clean:build",
     "clean:build": "rimraf dist",
     "clean:docs": "rimraf docs",
