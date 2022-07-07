@@ -8,11 +8,18 @@
 
 ## Installation
 
-The `obographviz` package can be installed either locally or globally. If you intend to primarily use the command line tool provided by the package consider installing it globally:
+The `obographviz` package can be installed via NPM either locally or globally. If you're not familiar with NPM, see the following to get started:
+
+* [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+* [Getting packages from the registry](https://docs.npmjs.com/packages-and-modules/getting-packages-from-the-registry)
+
+If you intend to primarily use the command line tool provided by this package or you're using a tool like [Ontology Access Kit](https://github.com/INCATools/ontology-access-kit) which depends on it, install globally:
 
 ```bash
 npm install -g obographviz
 ```
+
+Once installed globally, the `og2dot` executable will automatically be added to your `PATH`.
 
 Otherwise, if you want to use the package in an existing Node.js project install it locally:
 
@@ -24,7 +31,7 @@ npm install obographviz
 
 ### Command line
 
-**All examples in this README assume `obographviz` has been installed globally. If it was installed locally to a project, call `og2dot` via [`npx`](https://www.npmjs.com/package/npx) or an [npm script](https://docs.npmjs.com/cli/v7/using-npm/scripts/).**
+**All examples in this README assume `obographviz` has been installed globally. If it was installed locally to a project, call `og2dot` via [`npx`](https://www.npmjs.com/package/npx) or an [npm script](https://docs.npmjs.com/cli/v8/using-npm/scripts).**
 
 See the `examples` directory in this repositories for sample OBO Graph JSON files and stylesheets.
 
