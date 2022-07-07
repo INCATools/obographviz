@@ -2,7 +2,7 @@
 
 import { readFileSync, existsSync, writeFileSync } from 'fs';
 import { Command } from 'commander';
-import { OboGraphViz } from '../lib/index.js';
+import { OboGraphViz } from '../dist/index.js';
 import { execSync } from 'child_process'
 
 function multiple(value, previous) {
