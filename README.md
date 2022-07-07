@@ -33,13 +33,6 @@ og2dot simple-og.json > test.dot
 dot test.dot -Tpng -Grankdir=BT > test.png
 ```
 
-Command line; from [python obographs package](https://github.com/biolink/biolink-api/tree/master/obographs)
-
-```bash
-ogr -p subClassOf BFO:0000050 -r obo:go -t png g nucleus
-```
-
-
 ### API
 
 ```javascript
@@ -268,25 +261,19 @@ As well as configuring via style sheets, an individual node or edge can configur
 ```
 
 
-## Obographs python
+## Ontology Access Kit
 
-See:
-
-https://github.com/biolink/biolink-api/tree/master/obographs
-
-(note: this python API may move to its own repo in future)
-
-obographs-python command line:
+This library is integrated into [Ontology Access Kit (OAK)](https://github.com/INCATools/ontology-access-kit) to support its [`viz` subcommand](https://incatools.github.io/ontology-access-kit/cli.html#runoak-viz). For example:
 
 ```bash
-ogr -p subClassOf BFO:0000050 -r go -t png   a nucleus
+runoak -i ontobee: viz HP:0000787
 ```
 
 This proceeds by:
 
- 1. Using the python obographs library to extract a networkx subgraph around the specified node
+ 1. Using the [python oaklib library](https://incatools.github.io/ontology-access-kit/intro/tutorial02.html) to extract a subgraph around the specified node
  2. Write as obographs-json
- 3. Calls og2dot.js
+ 3. Calls og2dot
 
 ## Use from biolink-api REST
 
