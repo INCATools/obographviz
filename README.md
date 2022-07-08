@@ -6,6 +6,10 @@
  * Optional: a JSON ontology stylesheet
  * Output: a Dot-format / Graphviz file
 
+## Requirements
+
+* Node.js ≥ 12.20
+
 ## Installation
 
 The `obographviz` package can be installed via NPM either locally or globally. If you're not familiar with NPM, see the following to get started:
