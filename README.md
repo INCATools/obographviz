@@ -6,13 +6,24 @@
  * Optional: a JSON ontology stylesheet
  * Output: a Dot-format / Graphviz file
 
+## Requirements
+
+* Node.js ≥ 12.20
+
 ## Installation
 
-The `obographviz` package can be installed either locally or globally. If you intend to primarily use the command line tool provided by the package consider installing it globally:
+The `obographviz` package can be installed via NPM either locally or globally. If you're not familiar with NPM, see the following to get started:
+
+* [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+* [Getting packages from the registry](https://docs.npmjs.com/packages-and-modules/getting-packages-from-the-registry)
+
+If you intend to primarily use the command line tool provided by this package or you're using a tool like [Ontology Access Kit](https://github.com/INCATools/ontology-access-kit) which depends on it, install globally:
 
 ```bash
 npm install -g obographviz
 ```
+
+Once installed globally, the `og2dot` executable will automatically be added to your `PATH`.
 
 Otherwise, if you want to use the package in an existing Node.js project install it locally:
 
@@ -24,7 +35,7 @@ npm install obographviz
 
 ### Command line
 
-**All examples in this README assume `obographviz` has been installed globally. If it was installed locally to a project, call `og2dot` via [`npx`](https://www.npmjs.com/package/npx) or an [npm script](https://docs.npmjs.com/cli/v7/using-npm/scripts/).**
+**All examples in this README assume `obographviz` has been installed globally. If it was installed locally to a project, call `og2dot` via [`npx`](https://www.npmjs.com/package/npx) or an [npm script](https://docs.npmjs.com/cli/v8/using-npm/scripts).**
 
 See the `examples` directory in this repositories for sample OBO Graph JSON files and stylesheets.
 
@@ -32,13 +43,6 @@ See the `examples` directory in this repositories for sample OBO Graph JSON file
 og2dot simple-og.json > test.dot
 dot test.dot -Tpng -Grankdir=BT > test.png
 ```
-
-Command line; from [python obographs package](https://github.com/biolink/biolink-api/tree/master/obographs)
-
-```bash
-ogr -p subClassOf BFO:0000050 -r obo:go -t png g nucleus
-```
-
 
 ### API
 
@@ -164,7 +168,7 @@ Arbitrary conditions can be set using `conditionalProperties` for example:
                 "fillcolor": "blue"
             }
         }
-    }
+    ]
 }
 ```
 
@@ -207,21 +211,22 @@ Renders:
 The predicates used to build these can be configured in the json style file, e.g.:
 
 ```json
-    "cliqueRelations": [
-        "xref", "equivalent_to", "same_as"
-    ]
+"cliqueRelations": [
+    "xref", "equivalent_to", "same_as"
+]
 ```
 
 Note: to style the bounding box in a stylesheet, the cliques are considered to be in the ID space `%CLIQUE`
 
 ```json
-    "prefixProperties": {
-        "%CLIQUE": {
-            "fillcolor": "hotpink"
-        },
-        "GO": {
-            "fillcolor": "yellow"
-        },
+"prefixProperties": {
+    "%CLIQUE": {
+        "fillcolor": "hotpink"
+    },
+    "GO": {
+        "fillcolor": "yellow"
+    },
+}
 ```
 
 ## Rendering anonymous and pseudo-anonymous individuals
@@ -230,10 +235,10 @@ E.g. GO-CAM models
 
 ```json
 {
- nodeFilter : {
-                "type" : "INDIVIDUAL"
-              },
-              labelFrom : "type"
+    "nodeFilter" : {
+        "type": "INDIVIDUAL"
+    },
+    "labelFrom": "type"
 }
 ```
 
@@ -253,40 +258,33 @@ As well as configuring via style sheets, an individual node or edge can configur
 
 ```json
 {
-      "sub": "GO:0031090",
-      "pred": "BFO:0000050",
-      "obj": "GO:0043227",
-      "meta": {
+    "sub": "GO:0031090",
+    "pred": "BFO:0000050",
+    "obj": "GO:0043227",
+    "meta": {
         "basicPropertyValues": [
-          {
-            "pred": "https://w3id.org/kgviz/penwidth",
-            "val": 10
-          }
+            {
+                "pred": "https://w3id.org/kgviz/penwidth",
+                "val": 10
+            }
         ]
-      }
     }
+}
 ```
 
+## Ontology Access Kit
 
-## Obographs python
-
-See:
-
-https://github.com/biolink/biolink-api/tree/master/obographs
-
-(note: this python API may move to its own repo in future)
-
-obographs-python command line:
+This library is integrated into [Ontology Access Kit (OAK)](https://github.com/INCATools/ontology-access-kit) to support its [`viz` subcommand](https://incatools.github.io/ontology-access-kit/cli.html#runoak-viz). For example:
 
 ```bash
-ogr -p subClassOf BFO:0000050 -r go -t png   a nucleus
+runoak -i ontobee: viz HP:0000787
 ```
 
 This proceeds by:
 
- 1. Using the python obographs library to extract a networkx subgraph around the specified node
+ 1. Using the [python oaklib library](https://incatools.github.io/ontology-access-kit/intro/tutorial02.html) to extract a subgraph around the specified node
  2. Write as obographs-json
- 3. Calls og2dot.js
+ 3. Calls og2dot
 
 ## Use from biolink-api REST
 
