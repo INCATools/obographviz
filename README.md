@@ -8,7 +8,7 @@
 
 ## Requirements
 
-* Node.js ≥ 12.20
+* Node.js ≥ 14.16
 
 ## Installation
 
