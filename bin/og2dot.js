@@ -4,6 +4,11 @@ import { readFileSync, existsSync, writeFileSync } from 'fs';
 import { Command } from 'commander';
 import { OboGraphViz } from '../dist/index.js';
 import { execSync } from 'child_process'
+import tmp from 'tmp';
+import open from 'open';
+
+// remove all controlled temporary objects on process exit
+tmp.setGracefulCleanup();
 
 function multiple(value, previous) {
     return previous.concat([value]);
@@ -39,8 +44,6 @@ if (options['stylemap']) {
     styleMap = Object.assign({}, styleMap, JSON.parse(options['stylemap']));
 }
 
-var useDatabaseID = options['database-id']
-
 var compoundRelations = options['compoundRelations'] || []
 if (options['compoundRelationsInverse']) {
     for (let x of options['compoundRelationsInverse']) {
@@ -48,10 +51,10 @@ if (options['compoundRelationsInverse']) {
     }
 }
 
-var text = ""
 program.args.forEach (function (filename) {
-    if (!existsSync (filename))
+    if (!existsSync (filename)) {
         inputError ("File does not exist: " + filename)
+    }
     var data = readFileSync (filename)
     //var og = require(filename);
     var og = JSON.parse(data)
@@ -62,21 +65,17 @@ program.args.forEach (function (filename) {
     var outfile = options['outfile']
     var outfmt = options['to']
     if (outfmt && outfmt == 'png') {
-        var fn = '/tmp/foo.dot'
-        writeFileSync(fn, dot)
-        const pngfile = outfile
+        let dotFile = tmp.fileSync({ postfix: '.dot' }).name;
+        writeFileSync(dotFile, dot)
+        var pngfile = outfile
         if (!pngfile) {
-            pngfile = '/tmp/foo.png'
+            pngfile = tmp.fileSync({ postfix: '.png', keep: true }).name;
         }
-        var cmd = 'dot '+fn+' -Grankdir=BT -Tpng -o ' + pngfile
+        var cmd = `dot ${dotFile} -Grankdir=BT -Tpng -o ${pngfile}`;
         execSync(cmd);
-        if (outfile) {
-            //console.log("File is here: "+outfile)
-            // do nothing - already output
-        }
-        else {
-            console.log("Opening "+pngfile);
-            execSync('open '+pngfile);
+        if (!outfile) {
+            console.log("Opening " + pngfile);
+            open(pngfile);
         }
     }
     else {
