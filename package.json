@@ -15,14 +15,16 @@
     "url": "git+https://github.com/INCATools/obographviz.git"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14.16"
   },
   "type": "module",
   "dependencies": {
     "bbop-graph": "^0.0.19",
     "commander": "^9.2.0",
     "graphlib": "^2.1.8",
-    "graphlib-dot": "^0.6.4"
+    "graphlib-dot": "^0.6.4",
+    "open": "^9.1.0",
+    "tmp": "^0.2.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",

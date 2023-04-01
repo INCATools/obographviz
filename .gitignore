@@ -4,3 +4,4 @@ examples/*.dot
 *.log
 dist/
 docs/
+.vscode
